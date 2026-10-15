@@ -789,3 +789,16 @@ issues/PRs do upstream, que quebrariam com troca cega. Para medir o que resta:
 copyright original; o `LICENSE` já traz o aviso dele + o das modificações + a nota de "base/inspiração".
 O resto (README, docs, links de doação/marca) pode ser trocado, arquivo por arquivo, sem
 apagar histórico de decisões que cite PRs do upstream sem necessidade.
+
+## ESTADO E PRÓXIMOS PASSOS (sessão de 15/10/2026 — retomar daqui)
+
+**Funcionando em localhost (dev):** app (`pnpm dev`, :3000), Supabase (projeto bziwpmlcdupdlfihjryb, baseline aplicado), WAHA Core em Docker (:3030, `docker compose -f docker-compose.yml up -d waha` exige `WAHA_API_KEY_SHA512="sha512:<hash de WAHA_API_KEY>"`, `WAHA_HMAC_SECRET` e `WAHA_HOOK_BASE_URL=http://host.docker.internal:3000` no ambiente). Empresa "Opportunity Destiny AI" + admin criados por `scripts/bootstrap-owner.ts`. IA: chaves OpenRouter e Groq cadastradas (Groq = provedor `custom`), modelo gratuito `nvidia/nemotron-3-super-120b-a12b:free` no agente publicado. Trava "somente gratuitos" por empresa em IA › Provedores (`lib/ai/modelos-gratuitos.ts`).
+**Não provado:** WhatsApp real (QR em Conexões), IA atendendo conversa, mover card, assistente de onboarding concluído.
+
+**PRÓXIMA TAREFA (pedida pelo dono): "Ler o site da empresa" para o RAG.**
+- Hoje `ai_knowledge_sources.source_type` aceita só: faq, policy, catalog, conversations, conversation, nuvemshop_catalog (CHECK em `supabase/baseline.sql` ~linha 1150). NÃO há tipo `website`.
+- A fazer: (1) migration + apêndice no baseline adicionando `website` ao CHECK (doutrina de migrations); (2) campo "site da empresa" (URL) em algum lugar visível — no onboarding passo 1 e/ou IA › Conhecimento; (3) rastreador que baixa as páginas do mesmo domínio (limite de páginas, respeitar robots.txt, egress/allowlist em `lib/agent-engine/edge/egress.ts`), extrai texto, quebra em trechos e indexa pelo caminho existente do RAG (`workers/rag-indexer*`, `lib/ai/knowledge`); (4) ligar o material ao agente (`ai_agent_versions.knowledge_source_ids`) automaticamente no onboarding; (5) o assistente do onboarding passa a pedir/aceitar o site e materiais.
+- Decisão do dono: o prompt é só o JEITO de atender; o CONTEÚDO (preços, serviços, regras) vem do RAG; o agente nunca deve inventar — se não achar no prompt nem no RAG, diz que não sabe e passa para humano.
+- Embedding do RAG: precisa de modelo de embedding. Pelo OpenRouter é pago (chave tem limite US$0 → falha). Alternativa gratuita: Google `gemini-embedding-001` (precisa chave `AIza…` válida; a que o dono passou, `AQ.…`, é inválida).
+
+**Pendências menores:** limpeza de nomes do autor original (ver seção acima); fazer push dos commits locais para `origin` (opportunitydestinyai/crm) com ok do dono; integrar OpenWA depois; WSL/Docker só é necessário no PC de dev; venda direta/pagamento, prospecção, camada SaaS (cadastro/planos/cobrança) e ligações são as lacunas para o SaaS completo.
