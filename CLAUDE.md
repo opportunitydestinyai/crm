@@ -816,3 +816,19 @@ apagar histórico de decisões que cite PRs do upstream sem necessidade.
 **NÃO confirmado ao fim da sessão:** o log mostra `POST .../versions/1c8c991b.../test 200` (modelo gratuito respondeu), mas a resposta NÃO foi vista na tela. WhatsApp real (QR em Conexões), `pnpm worker` rodando, IA respondendo mensagem real e movendo card: nada disso foi provado.
 
 **Antes de afirmar que algo funciona:** ver o log do servidor e a tela/resposta real, não só o status HTTP ou o health.
+
+## FECHAMENTO DA SESSÃO DE 15/10/2026 — PROBLEMA EM ABERTO (NÃO RESOLVIDO)
+
+**O teste de IA do onboarding (`/onboarding/testar`, "Mandar mensagem") continua FALHANDO ao fim de ~3 h de sessão. Eu não consegui resolver isto hoje.**
+
+**Causa medida (log `[ai.test]` em `dev_server4.log`):** o agente manda ~13.500 tokens por mensagem (prompt + playbook da plataforma + 20 ferramentas do CRM). Os planos gratuitos não comportam isso com resposta rápida:
+- Groq gratuito (`openai/gpt-oss-120b`): recusa por TPM — limite 8.000 tokens/min, pedido de 13.535. Versão publicada atual do agente (`70a8ed0a…`, provider `custom`, credencial "Groq") FALHA por isso.
+- OpenRouter gratuito (`nvidia/nemotron-3-super-120b-a12b:free`, versão `1c8c991b…`): responde (HTTP 200), mas leva 50 s a 2,4 min. O dono exige resposta instantânea (hoje tem 3 atendentes humanos que respondem na hora).
+
+**Caminhos para a próxima sessão (em ordem de preferência):**
+1. Chave Gemini válida (começa com `AIza…`, de aistudio.google.com/apikey): provedor `google` nativo, modelos Flash com limite alto e rápidos, e serve de embedding gratuito para o RAG. A chave que o dono passou (`AQ.…`) é INVÁLIDA.
+2. Groq Dev Tier (pago, barato) ou OpenRouter com crédito (~US$5) — liberam modelos rápidos.
+3. Enxugar o agente (menos ferramentas em `ai_agent_versions.tool_ids`, playbook menor) — não garantido caber em 8.000 tokens.
+Para trocar o modelo de um agente publicado: criar versão draft nova copiando a publicada e publicar (versão publicada é imutável). Scripts usados nesta sessão ficaram só no scratchpad; o padrão está em `lib/ai/agents/publish.ts`.
+
+**Também em aberto:** WhatsApp real não conectado (QR em Conexões); `pnpm worker` nunca foi ligado; RAG sem nenhum material; "ler o site" não construído; limpeza de nomes do autor original; push dos commits locais para o GitHub do dono ainda NÃO feito (aguarda "pode dar push").
