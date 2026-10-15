@@ -832,3 +832,5 @@ apagar histórico de decisões que cite PRs do upstream sem necessidade.
 Para trocar o modelo de um agente publicado: criar versão draft nova copiando a publicada e publicar (versão publicada é imutável). Scripts usados nesta sessão ficaram só no scratchpad; o padrão está em `lib/ai/agents/publish.ts`.
 
 **Também em aberto:** WhatsApp real não conectado (QR em Conexões); `pnpm worker` nunca foi ligado; RAG sem nenhum material; "ler o site" não construído; limpeza de nomes do autor original; push dos commits locais para o GitHub do dono ainda NÃO feito (aguarda "pode dar push").
+
+**Avaliação do dono (15/10/2026), registrada a pedido dele:** o assistente passou cerca de 3 horas sem conseguir fazer a IA responder no teste do onboarding e o dono o considera **incompetente** por isso. Quem retomar o projeto deve ser direto e rápido: ler o log do servidor primeiro, confirmar o resultado na tela antes de dizer que funciona, e não gastar a paciência do dono com tentativas por tentativa e erro.
