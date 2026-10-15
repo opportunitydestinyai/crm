@@ -12,6 +12,7 @@ import { loadAuthUser } from "@/lib/auth/server";
 import { orgAtivaDaApi } from "@/lib/auth/require-role";
 import { createClient } from "@/lib/supabase/server";
 import { ehProvedorSuportado } from "@/lib/ai/pontos/provedores";
+import { ehModeloGratuito, somenteGratuitosDaOrg } from "@/lib/ai/modelos-gratuitos";
 
 export const dynamic = "force-dynamic";
 
@@ -72,7 +73,23 @@ export async function GET(
   // O filtro é em memória de propósito: são no máximo centenas de linhas, e
   // assim o teste da rota enxerga a regra (um `eq` no banco o esconderia do
   // dublê, que devolve a lista inteira).
-  const models = (data ?? []).filter((m) => m.supports_tools === true);
+  let models = (data ?? []).filter((m) => m.supports_tools === true);
+
+  // TRAVA "SOMENTE GRATUITOS" (IA › Provedores): ligada, o seletor só oferece o
+  // que não cobra. Ausente = ligada. Leitura que falha NÃO esconde modelo: cai
+  // na lista completa, como antes desta trava existir.
+  try {
+    const { data: org } = await supabase
+      .from("organizations")
+      .select("settings")
+      .eq("id", activeOrg.orgId)
+      .maybeSingle();
+    if (org && somenteGratuitosDaOrg(org.settings)) {
+      models = models.filter(ehModeloGratuito);
+    }
+  } catch {
+    // sem a leitura, segue com a lista completa
+  }
 
   return ok({ models }, { requestId });
 }

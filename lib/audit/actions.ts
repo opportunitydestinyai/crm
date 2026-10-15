@@ -539,6 +539,7 @@ export const AUDIT_ACTIONS = [
   // `limit_changed`. O metadata carrega antes/depois dos três campos, então o
   // que mudou está sempre na linha, qualquer que seja o código.
   "ai.budget_limit_changed",
+  "ai.somente_gratuitos_changed",
   "ai.budget_enforcement_armed",
   "ai.budget_enforcement_disarmed",
   "contact.deleted",

@@ -43,6 +43,7 @@ import {
 import { useT } from "@/hooks/i18n/useT";
 
 import { CartaoDeMapas } from "./CartaoDeMapas";
+import { CartaoSomenteGratuitos } from "./CartaoSomenteGratuitos";
 import { CartaoDoJev, jevNoPonto, useDadosDoJev, type DadosDoJev } from "./CartaoDoJev";
 
 interface Ponto {
@@ -207,6 +208,8 @@ export function PainelDeProvedores() {
       )}
 
       <CartaoDoPadrao dados={dados} aoSalvar={carregar} />
+
+      <CartaoSomenteGratuitos />
 
       <CartaoDoJev dados={jev.dados} erro={jev.erro} recarregar={jev.recarregar} />
 
