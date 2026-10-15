@@ -1,0 +1,26 @@
+{
+  "restore": "passed",
+  "network": "none",
+  "ports": "none",
+  "database_image": "supabase/postgres:17.6.1.136",
+  "dump": "db-20261004-152646.sql.gz",
+  "counts": {
+    "public.organizations": {
+      "source_count": 1,
+      "restored_count": 1
+    },
+    "auth.users": {
+      "source_count": 1,
+      "restored_count": 1
+    },
+    "public.contacts": {
+      "source_count": 1,
+      "restored_count": 1
+    },
+    "public.channel_sessions": {
+      "source_count": 1,
+      "restored_count": 1
+    }
+  },
+  "live_database_modified": false
+}

@@ -1,0 +1,82 @@
+name: Staging italiano da release stabile
+on:
+  push:
+    branches: [test/initial-evaluation]
+    paths:
+      - lib/i18n/**
+      - tests/unit/i18n-italiano.test.ts
+      - components/extensions/ExtensionCatalog.tsx
+      - .github/workflows/staging-italiano.yml
+  workflow_dispatch:
+permissions:
+  contents: read
+jobs:
+  app:
+    runs-on: ubuntu-latest
+    timeout-minutes: 30
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+      - name: Verify Italian catalog and language surfaces on Linux
+        run: |
+          corepack enable
+          corepack prepare pnpm@9.15.9 --activate
+          pnpm install --frozen-lockfile
+          pnpm typecheck
+          pnpm lint
+          pnpm exec vitest run tests/unit/i18n-italiano.test.ts tests/unit/idioma-aparece-pelo-nivel-do-registro.test.tsx tests/unit/i18n-catalogo-do-menu.test.ts tests/unit/i18n-a-data-segue-o-idioma.test.ts tests/unit/i18n-espanhol-cobre-a-tela.test.ts tests/unit/i18n-provedores-e-pontos.test.ts tests/unit/i18n-erros-de-extracao-cobertos.test.ts tests/unit/novo-contato-exige-identificador.test.tsx
+          cp components/contacts/NewContactDialog.tsx /tmp/new-contact-fixed.tsx
+          python3 - <<'PY'
+          from pathlib import Path
+          p = Path('components/contacts/NewContactDialog.tsx')
+          guard = '    if (!values.email?.trim() && !values.phone_number?.trim()) {\n      setServerError(t("Preencha pelo menos um identificador (email ou telefone)."));\n      return;\n    }\n'
+          assert guard in p.read_text()
+          p.write_text(p.read_text().replace(guard, '', 1))
+          PY
+          if pnpm exec vitest run tests/unit/novo-contato-exige-identificador.test.tsx; then
+            cp /tmp/new-contact-fixed.tsx components/contacts/NewContactDialog.tsx
+            echo 'Regression test failed to detect missing guard'
+            exit 1
+          fi
+          cp /tmp/new-contact-fixed.tsx components/contacts/NewContactDialog.tsx
+      - name: Prepare exact stable source with Italian presentation only
+        run: |
+          mkdir stable
+          git archive cbf403e201627b49c0a9899f5a0cb5f12e02d975 | tar -x -C stable
+          cp lib/i18n/registro.ts lib/i18n/datas.ts stable/lib/i18n/
+          cp lib/i18n/traducoes/it.json stable/lib/i18n/traducoes/
+          cp components/contacts/NewContactDialog.tsx stable/components/contacts/
+          python3 - <<'PY'
+          from pathlib import Path
+          p = Path('stable/lib/i18n/dicionario.ts')
+          s = p.read_text()
+          s = s.replace('import type { Idioma } from "./idiomas";', 'import type { Idioma } from "./idiomas";\nimport italiano from "./traducoes/it.json";')
+          s = s.replace('export function traduzir(texto: string, idioma: Idioma): string {', 'export function traduzir(texto: string, idioma: Idioma): string {\n  if (idioma === "it") return (italiano as Record<string, string>)[texto] ?? texto;')
+          p.write_text(s)
+          extension = Path('stable/components/extensions/ExtensionCatalog.tsx')
+          extension.write_text(extension.read_text().replace('import { useIdioma } from "@/lib/i18n/IdiomaProvider";', 'import { useIdioma } from "@/lib/i18n/IdiomaProvider";\nimport type { Idioma } from "@/lib/i18n/idiomas";').replace('locale: "pt-BR" | "es",', 'locale: Idioma,'))
+          changelog = Path('stable/CHANGELOG.md')
+          changelog.write_text(changelog.read_text().replace('## [Não lançado]', '## [Não lançado]\n\n### Corrigido\n\n- Italiano: chiariti collegamento WhatsApp tramite QR/codice, modalità test dell’IA, gruppi e protezioni per l’invio. Report di preparazione e backup nel repository. Revisione editoriale completa ancora aperta.\n\n- Italiano: date dell’Agenda leggibili e contatti senza email o telefono rifiutati.\n\n### Adicionado\n\n- Italiano: interfaccia e date locali nello staging, da v1.70.0.'))
+          PY
+      - uses: docker/setup-buildx-action@v3
+      - uses: docker/build-push-action@v6
+        with:
+          context: stable
+          file: stable/Dockerfile
+          tags: deskcomm-staging-it:${{ github.sha }}
+          build-args: APP_VERSION=1.70.0-it.${{ github.sha }}
+          labels: |
+            org.opencontainers.image.source=https://github.com/ilpiratacris/WhatsApp-DeskcommCRM
+            org.opencontainers.image.revision=${{ github.sha }}
+          outputs: type=docker,dest=/tmp/deskcomm-staging-it.tar
+          cache-from: type=gha,scope=staging-it
+          cache-to: type=gha,mode=max,scope=staging-it
+      - uses: actions/upload-artifact@v4
+        with:
+          name: deskcomm-staging-it
+          path: /tmp/deskcomm-staging-it.tar
+          retention-days: 7

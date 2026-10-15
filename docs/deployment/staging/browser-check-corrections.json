@@ -1,0 +1,172 @@
+[
+  {
+    "key": "MMMM 'de' yyyy",
+    "before": "MMMM 'de' yyyyy",
+    "after": "MMMM yyyy"
+  },
+  {
+    "key": "d 'de' MMM",
+    "before": "d'\"de\" MMM",
+    "after": "d MMM"
+  },
+  {
+    "key": "d 'de' MMMM",
+    "before": "d'\"de\" MMMM",
+    "after": "d MMMM"
+  },
+  {
+    "key": "EEEE, d 'de' MMMM",
+    "before": "EEA, d'''de' MMMM",
+    "after": "EEEE, d MMMM"
+  },
+  {
+    "key": "EEEE, d 'de' MMM",
+    "before": "EEA, d'''de' MMM",
+    "after": "EEEE, d MMM"
+  },
+  {
+    "key": "d 'de' MMMM 'às' HH:mm",
+    "before": "d 'de' MMMM 'às' HH:mm",
+    "after": "d MMMM 'alle' HH:mm"
+  },
+  {
+    "key": "EEEE, d 'de' MMMM 'às' HH:mm",
+    "before": "EEAE, d'\"de\" MMMM 'às\" HH:mm",
+    "after": "EEEE, d MMMM 'alle' HH:mm"
+  },
+  {
+    "key": "Sua agenda está livre esta semana",
+    "before": "Il tuo programma e' gratuito questa settimana.",
+    "after": "Non hai appuntamenti questa settimana"
+  },
+  {
+    "key": "Novo agendamento",
+    "before": "Nuovo programma",
+    "after": "Nuovo appuntamento"
+  },
+  {
+    "key": "Remarcar agendamento",
+    "before": "In attesa",
+    "after": "Riprogramma appuntamento"
+  },
+  {
+    "key": "Cancelar agendamento",
+    "before": "Annullare la pianificazione",
+    "after": "Annulla appuntamento"
+  },
+  {
+    "key": "Este agendamento não está mais na lista.",
+    "before": "Questo programma non è più nella lista.",
+    "after": "Questo appuntamento non è più nell’elenco."
+  },
+  {
+    "key": "Agendamento",
+    "before": "Orari",
+    "after": "Appuntamento"
+  },
+  {
+    "key": "Tipo de agendamento",
+    "before": "Tipo di programma",
+    "after": "Tipo di appuntamento"
+  },
+  {
+    "key": "Novo tipo de agendamento",
+    "before": "Nuovo tipo di programma",
+    "after": "Nuovo tipo di appuntamento"
+  },
+  {
+    "key": "Tipo de agendamento criado.",
+    "before": "Tipo di programma creato.",
+    "after": "Tipo di appuntamento creato."
+  },
+  {
+    "key": "Próximos",
+    "before": "Il prossimo",
+    "after": "In programma"
+  },
+  {
+    "key": "Aguardando confirmação",
+    "before": "Rispondenze in attesa",
+    "after": "In attesa di conferma"
+  },
+  {
+    "key": "Passados",
+    "before": "Passato",
+    "after": "Passati"
+  },
+  {
+    "key": "Cancelados",
+    "before": "Annullamento",
+    "after": "Annullati"
+  },
+  {
+    "key": "Realizado",
+    "before": "Regia",
+    "after": "Svolto"
+  },
+  {
+    "key": "Faltou",
+    "before": "Mancato.",
+    "after": "Assente"
+  },
+  {
+    "key": "Filtrar o histórico",
+    "before": "Filtro di storia",
+    "after": "Filtra lo storico"
+  },
+  {
+    "key": "Nada marcado daqui para a frente.",
+    "before": "Non c'e' niente di segnato da adesso in poi.",
+    "after": "Nessun appuntamento in programma."
+  },
+  {
+    "key": "Ninguém esperando confirmação.",
+    "before": "Nessuno si aspetta la conferma.",
+    "after": "Nessun appuntamento in attesa di conferma."
+  },
+  {
+    "key": "Nenhum cancelamento.",
+    "before": "Nessuna cancellazione.",
+    "after": "Nessun appuntamento annullato."
+  },
+  {
+    "key": "Sincronizar com o Google ainda não está disponível",
+    "before": "Synchronize con Google non è ancora disponibile",
+    "after": "La sincronizzazione con Google non è ancora disponibile"
+  },
+  {
+    "key": "Até lá a agenda funciona normalmente, só não troca compromissos com o Google.",
+    "before": "Fino ad allora il programma funziona normalmente, solo non scambia gli appuntamenti con Google.",
+    "after": "L’Agenda funziona normalmente; finché Google non è configurato, gli appuntamenti non vengono sincronizzati."
+  },
+  {
+    "key": "exatamente assim",
+    "before": "Proprio così.",
+    "after": "esattamente così"
+  },
+  {
+    "key": "você ainda não publicou seus horários",
+    "before": "Non hai ancora pubblicato i tuoi programmi.",
+    "after": "non hai ancora pubblicato gli orari disponibili"
+  },
+  {
+    "key": "Nenhum horário publicado neste dia.",
+    "before": "Nessun programma pubblicato in questo giorno.",
+    "after": "Nessun orario disponibile pubblicato per questo giorno."
+  },
+  {
+    "key": "nenhum horário publicado neste dia",
+    "before": "nessun programma pubblicato in questo giorno",
+    "after": "nessun orario disponibile pubblicato per questo giorno"
+  },
+  {
+    "key": "Criar primeira fonte",
+    "before": "Crea il primo carattere",
+    "after": "Crea la prima fonte"
+  },
+  {
+    "key": "Abertos",
+    "before": "Aprire",
+    "after": "Aperti"
+  }
+]

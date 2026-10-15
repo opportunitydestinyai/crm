@@ -1,0 +1,667 @@
+[
+  {
+    "source": "Por onde seu negócio fala com o cliente. Conecte números por QR ou o número oficial da Meta, e acompanhe a saúde de cada um.",
+    "before": "Dove il vostro business parla con il cliente. Collegare i numeri da QR o il numero ufficiale Meta, e seguire la salute di ciascuno.",
+    "after": "Collega i numeri WhatsApp tramite QR o API ufficiale Meta e controlla lo stato di ogni connessione."
+  },
+  {
+    "source": "Proteção de envio",
+    "before": "Protezione della spedizione",
+    "after": "Protezioni per l’invio"
+  },
+  {
+    "source": "Proteção de envio —",
+    "before": "Protezione delle navi —",
+    "after": "Protezioni per l’invio —"
+  },
+  {
+    "source": "Proteção de envio atualizada.",
+    "before": "Protezione della spedizione aggiornata.",
+    "after": "Protezioni per l’invio aggiornate."
+  },
+  {
+    "source": "Proteção de envio por número",
+    "before": "Protezione della spedizione per numero",
+    "after": "Protezioni per l’invio di ciascun numero"
+  },
+  {
+    "source": "ajuste de proteção de envio",
+    "before": "Regolazione della protezione di trasporto",
+    "after": "impostazione delle protezioni per l’invio"
+  },
+  {
+    "source": "ajustes de proteção de envio",
+    "before": "Regolazioni di protezione di spedizione",
+    "after": "impostazioni delle protezioni per l’invio"
+  },
+  {
+    "source": "Estes limites protegem o número contra bloqueio do WhatsApp. Campo vazio usa o padrão seguro do sistema (mostrado no campo).",
+    "before": "Questi limiti proteggono il numero dal blocco di WhatsApp. Campo vuoto utilizza il modello sicuro del sistema (indicato nel campo).",
+    "after": "Questi limiti riducono il rischio che WhatsApp blocchi il numero. Lascia il campo vuoto per usare il valore predefinito indicato."
+  },
+  {
+    "source": "Este número é usado desde",
+    "before": "Questo numero è stato utilizzato da allora",
+    "after": "Questo numero è in uso dal"
+  },
+  {
+    "source": "A conexão pode ser nova sem que o número seja. O aquecimento conta a idade do NÚMERO — em branco, ele é tratado como recém-criado e começa liberando pouco por dia. Uma data já salva não some se você limpar o campo: para mudá-la, informe outra.",
+    "before": "La connessione può essere nuova senza il numero di essere. Warming conta l'età di Numero — vuoto, è trattato come appena creato e inizia a rilasciare poco al giorno. Una data salvata non scompare se si elimina il campo: cambiarlo, dire un altro.",
+    "after": "La connessione può essere nuova anche se usi il numero da tempo. Il periodo iniziale di invio graduale dipende dall’età del numero. Senza una data viene considerato nuovo e può inviare pochi messaggi al giorno. Per cambiare una data già salvata, inseriscine un’altra: svuotare il campo non la cancella."
+  },
+  {
+    "source": "Este número já está aquecido — pular o aquecimento",
+    "before": "Questo numero è già riscaldato — saltare il riscaldamento",
+    "after": "Questo numero invia già regolarmente: salta il periodo di invio graduale"
+  },
+  {
+    "source": "Vale só o teto diário abaixo. Use apenas se o número já envia há semanas: pular o aquecimento num número novo é o caminho mais rápido para o bloqueio.",
+    "before": "Vale solo la pena il soffitto giornaliero qui sotto. Utilizzare solo se il numero è stato invio per settimane: saltare il calore su un nuovo numero è il modo più veloce per la serratura.",
+    "after": "Si applicherà solo il limite giornaliero indicato sotto. Usa questa opzione solo se il numero invia messaggi da settimane: su un numero nuovo aumenta il rischio di blocco."
+  },
+  {
+    "source": "dia(s) de uso — já formado. Vale só o teto diário abaixo.",
+    "before": "giorno(i) di uso — già formato. Vale solo il soffitto giornaliero sotto.",
+    "after": "giorni di utilizzo: periodo iniziale concluso. Si applica solo il limite giornaliero indicato sotto."
+  },
+  {
+    "source": "Hoje o aquecimento libera",
+    "before": "Oggi le uscite di riscaldamento",
+    "after": "Oggi il periodo iniziale consente"
+  },
+  {
+    "source": "dia(s) de uso. Enquanto esse número for menor que o teto diário, é ELE que limita, e mexer no teto diário não muda nada.",
+    "before": "Finché questo numero è più piccolo del soffitto giornaliero, è HE che limita, e toccare il soffitto giornaliero non cambia nulla.",
+    "after": "giorni di utilizzo. Finché il limite del periodo iniziale è inferiore al limite giornaliero, prevale il primo: aumentare il limite giornaliero non permette di inviare più messaggi."
+  },
+  {
+    "source": "Janela de disparo (horário local)",
+    "before": "Finestra di tiro (ora locale)",
+    "after": "Fascia oraria degli invii automatici (ora locale)"
+  },
+  {
+    "source": "Hora de início da janela de resposta",
+    "before": "Tempo di iniziare la finestra di risposta",
+    "after": "Ora di inizio delle risposte"
+  },
+  {
+    "source": "Hora de fim da janela de resposta",
+    "before": "Fine della finestra di risposta",
+    "after": "Ora di fine delle risposte"
+  },
+  {
+    "source": "Hora de início da janela",
+    "before": "Tempo di avvio della finestra",
+    "after": "Ora di inizio della fascia"
+  },
+  {
+    "source": "Hora de fim da janela",
+    "before": "Finestra tempo",
+    "after": "Ora di fine della fascia"
+  },
+  {
+    "source": "h até",
+    "before": "h fino ad ora",
+    "after": "alle"
+  },
+  {
+    "source": "Quando o cliente escreve, o agente responde nesta janela. Em branco, segue a janela de disparo. Use 0 e 24 para responder a qualquer hora — o teto diário e o intervalo entre envios continuam valendo.",
+    "before": "Quando il cliente scrive, l'agente risponde in questa finestra. Vuoto, seguire la finestra di scatto. Utilizzare 0 e 24 per rispondere in qualsiasi momento — il soffitto giornaliero e l'intervallo tra le spedizioni continuano ad essere validi.",
+    "after": "Quando il cliente scrive, l’agente risponde in questa fascia oraria. Se la lasci vuota, usa la fascia degli invii automatici. Imposta 0 e 24 per rispondere a qualsiasi ora; restano validi il limite giornaliero e l’intervallo tra gli invii."
+  },
+  {
+    "source": "Disparos em massa, prospecção e mensagens que retomam conversa parada só saem nesta janela. Fora dela, o envio fica agendado para a próxima abertura — você vê o motivo na conversa.",
+    "before": "Sparamenti di massa, prospezioni e messaggi che riprendono la conversazione inattivo escono solo da questa finestra. Al di fuori di esso, il caricamento è programmato per la prossima apertura — si vede la ragione nella conversazione.",
+    "after": "Campagne, messaggi di primo contatto e ricontatti automatici vengono inviati solo in questa fascia. Fuori orario vengono programmati per la successiva apertura; il motivo compare nella conversazione."
+  },
+  {
+    "source": "Ligado por padrão: quem escreve no domingo espera resposta no domingo. Desligue se você faz prospecção ativa e prefere não incomodar no fim de semana.",
+    "before": "Connesso per impostazione predefinita: Chi scrive la domenica si aspetta una risposta la domenica. Spegni se fai prospezioni attive e preferisci non disturbarti nel weekend.",
+    "after": "Attivo per impostazione predefinita, per rispondere anche a chi scrive la domenica. Disattivalo se invii messaggi di primo contatto e vuoi evitare il fine settimana."
+  },
+  {
+    "source": "Ritmo entre envios (segundos)",
+    "before": "Ritmo tra spedizioni (secondi)",
+    "after": "Intervallo tra gli invii (secondi)"
+  },
+  {
+    "source": "Intervalo mínimo entre envios em segundos",
+    "before": "Intervallo minimo tra le spedizioni in secondi",
+    "after": "Intervallo minimo tra gli invii, in secondi"
+  },
+  {
+    "source": "Variação aleatória máxima em segundos",
+    "before": "Massima variazione casuale in pochi secondi",
+    "after": "Variazione casuale massima, in secondi"
+  },
+  {
+    "source": "Intervalo mínimo entre mensagens do mesmo número, mais uma variação aleatória — ritmo cravado parece robô para o WhatsApp.",
+    "before": "Intervallo minimo tra i messaggi dello stesso numero, più una variazione casuale — ritmo lanciato sembra robot a WhatsApp.",
+    "after": "Intervallo minimo tra i messaggi inviati dallo stesso numero, con una variazione casuale aggiuntiva. Un intervallo sempre identico può apparire automatico a WhatsApp."
+  },
+  {
+    "source": "Teto diário de envios",
+    "before": "Ceiling giornaliero di spedizione",
+    "after": "Limite giornaliero di invio"
+  },
+  {
+    "source": "Teto diário de mensagens",
+    "before": "Ceiling del messaggio quotidiano",
+    "after": "Numero massimo di messaggi al giorno"
+  },
+  {
+    "source": "sem teto definido",
+    "before": "soffitto definito",
+    "after": "nessun limite impostato"
+  },
+  {
+    "source": "Máximo de mensagens que este número envia por dia. Números novos também respeitam o aquecimento automático abaixo, o que for menor.",
+    "before": "Messaggi massimi questo numero invia al giorno. Nuovi numeri rispettano anche il riscaldamento automatico qui sotto, qualunque sia più piccolo.",
+    "after": "Numero massimo di messaggi inviati al giorno da questo numero. Per i numeri nuovi vale anche il limite del periodo iniziale: si applica il più basso dei due."
+  },
+  {
+    "source": "Fuso horário IANA",
+    "before": "Zona di tempo IANA",
+    "after": "Fuso orario IANA"
+  },
+  {
+    "source": "A janela de envio é avaliada neste fuso (ex.: America/Sao_Paulo).",
+    "before": "La finestra di upload viene valutata in questo mandrino (ad esempio America/Sao_Paulo).",
+    "after": "La fascia di invio usa questo fuso orario (es.: America/Sao_Paulo)."
+  },
+  {
+    "source": "Aquecimento automático de número novo",
+    "before": "Riscaldamento automatico nuovo numero",
+    "after": "Invio graduale automatico per i numeri nuovi"
+  },
+  {
+    "source": "dias: sem limite de aquecimento",
+    "before": "giorni: nessun limite di riscaldamento",
+    "after": "giorni: nessun limite iniziale"
+  },
+  {
+    "source": "Número recém-conectado envia pouco e sobe aos poucos — enviar demais no início é a causa nº 1 de bloqueio.",
+    "before": "Il numero appena collegato invia poco e sale lentamente — l'invio troppo all'inizio è la causa numero 1 di blocco.",
+    "after": "Un numero appena collegato invia pochi messaggi; il limite aumenta gradualmente. Inviare troppo all’inizio aumenta il rischio di blocco."
+  },
+  {
+    "source": "Salvar proteção",
+    "before": "Salva protezione",
+    "after": "Salva le protezioni"
+  },
+  {
+    "source": "Religar",
+    "before": "Ricollegamento",
+    "after": "Ricollega"
+  },
+  {
+    "source": "Números por QR",
+    "before": "Numeri per QR",
+    "after": "WhatsApp tramite QR"
+  },
+  {
+    "source": "Atualizar saúde",
+    "before": "Aggiornamento della salute",
+    "after": "Aggiorna lo stato"
+  },
+  {
+    "source": "Conectar novo WhatsApp",
+    "before": "Collegare il nuovo WhatsApp",
+    "after": "Collega WhatsApp"
+  },
+  {
+    "source": "Conectar por código",
+    "before": "Collegare con il codice",
+    "after": "Collega tramite codice"
+  },
+  {
+    "source": "Código de pareamento",
+    "before": "Codice di accoppiamento",
+    "after": "Codice di collegamento"
+  },
+  {
+    "source": "Este canal não conecta por código de pareamento.",
+    "before": "Questo canale non si collega con il codice corrispondente.",
+    "after": "Questo canale non supporta il collegamento tramite codice."
+  },
+  {
+    "source": "Não foi possível iniciar o pareamento.",
+    "before": "Non potrebbe iniziare a indovinare.",
+    "after": "Impossibile avviare il collegamento."
+  },
+  {
+    "source": "O código de pareamento venceu. Clique em parear para gerar outro.",
+    "before": "L'accoppiamento del codice ha vinto. Fare clic su Abbinamento per generare un altro.",
+    "after": "Il codice di collegamento è scaduto. Richiedine uno nuovo."
+  },
+  {
+    "source": "Não foi possível receber o código de pareamento. Tente novamente.",
+    "before": "Non ho potuto ottenere il codice corrispondente.",
+    "after": "Impossibile ottenere il codice di collegamento. Riprova."
+  },
+  {
+    "source": "Consulte os responsáveis em Atendimento.",
+    "before": "Consulta i responsabili.",
+    "after": "Gestisci gli operatori assegnati in Impostazioni → Assistenza."
+  },
+  {
+    "source": "Confira os responsáveis em Configurações → Atendimento.",
+    "before": "Controllare i responsabili delle Impostazioni → Partecipazione.",
+    "after": "Controlla gli operatori assegnati in Impostazioni → Assistenza."
+  },
+  {
+    "source": "Configurar acesso da IA",
+    "before": "Configurare l'accesso AI",
+    "after": "Configura l’accesso dell’IA"
+  },
+  {
+    "source": "Grupos ligados aparecem no chat para os atendentes responderem. A IA nunca responde em grupo.",
+    "before": "I gruppi collegati appaiono nella chat per i rispondenti. AI non risponde mai in gruppo.",
+    "after": "I gruppi attivati compaiono nei Messaggi e gli operatori possono rispondere. L’IA non risponde mai nei gruppi."
+  },
+  {
+    "source": "Atualizar lista",
+    "before": "Elenco degli aggiornamenti",
+    "after": "Aggiorna elenco"
+  },
+  {
+    "source": "Ligar mesmo assim",
+    "before": "Chiamalo comunque.",
+    "after": "Attiva comunque"
+  },
+  {
+    "source": "Buscar grupo",
+    "before": "Gruppo di ricerca",
+    "after": "Cerca un gruppo"
+  },
+  {
+    "source": "Desligar todos",
+    "before": "Scollegare tutti",
+    "after": "Disattiva tutti"
+  },
+  {
+    "source": "Desligando",
+    "before": "Sta' zitto.",
+    "after": "Disattivazione in corso"
+  },
+  {
+    "source": "Desligar todos mesmo assim",
+    "before": "Chiudi tutti comunque.",
+    "after": "Disattiva tutti comunque"
+  },
+  {
+    "source": "Ligar todos",
+    "before": "Collegare tutti",
+    "after": "Attiva tutti"
+  },
+  {
+    "source": "Ligar todos mesmo assim",
+    "before": "Chiamate tutti in ogni caso",
+    "after": "Attiva tutti comunque"
+  },
+  {
+    "source": "Ligando",
+    "before": "Chiamare",
+    "after": "Attivazione in corso"
+  },
+  {
+    "source": "depois de ligar",
+    "before": "dopo aver chiamato",
+    "after": "dopo l’attivazione"
+  },
+  {
+    "source": "depois de desligar",
+    "before": "dopo aver scollegato",
+    "after": "dopo la disattivazione"
+  },
+  {
+    "source": "grupos vão ligar e aparecer no chat.",
+    "before": "I gruppi chiameranno e compariranno nella chat.",
+    "after": "gruppi verranno attivati e compariranno nei Messaggi."
+  },
+  {
+    "source": "Grupos pessoais e de família desta lista também vão aparecer no chat. Use a busca para selecionar só os grupos de cliente antes de confirmar.",
+    "before": "I gruppi personali e familiari in questa lista compariranno anche nella chat. Utilizzare la ricerca per selezionare solo i gruppi client prima di confermare.",
+    "after": "Anche i gruppi personali e familiari selezionati compariranno nei Messaggi. Usa la ricerca per scegliere solo i gruppi di lavoro prima di confermare."
+  },
+  {
+    "source": "Não foi possível carregar seus números — esta lista não está mostrando o que existe.",
+    "before": "Non poteva caricare i vostri numeri — questa lista non mostra ciò che esiste.",
+    "after": "Impossibile caricare i numeri: l’elenco potrebbe essere incompleto."
+  },
+  {
+    "source": "Não conecte um número novo por causa disto: recarregue a página. Se persistir, o servidor do sistema está fora do ar.",
+    "before": "Non collegare un nuovo numero a causa di questo: ricaricare la pagina. Se persiste, il server di sistema è fuori dall'aria.",
+    "after": "Ricarica la pagina prima di collegare un altro numero. Se il problema persiste, il server potrebbe non essere disponibile."
+  },
+  {
+    "source": "Não foi possível carregar a proteção de envio desta conexão. Ela pode ter sido removida, ou esta lista está desatualizada.",
+    "before": "Non poteva caricare la protezione di upload per questa connessione. Potrebbe essere stato rimosso, o questa lista è obsoleta.",
+    "after": "Impossibile caricare le protezioni per l’invio. La connessione potrebbe essere stata rimossa oppure l’elenco potrebbe essere da aggiornare."
+  },
+  {
+    "source": "Canal removido. O que estava ligado a ele continua guardado.",
+    "before": "Il canale e' stato rimosso, il che e' collegato ad esso.",
+    "after": "Canale rimosso. I dati e lo storico associati restano conservati."
+  },
+  {
+    "source": "Canal excluído.",
+    "before": "Fuori dal canale.",
+    "after": "Canale eliminato."
+  },
+  {
+    "source": "Canal removido.",
+    "before": "Il canale e' spento.",
+    "after": "Canale rimosso."
+  },
+  {
+    "source": "Funil",
+    "before": "Funicolare",
+    "after": "Funnel"
+  },
+  {
+    "source": "Descadastros no período",
+    "before": "Decenni nel periodo",
+    "after": "Disiscrizioni nel periodo"
+  },
+  {
+    "source": "conversas em que falamos: a pessoa não respondeu e ninguém encerrou.",
+    "before": "Parlamenti di cui abbiamo parlato: la persona non ha risposto e nessuno ha chiuso.",
+    "after": "conversazioni in cui abbiamo scritto, senza risposta del contatto e ancora aperte."
+  },
+  {
+    "source": "Forma de conectar",
+    "before": "Modo di connettersi",
+    "after": "Metodo di collegamento"
+  },
+  {
+    "source": "Nenhum número autorizado — a IA não responde ninguém neste canal.",
+    "before": "Nessun numero autorizzato — l'IA non risponde a nessuno su questo canale.",
+    "after": "Nessun numero autorizzato: l’IA non risponde a nessuno su questo canale."
+  },
+  {
+    "source": "Novos canais começam em modo de teste, sem respostas automáticas até você autorizar números ou liberar o público.",
+    "before": "I nuovi canali iniziano in modalità test, nessuna risposta automatica fino a quando non si autorizzano i numeri o rilasciano il pubblico.",
+    "after": "I nuovi canali partono in modalità test: l’IA risponde solo ai numeri autorizzati. Per rispondere a tutti devi attivare la modalità pubblica."
+  },
+  {
+    "source": "Novos canais começam em modo de teste. Após concluir a configuração, abra Conexões para autorizar seus números de teste ou liberar o público.",
+    "before": "Dopo aver completato la configurazione, aprire connessioni per autorizzare i numeri di prova o rilasciare il pubblico.",
+    "after": "I nuovi canali partono in modalità test. Al termine della configurazione, apri Connessioni per autorizzare i numeri di prova o attivare le risposte dell’IA a tutti."
+  },
+  {
+    "source": "IA em modo de teste",
+    "before": "AI in modalità test",
+    "after": "IA in modalità test"
+  },
+  {
+    "source": "IA aberta ao público",
+    "before": "Aperto al pubblico",
+    "after": "IA abilitata a rispondere a tutti"
+  },
+  {
+    "source": "Acesso da IA no WhatsApp",
+    "before": "Accesso AI in WhatsApp",
+    "after": "Accesso dell’IA su WhatsApp"
+  },
+  {
+    "source": "Teste com pessoas de confiança antes de liberar o atendimento automático.",
+    "before": "Prova con persone affidabili prima di rilasciare il servizio automatico.",
+    "after": "Prova con persone di fiducia prima di abilitare le risposte automatiche a tutti."
+  },
+  {
+    "source": "A lista de teste não restringe o atendimento enquanto a IA está aberta ao público.",
+    "before": "L'elenco dei test non limita la cura mentre l'IA è aperta al pubblico.",
+    "after": "Se abiliti l’IA a rispondere a tutti, l’elenco dei numeri di prova non limita le risposte."
+  },
+  {
+    "source": "Um telefone com DDI por linha. Lista vazia no modo de teste bloqueia todas as respostas automáticas.",
+    "before": "Un telefono con DDI per linea. L'elenco vuoto in modalità test blocca tutte le risposte automatiche.",
+    "after": "Inserisci un numero con prefisso internazionale per riga. In modalità test, un elenco vuoto blocca tutte le risposte automatiche."
+  },
+  {
+    "source": "As mensagens continuam chegando ao Inbox, e sua equipe pode responder manualmente. Os testes são mensagens reais no WhatsApp, com os custos normais de uso.",
+    "before": "I messaggi continuano a raggiungere Posta in arrivo, e il vostro team può rispondere manualmente. I test sono messaggi reali in WhatsApp, con costi di utilizzo normali.",
+    "after": "I messaggi continuano ad arrivare nella sezione Messaggi e il team può rispondere manualmente. Anche i test inviano messaggi reali su WhatsApp, con gli eventuali costi del servizio."
+  },
+  {
+    "source": "O agente precisa estar publicado e vinculado a este canal. Bloqueios do contato e atendimento humano continuam sendo respeitados.",
+    "before": "L'agente deve essere pubblicato e collegato a questo canale. I blocchi di contatto e di cura umana continuano ad essere rispettati.",
+    "after": "L’agente deve essere pubblicato e associato a questo canale. Restano validi i blocchi sui contatti e le conversazioni affidate a un operatore."
+  },
+  {
+    "source": "A lista de teste deixará de limitar as respostas. A IA poderá atender qualquer pessoa que enviar mensagem neste canal, respeitando os demais bloqueios.",
+    "before": "La lista di prova cesserà di limitare le risposte. L'IA può servire chiunque invii un messaggio su questo canale, rispettando le altre serrature.",
+    "after": "L’elenco dei numeri di prova non limiterà più le risposte. L’IA potrà rispondere a chiunque scriva su questo canale, rispettando gli altri blocchi."
+  },
+  {
+    "source": "Para integrar",
+    "before": "Integrare",
+    "after": "Integrazione con altri sistemi"
+  },
+  {
+    "source": "Estes dados conectam outro sistema ao mesmo número. O token não aparece aqui — o ícone ao lado diz onde obtê-lo no painel do provedor.",
+    "before": "Questi dati collegano un altro sistema allo stesso numero. Token non appare qui — l'icona accanto a esso ti dice dove ottenerlo dal pannello del fornitore.",
+    "after": "Questi dati permettono di integrare un altro sistema con il numero. Il token non viene mostrato qui: l’icona indica dove trovarlo nel pannello del fornitore."
+  },
+  {
+    "source": "Crie uma conexão separada por QR no outro sistema.",
+    "before": "Creare una connessione separata da QR sull'altro sistema.",
+    "after": "Crea una connessione QR separata nell’altro sistema."
+  },
+  {
+    "source": "Telefone com código do país e DDD",
+    "before": "Telefono con codice paese e DDD",
+    "after": "Numero con prefisso internazionale e prefisso locale"
+  },
+  {
+    "source": "Aguardando a confirmação no celular. Se o código expirar, gere outro.",
+    "before": "In attesa di conferma sul telefono cellulare, e se il codice scade, generare un altro.",
+    "after": "In attesa della conferma sul telefono. Se il codice scade, richiedine un altro."
+  },
+  {
+    "source": "No celular: WhatsApp → Aparelhos conectados → Conectar um aparelho → Conectar com número de telefone. Digite o código mostrado aqui.",
+    "before": "Sul telefono: WhatsApp → Dispositivi connessi → Collegamento di un dispositivo → Collegamento con un numero di telefono. Inserisci il codice mostrato qui.",
+    "after": "Sul telefono: WhatsApp → Dispositivi collegati → Collega un dispositivo → Collega con numero di telefono. Inserisci il codice mostrato qui."
+  },
+  {
+    "source": "A conexão ainda não está pronta. Aguarde ou use Reconectar e tente novamente.",
+    "before": "La connessione non è ancora pronta. Attendere o utilizzare Reconnect e riprovare.",
+    "after": "La connessione non è ancora pronta. Attendi oppure usa Ricollega e riprova."
+  },
+  {
+    "source": "Não foi possível gerar o código. Confira o número e tente novamente, ou use o QR Code.",
+    "before": "Non potrebbe generare codice. Controllare il numero e riprovare, o utilizzare il codice QR.",
+    "after": "Impossibile generare il codice. Controlla il numero e riprova oppure usa il QR."
+  },
+  {
+    "source": "Token de acesso",
+    "before": "Accesso al gettone",
+    "after": "Token di accesso"
+  },
+  {
+    "source": "Token de verificação",
+    "before": "Controllare Token",
+    "after": "Token di verifica"
+  },
+  {
+    "source": "Versão publicada",
+    "before": "Versione stampabile",
+    "after": "Versione pubblicata"
+  },
+  {
+    "source": "Nenhum agente publicado",
+    "before": "Nessun membro del personale pubblicato",
+    "after": "Nessun agente pubblicato"
+  },
+  {
+    "source": "Caiu",
+    "before": "E' a terra.",
+    "after": "Disconnesso"
+  },
+  {
+    "source": "Escaneie o QR",
+    "before": "Scansione del QR",
+    "after": "Scansiona il QR"
+  },
+  {
+    "source": "Escanear o QR",
+    "before": "Scansione del QR",
+    "after": "Scansiona il QR"
+  },
+  {
+    "source": "Onde obter o token",
+    "before": "Dove trovare il gettone",
+    "after": "Dove trovare il token"
+  },
+  {
+    "source": "Buscar telas",
+    "before": "Ricerca di tele",
+    "after": "Cerca una sezione"
+  },
+  {
+    "source": "número conectado",
+    "before": "numero collegato",
+    "after": "connessione configurata"
+  },
+  {
+    "source": "números conectados",
+    "before": "numeri collegati",
+    "after": "connessioni configurate"
+  },
+  {
+    "source": "Verificação em duas etapas",
+    "before": "Verifica a due fasi",
+    "after": "Verifica in due passaggi"
+  },
+  {
+    "source": "Além da senha, o sistema pede um código de 6 dígitos que só existe no seu celular. É a proteção que segura uma senha vazada.",
+    "before": "Oltre alla password, il sistema richiede un codice a 6 cifre che esiste solo sul telefono.",
+    "after": "Oltre alla password, serve un codice a 6 cifre generato dall’app di autenticazione sul tuo telefono."
+  },
+  {
+    "source": "Exigir da equipe",
+    "before": "Richiesta dal team",
+    "after": "Obbligo per il team"
+  },
+  {
+    "source": "Escolha quem precisa configurar a verificação em duas etapas. Ligue se a sua equipe mexe com dados de clientes — é a diferença entre uma senha vazada virar um susto ou virar um vazamento.",
+    "before": "Scegli chi ha bisogno di impostare la verifica in due passaggi. Chiama se il tuo team mette in discussione i dati dei clienti — è la differenza tra una password trapelata che diventa una truffa o diventando una perdita.",
+    "after": "Scegli per quali ruoli rendere obbligatoria la verifica in due passaggi. È consigliata quando il team tratta dati dei clienti: protegge l’accesso anche se una password viene rubata."
+  },
+  {
+    "source": "Dias de carência",
+    "before": "Giorni di carenza",
+    "after": "Giorni concessi per attivarla"
+  },
+  {
+    "source": "O nível escolhido alcança esse papel e todos os acima dele. Quem já tem segundo fator continua provando a cada entrada, qualquer que seja esta escolha.",
+    "before": "Il livello prescelto raggiunge quel ruolo e tutti quelli sopra di esso. Chiunque ha già il secondo fattore continua a dimostrare ad ogni voce, qualunque sia questa scelta.",
+    "after": "L’obbligo si applica al ruolo scelto e ai ruoli superiori. Chi ha già attivato la verifica in due passaggi deve continuare a confermarla a ogni accesso, indipendentemente da questa impostazione."
+  },
+  {
+    "source": "A carência vai de 0 a 30 dias: durante o prazo ninguém é bloqueado, e depois dele a tela trava até o cadastro. O prazo começa na mudança da regra ou na entrada da pessoa na empresa, o que for mais tarde.",
+    "before": "La carenza varia da 0 a 30 giorni: durante la scadenza nessuno viene bloccato, e dopo di essa lo schermo si ferma fino alla registrazione. Il termine inizia quando cambia la regola o quando la persona entra in azienda, qualsiasi cosa sia dopo.",
+    "after": "Il periodo concesso va da 0 a 30 giorni. Alla scadenza, l’accesso viene bloccato finché la verifica in due passaggi non è attivata. Il conteggio parte dalla modifica della regola o dall’ingresso della persona nel team, scegliendo la data più recente."
+  },
+  {
+    "source": "Use se perder acesso ao autenticador. Cada código é de uso único.",
+    "before": "Utilizzare se si perde l'accesso all'autenticazione. Ogni codice è unico.",
+    "after": "Usa questi codici se perdi l’accesso all’app di autenticazione. Ogni codice può essere usato una sola volta."
+  },
+  {
+    "source": "Regenerar códigos de recuperação",
+    "before": "Rigenerare i codici di recupero",
+    "after": "Rigenera i codici di recupero"
+  },
+  {
+    "source": "Habilite MFA antes de gerar códigos.",
+    "before": "Abilitare MFA prima di generare i codici.",
+    "after": "Attiva la verifica in due passaggi prima di generare i codici di recupero."
+  },
+  {
+    "source": "Desligada. Ninguém consegue ligar nem receber chamadas por aqui.",
+    "before": "Nessuno puo' chiamare o chiamare qui.",
+    "after": "Funzione disattivata: da qui non è possibile effettuare né ricevere chiamate."
+  },
+  {
+    "source": "Leia antes de ligar",
+    "before": "Leggilo prima di chiamare",
+    "after": "Leggi prima di attivare le chiamate"
+  },
+  {
+    "source": "Para fazer chamadas, o sistema precisa conectar um segundo aparelho ao mesmo número de WhatsApp que você já usa para atender. Essa conexão não é feita pelo caminho oficial do WhatsApp.",
+    "before": "Per effettuare chiamate, il sistema deve collegare un secondo dispositivo allo stesso numero di WhatsApp che si utilizza già per rispondere. Questa connessione non è fatta dal percorso ufficiale di WhatsApp.",
+    "after": "Per effettuare chiamate, il sistema collega un secondo dispositivo al numero WhatsApp già usato per i messaggi. Il collegamento utilizza un’integrazione non ufficiale."
+  },
+  {
+    "source": "O WhatsApp pode entender isso como uso indevido e bloquear a CONTA — não só a chamada. Se isso acontecer, você perde também as mensagens desse número, e recuperar depende do WhatsApp, não de nós.",
+    "before": "WhatsApp può capire questo come uso improprio e bloccare il conto — non solo la chiamata. Se questo accade, si perde anche i messaggi da quel numero, e recuperare dipende da WhatsApp, non da noi.",
+    "after": "WhatsApp potrebbe considerarlo un uso improprio e bloccare l’account, impedendo anche l’invio e la ricezione dei messaggi. Il recupero dell’account dipende da WhatsApp."
+  },
+  {
+    "source": "Ligue apenas se a chamada de voz valer esse risco para o seu negócio. Você pode desligar a qualquer momento aqui mesmo — e o aparelho é desconectado na hora.",
+    "before": "Solo chiamare se la chiamata vocale vale quel rischio per il vostro business. È possibile appendere in qualsiasi momento proprio qui - e il dispositivo è scollegato in tempo.",
+    "after": "Attiva le chiamate solo se accetti questo rischio per la tua attività. Puoi disattivare la funzione da questa pagina: il dispositivo viene scollegato subito."
+  },
+  {
+    "source": "Este servidor não tem a chamada de voz instalada. Quem cuida da instalação precisa ligá-la antes — depois esta opção fica disponível aqui.",
+    "before": "Questo server non ha la chiamata vocale installata. Coloro che si prendono cura dell'installazione devono accenderlo prima — allora questa opzione è disponibile qui.",
+    "after": "Le chiamate vocali non sono installate su questo server. La funzione sarà disponibile dopo la configurazione da parte dell’amministratore del server."
+  },
+  {
+    "source": "Listagem de sessões — em breve. Por enquanto, deslogue todos os dispositivos:",
+    "before": "Elenco di sessione — presto. Per ora, scorrere tutti i dispositivi:",
+    "after": "L’elenco delle sessioni non è ancora disponibile. Puoi comunque uscire dall’account su tutti i dispositivi:"
+  },
+  {
+    "source": "Sair de todos os dispositivos",
+    "before": "Smettere tutti i dispositivi",
+    "after": "Esci da tutti i dispositivi"
+  },
+  {
+    "source": "A verificação em duas etapas da sua conta, os códigos de recuperação e as sessões abertas.",
+    "before": "Verifica a due passi del tuo account, codici di recupero e sessioni aperte.",
+    "after": "Verifica in due passaggi, codici di recupero e sessioni del tuo account."
+  },
+  {
+    "source": "Liberar atendimento ao público",
+    "before": "Liberazione del servizio pubblico",
+    "after": "Attiva le risposte automatiche a tutti"
+  },
+  {
+    "source": "Reconectar",
+    "before": "Ricollegamento",
+    "after": "Ricollega"
+  },
+  {
+    "source": "Fuso horário da janela",
+    "before": "Zona di tempo della finestra",
+    "after": "Fuso orario delle fasce di invio"
+  },
+  {
+    "source": "Milissegundos por caractere da resposta",
+    "before": "Milissecondi per carattere di risposta",
+    "after": "Millisecondi per carattere della risposta"
+  },
+  {
+    "source": "Quanto o agente \"pensa\" antes de mandar a primeira resposta (ver a notificação + digitação por caractere, limitado entre o mínimo e o máximo). Campo vazio usa o padrão — rápido demais parece robô; lento demais parece que caiu. Não mexe no intervalo entre mensagens.",
+    "before": "Quando l'agente \"pensa\" prima di inviare la prima risposta (vedere la notifica + digitazione per carattere, limitato tra minimo e massimo). Campo vuoto utilizza il modello — troppo veloce sembra robot; troppo lento sembra caduto.",
+    "after": "Ritardo prima della prima risposta dell’IA: tempo di lettura della notifica più tempo di digitazione per carattere, entro i limiti minimo e massimo. Lascia vuoto per usare i valori predefiniti. Un ritardo troppo breve appare automatico; uno troppo lungo può far pensare che la connessione sia interrotta. Questa impostazione non cambia l’intervallo tra messaggi."
+  },
+  {
+    "source": "Assunção (Paraguai)",
+    "before": "Assunzione (Paraguay)",
+    "after": "Asunción (Paraguay)"
+  },
+  {
+    "source": "Recife (Brasil)",
+    "before": "Recuperare (Brasile)",
+    "after": "Recife (Brasile)"
+  },
+  {
+    "source": "Fortaleza (Brasil)",
+    "before": "Fortezza (Brasile)",
+    "after": "Fortaleza (Brasile)"
+  }
+]

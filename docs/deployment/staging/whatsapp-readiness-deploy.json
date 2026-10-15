@@ -1,0 +1,37 @@
+{
+  "image": "deskcomm-staging-it:c7a2341af80370e3054e98162163c8ef926e159a",
+  "before_running": 44,
+  "after_running": 44,
+  "unchanged_containers": 43,
+  "other_crm_containers": 5,
+  "public_health": {
+    "data": {
+      "status": "healthy",
+      "version": "1.70.0-it.c7a2341af80370e3054e98162163c8ef926e159a",
+      "timestamp": "2026-10-04T14:18:17.438Z",
+      "checks": {
+        "supabase": {
+          "status": "ok",
+          "latency_ms": 85
+        },
+        "redis": {
+          "status": "ok",
+          "latency_ms": 82
+        },
+        "waha": {
+          "status": "ok",
+          "latency_ms": 83
+        }
+      }
+    }
+  },
+  "app_health": "healthy",
+  "ci_run_url": "https://github.com/ilpiratacris/WhatsApp-DeskcommCRM/actions/runs/37207912711",
+  "artifact_sha256": "e2243fc8a4f5643cf04ae51c9981aa4e91aa98fc32a02ac715d2dff63e609247",
+  "browser_verified": [
+    "QR regenerated without pairing",
+    "Ricollega label",
+    "Public AI enable label; test mode empty retained",
+    "Sending time zone and latency labels"
+  ]
+}

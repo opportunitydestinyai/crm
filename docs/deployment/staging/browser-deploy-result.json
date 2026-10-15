@@ -1,0 +1,29 @@
+{
+  "image": "deskcomm-staging-it:bd2d64d9bcac3b929ade119ad8f4a362c504ce5b",
+  "before_running": 44,
+  "after_running": 44,
+  "unchanged_containers": 43,
+  "other_crm_containers": 5,
+  "public_health": {
+    "data": {
+      "status": "healthy",
+      "version": "1.70.0-it.bd2d64d9bcac3b929ade119ad8f4a362c504ce5b",
+      "timestamp": "2026-10-04T00:40:48.372Z",
+      "checks": {
+        "supabase": {
+          "status": "ok",
+          "latency_ms": 9
+        },
+        "redis": {
+          "status": "ok",
+          "latency_ms": 6
+        },
+        "waha": {
+          "status": "ok",
+          "latency_ms": 7
+        }
+      }
+    }
+  },
+  "app_health": "healthy"
+}

@@ -1,0 +1,207 @@
+{
+  "schema_version": 1,
+  "diagram_type": "architecture",
+  "meta": {
+    "title": "Note WhatsApp nello staging",
+    "subtitle": "Tre fonti approvate, archivio e prima raccolta Note; copertura e connettore ancora aperti",
+    "output": "whatsapp-notes-staging.html",
+    "quality_profile": "standard"
+  },
+  "lanes": [
+    {
+      "id": "owner",
+      "label": "Titolare"
+    },
+    {
+      "id": "crm",
+      "label": "CRM esistente"
+    },
+    {
+      "id": "operator",
+      "label": "Lettura operativa privata"
+    }
+  ],
+  "mainPath": ["groups", "switch", "allowlist", "messages", "reader", "codex"],
+  "nodes": [
+    {
+      "id": "groups",
+      "lane": "owner",
+      "col": 0,
+      "type": "external",
+      "label": "Note, AI, Tools: solo titolare"
+    },
+    {
+      "id": "switch",
+      "lane": "crm",
+      "col": 1,
+      "type": "frontend",
+      "label": "Connessioni / GruposSheet + conferma primo gruppo"
+    },
+    {
+      "id": "allowlist",
+      "lane": "crm",
+      "col": 2,
+      "type": "database",
+      "label": "channel_session_groups / solo enabled"
+    },
+    {
+      "id": "messages",
+      "lane": "crm",
+      "col": 3,
+      "type": "database",
+      "label": "gravarMensagemDeGrupo / messages / nessun turno IA"
+    },
+    {
+      "id": "receipt",
+      "lane": "operator",
+      "col": 2,
+      "type": "security",
+      "label": "Ricevuta privata 600 / ID esatti e identità titolare"
+    },
+    {
+      "id": "reader",
+      "lane": "operator",
+      "col": 4,
+      "type": "service",
+      "label": "read-whatsapp-notes.py / READ ONLY / solo testo del titolare"
+    },
+    {
+      "id": "codex",
+      "lane": "owner",
+      "col": 5,
+      "type": "frontend",
+      "label": "Codex: ricezione e lettura di un nuovo testo per fonte verificate"
+    },
+    {
+      "id": "coverage",
+      "lane": "operator",
+      "col": 5,
+      "type": "service",
+      "label": "Conteggi e ricerca / errori senza contenuti / report"
+    },
+    {
+      "id": "history",
+      "lane": "owner",
+      "col": 1,
+      "type": "external",
+      "label": "Storico: 3 export TXT importati; store WAHA indisponibile; copertura non verificata"
+    },
+    {
+      "id": "archive",
+      "lane": "operator",
+      "col": 6,
+      "type": "database",
+      "label": "Taccuino / SQLite privato fuori Git / date e provenienza"
+    },
+    {
+      "id": "viewer",
+      "lane": "owner",
+      "col": 7,
+      "type": "frontend",
+      "label": "Ricerca italiana in sola lettura / socket UNIX privato e tunnel SSH"
+    },
+    {
+      "id": "collections",
+      "lane": "operator",
+      "col": 7,
+      "type": "service",
+      "label": "Prima raccolta SOLO Note / indizi locali note-v1 / suggerimenti da confermare"
+    }
+  ],
+  "edges": [
+    {
+      "from": "groups",
+      "to": "switch",
+      "label": "abilitazione autorizzata"
+    },
+    {
+      "from": "switch",
+      "to": "allowlist",
+      "label": "PUT e rilettura elenco"
+    },
+    {
+      "from": "allowlist",
+      "to": "messages",
+      "label": "scarta gruppi esclusi prima dell'inserimento"
+    },
+    {
+      "from": "groups",
+      "to": "receipt",
+      "label": "verifica live di ID e unico partecipante"
+    },
+    {
+      "from": "receipt",
+      "to": "reader",
+      "label": "ricontrolla partecipanti / sessione / org; fallisce chiuso"
+    },
+    {
+      "from": "messages",
+      "to": "reader",
+      "label": "ID esatti + org + sessione; outbound e non revocati"
+    },
+    {
+      "from": "reader",
+      "to": "codex",
+      "label": "SSH già autorizzato / testo non affidabile"
+    },
+    {
+      "from": "reader",
+      "to": "coverage",
+      "label": "conteggi, copertura e ricerca"
+    },
+    {
+      "from": "reader",
+      "to": "archive",
+      "label": "snapshot validato / finestra max 100 dichiarata"
+    },
+    {
+      "from": "history",
+      "to": "archive",
+      "label": "import TXT privato dopo anteprima / export necessari"
+    },
+    {
+      "from": "archive",
+      "to": "viewer",
+      "label": "query parametrizzate / nessun invio"
+    },
+    {
+      "from": "archive",
+      "to": "collections",
+      "label": "SQL solo Note + validazione / connessione read-only / massimo 10000 record"
+    },
+    {
+      "from": "collections",
+      "to": "viewer",
+      "label": "categorie, filtri, pagine e originale / nessuna attività creata"
+    },
+    {
+      "from": "collections",
+      "to": "codex",
+      "label": "CLI SSH / testo solo con --read esplicito / nessun MCP pubblico"
+    },
+    {
+      "from": "viewer",
+      "to": "coverage",
+      "label": "errori e lacune richiedono revisione operatore"
+    },
+    {
+      "from": "coverage",
+      "to": "switch",
+      "label": "errore o cambio partecipanti richiede revisione delle fonti"
+    }
+  ],
+  "contracts": {
+    "status": "Taccuino operativo: 1628 record, di cui 1625 da export. Prima raccolta Note (1058 record) con indizi locali, originale e paginazione verificata nel browser. Acquisizione CRM manuale e copertura WhatsApp non verificata.",
+    "pending": [
+      "confronto copertura export con il telefono",
+      "recupero media omessi",
+      "organizzazione delle note confermata dal titolare",
+      "connettore ChatGPT circoscritto"
+    ],
+    "destination": "infrastruttura operativa staging; nessuna modifica del runtime CRM",
+    "non_connections": {
+      "ChatGPT/MCP": "Connettore circoscritto non implementato; nessun flusso dati presente",
+      "Atlante proposto / Hindsight": "Importazione in pausa; nessuna integrazione o chiamata presente"
+    }
+  }
+}

@@ -1,0 +1,18 @@
+# Deployment-only overlay for the audited Coolify host.
+# Apply after prod, single-server and traefik. No Caddy or local builds.
+services:
+  app:
+    cpus: 1.5
+  worker:
+    cpus: 1.0
+  scheduler:
+    mem_limit: 192m
+    cpus: 0.25
+  redis:
+    mem_limit: 128m
+    cpus: 0.25
+  srh:
+    mem_limit: 128m
+    cpus: 0.25
+  waha:
+    cpus: 1.0

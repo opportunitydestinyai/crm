@@ -1,0 +1,10 @@
+{
+  "archives": [
+    "db-20261004-153833.sql.gz",
+    "waha-20261004-153833.tgz",
+    "storage-20261004-153833.tgz"
+  ],
+  "encrypted_sha256": "44da95fe03b93d23aebdb6d40feec40b7094da148ec05e09da62dd7e0a6b7621",
+  "encryption": "AES-256-CBC / PBKDF2 200000 iterations",
+  "decryption_and_archive_validation": "passed"
+}

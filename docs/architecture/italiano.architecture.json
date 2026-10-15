@@ -1,0 +1,130 @@
+{
+  "schema_version": 1,
+  "diagram_type": "architecture",
+  "meta": {
+    "title": "Italiano",
+    "subtitle": "Preferenza persistente e presentazione locale",
+    "output": "italiano.html",
+    "quality_profile": "standard"
+  },
+  "lanes": [
+    {
+      "id": "persona",
+      "label": "Persona"
+    },
+    {
+      "id": "app",
+      "label": "Applicazione"
+    },
+    {
+      "id": "qualita",
+      "label": "Qualità della traduzione"
+    }
+  ],
+  "mainPath": ["selector", "preference", "provider", "catalog", "screen"],
+  "nodes": [
+    {
+      "id": "selector",
+      "lane": "persona",
+      "col": 0,
+      "type": "ui",
+      "label": "SeletorDeIdioma / profilo / organizzazione"
+    },
+    {
+      "id": "preference",
+      "lane": "app",
+      "col": 1,
+      "type": "database",
+      "label": "user_metadata.locale → organizations.locale → pt-BR"
+    },
+    {
+      "id": "provider",
+      "lane": "app",
+      "col": 2,
+      "type": "service",
+      "label": "AuthUser.idioma → IdiomaProvider"
+    },
+    {
+      "id": "catalog",
+      "lane": "app",
+      "col": 3,
+      "type": "service",
+      "label": "traduzir / traducoes/it.json"
+    },
+    {
+      "id": "dates",
+      "lane": "app",
+      "col": 3,
+      "type": "service",
+      "label": "datas.ts / date-fns it / it-IT / token Agenda validati"
+    },
+    {
+      "id": "screen",
+      "lane": "persona",
+      "col": 4,
+      "type": "ui",
+      "label": "Login, onboarding, shell, pagine app e admin"
+    },
+    {
+      "id": "review",
+      "lane": "qualita",
+      "col": 2,
+      "type": "service",
+      "label": "Revisione di funzione e stati / QR, Ricollega, attivazione IA pubblica, stato connessione, Sicurezza, codice, IA, gruppi e invio / elenco prima-dopo"
+    },
+    {
+      "id": "tests",
+      "lane": "qualita",
+      "col": 4,
+      "type": "service",
+      "label": "65 test CI / date Agenda e contatti vuoti / browser QR, accesso IA, protezioni, Sicurezza e profilo / messaggi reali ancora da provare"
+    }
+  ],
+  "edges": [
+    {
+      "from": "selector",
+      "to": "preference",
+      "label": "trocarIdioma / salvataggio esistente"
+    },
+    {
+      "from": "preference",
+      "to": "provider",
+      "label": "lettura autorizzata"
+    },
+    {
+      "from": "provider",
+      "to": "catalog",
+      "label": "useT"
+    },
+    {
+      "from": "catalog",
+      "to": "screen",
+      "label": "testo italiano"
+    },
+    {
+      "from": "provider",
+      "to": "dates",
+      "label": "useLocaleDeData"
+    },
+    {
+      "from": "dates",
+      "to": "screen",
+      "label": "date locali"
+    },
+    {
+      "from": "screen",
+      "to": "selector",
+      "label": "preferenza sempre modificabile"
+    },
+    {
+      "from": "review",
+      "to": "catalog",
+      "label": "significato verificato nel codice"
+    },
+    {
+      "from": "catalog",
+      "to": "tests",
+      "label": "copertura e regressioni semantiche"
+    }
+  ]
+}

@@ -1,0 +1,3677 @@
+{
+  "Buscar por nome ou CNPJ": {
+    "before": "Ricerca per nome o CNPJ",
+    "after": "Cerca per nome o CNPJ",
+    "review": "editorial"
+  },
+  "Buscar por nome ou e-mail": {
+    "before": "Ricerca per nome o e-mail",
+    "after": "Cerca per nome o email",
+    "review": "editorial"
+  },
+  "Cadastro B2B com CNPJ e enriquecimento via BrasilAPI.": {
+    "before": "Registra B2B con CNPJ e arricchimento tramite BrazilAPI.",
+    "after": "Anagrafica aziendale B2B con CNPJ e recupero dei dati pubblici tramite BrasilAPI.",
+    "review": "editorial"
+  },
+  "Cidade/UF": {
+    "before": "Città/UF",
+    "after": "Città / stato brasiliano (UF)",
+    "review": "editorial"
+  },
+  "CSV ou XLSX com empresa, CNPJ, pessoa, cargo, telefone e e-mail.": {
+    "before": "CSV o XLSX con società, CNPJ, persona, posizione, telefono e email.",
+    "after": "File CSV o XLSX con azienda, CNPJ, persona, ruolo, telefono ed email.",
+    "review": "editorial"
+  },
+  "Decisores e contatos — telefones ficam em Contatos.": {
+    "before": "Deciders e contatti — i telefoni rimangono in Contatti.",
+    "after": "Referenti decisionali e contatti: i numeri di telefono sono nella sezione Contatti.",
+    "review": "editorial"
+  },
+  "Decisores e contatos ligados a empresas, com vários telefones.": {
+    "before": "Decisi e contatti connessi alle aziende, con più telefoni.",
+    "after": "Referenti decisionali e contatti associati alle aziende, con più numeri di telefono.",
+    "review": "editorial"
+  },
+  "Enriquecendo…": {
+    "before": "Arricchire...",
+    "after": "Recupero dei dati in corso…",
+    "review": "editorial"
+  },
+  "Enriquecer CNPJ": {
+    "before": "Enrich CNPJ",
+    "after": "Recupera i dati dal CNPJ",
+    "review": "editorial"
+  },
+  "Enriquecimento": {
+    "before": "Arricchimento",
+    "after": "Dati aggiuntivi",
+    "review": "editorial"
+  },
+  "Linhas": {
+    "before": "Linee",
+    "after": "Righe",
+    "review": "editorial"
+  },
+  "Lote processado": {
+    "before": "lotti trattati",
+    "after": "Importazione elaborata",
+    "review": "editorial"
+  },
+  "Lotes CSV/XLSX de empresas, pessoas e telefones.": {
+    "before": "Un sacco di CSV/XLSX aziende, persone e telefoni.",
+    "after": "Importazione di aziende, persone e numeri di telefono da file CSV o XLSX.",
+    "review": "editorial"
+  },
+  "Não foi possível criar.": {
+    "before": "Incapace di creare.",
+    "after": "Impossibile creare l’elemento.",
+    "review": "editorial"
+  },
+  "Nenhum telefone ligado às pessoas desta empresa.": {
+    "before": "Nessun telefono collegato alla gente di questa azienda.",
+    "after": "Nessun numero di telefono associato alle persone di questa azienda.",
+    "review": "editorial"
+  },
+  "Nenhum telefone vinculado.": {
+    "before": "Niente telefono collegato.",
+    "after": "Nessun numero di telefono associato.",
+    "review": "editorial"
+  },
+  "Nenhuma pessoa ainda.": {
+    "before": "Non c'e' ancora nessuno.",
+    "after": "Nessuna persona presente.",
+    "review": "editorial"
+  },
+  "Sem vínculo empresarial.": {
+    "before": "Nessun legame aziendale.",
+    "after": "Nessuna azienda associata.",
+    "review": "editorial"
+  },
+  "Só conflitos": {
+    "before": "Conflitti solo",
+    "after": "Solo conflitti",
+    "review": "editorial"
+  },
+  "certas": {
+    "before": "Giusto.",
+    "after": "valide",
+    "review": "editorial"
+  },
+  "Empresas e pessoas (venda para empresas)": {
+    "before": "Aziende e persone (commercio commerciale)",
+    "after": "Aziende e referenti (vendite B2B)",
+    "review": "editorial"
+  },
+  "Ligado, cada empresa ganha no CRM o cadastro de Empresas (razão social e CNPJ, com os dados públicos preenchidos pela BrasilAPI), as Pessoas que decidem dentro delas, com vários telefones, e a importação de planilha CSV ou Excel. Consultar um CNPJ manda o número para a BrasilAPI. Desligado, as telas e o menu somem.": {
+    "before": "Connessa, ogni azienda vince in CRM la registrazione di Aziende (motivo sociale e CNPJ, con i dati pubblici riempiti da BrazilAPI), le Persone che decidono all'interno di loro, con diversi telefoni, e l'importazione di fogli di calcolo CSV o Excel. Consultando un CNPJ invia il numero a BrazilAPI. Offline, gli schermi e il menu scompaiono.",
+    "after": "Se la funzione è attiva, ogni organizzazione dispone dell’anagrafica Aziende (ragione sociale e CNPJ, con dati pubblici recuperati da BrasilAPI), dei referenti aziendali con più numeri di telefono e dell’importazione da CSV o Excel. La ricerca tramite CNPJ invia quel numero a BrasilAPI. Disattivando la funzione, queste schermate e le relative voci di menu vengono nascoste.",
+    "review": "editorial"
+  },
+  "Resultados nas mensagens carregadas": {
+    "before": "Risultati in messaggi caricati",
+    "after": "Risultati nei messaggi già caricati",
+    "review": "editorial"
+  },
+  "Informe a URL HTTPS pública do seu site.": {
+    "before": "Informare l'URL HTTPS pubblico del tuo sito web.",
+    "after": "Inserisci l’URL HTTPS pubblico del tuo sito.",
+    "review": "editorial"
+  },
+  "Permita a abertura da aba para verificar o site.": {
+    "before": "Permettere alla scheda di aprire per controllare il sito.",
+    "after": "Consenti l’apertura della scheda per verificare il sito.",
+    "review": "editorial"
+  },
+  "Script carregado e botão de WhatsApp reconhecido. Confira o código ao clicar no site.": {
+    "before": "Fare clic su Script e riconoscere il pulsante WhatsApp. Controllare il codice quando si fa clic sul sito.",
+    "after": "Script caricato e pulsante WhatsApp riconosciuto. Fai clic sul pulsante nel sito e controlla il codice nel messaggio.",
+    "review": "editorial"
+  },
+  "Script carregado, mas nenhum botão deste número foi encontrado na abertura da página.": {
+    "before": "Script caricato, ma nessun pulsante di questo numero è stato trovato nell'apertura della scheda.",
+    "after": "Script caricato, ma all’apertura della pagina non è stato trovato alcun pulsante per questo numero.",
+    "review": "editorial"
+  },
+  "Não foi possível confirmar automaticamente. Confira o script, o domínio e os bloqueios do navegador; este resultado não prova que o script está ausente.": {
+    "before": "Non è possibile confermare automaticamente. Controllare lo script del browser, il dominio e le serrature; questo risultato non dimostra che lo script manca.",
+    "after": "Impossibile confermare automaticamente. Controlla lo script, il dominio e gli eventuali blocchi del browser. Questo risultato non dimostra che lo script sia assente.",
+    "review": "editorial"
+  },
+  "Verificando na aba aberta. Aguarde até 20 segundos.": {
+    "before": "Controllare la scheda aperta, attendere fino a 20 secondi.",
+    "after": "Verifica nella scheda aperta in corso. Attendi fino a 20 secondi.",
+    "review": "editorial"
+  },
+  "Crie um link por campanha ou botão. O código liga o clique à mensagem enviada pelo visitante.": {
+    "before": "Creare un link per campagna o pulsante. Il codice ti collega al messaggio inviato dal visitatore.",
+    "after": "Crea un link per ogni campagna o pulsante. Il codice associa il clic al messaggio inviato dal visitatore.",
+    "review": "editorial"
+  },
+  "As métricas estão indisponíveis. Atualize a página para tentar novamente.": {
+    "before": "I metrici non sono disponibili. Aggiorna la pagina per riprovare.",
+    "after": "Le metriche non sono disponibili. Ricarica la pagina per riprovare.",
+    "review": "editorial"
+  },
+  "As contagens usam os registros ainda retidos no CRM. Cliques incluem acessos repetidos; contatos e negócios são distintos por link. Não representam pessoas únicas nem o total histórico após o expurgo.": {
+    "before": "I conti utilizzano i record ancora conservati in CRM. I clic includono accessi ripetuti; i contatti e gli affari sono distinti dal link. Non rappresentano persone uniche o la storia totale dopo la purga.",
+    "after": "I conteggi utilizzano i record ancora conservati nel CRM. I clic comprendono anche gli accessi ripetuti; contatti e trattative vengono contati una sola volta per ciascun link. Non indicano persone uniche né il totale storico dopo l’eliminazione dei dati.",
+    "review": "editorial"
+  },
+  "Prévia da mensagem": {
+    "before": "Sincronizzazione cartella",
+    "after": "Anteprima del messaggio",
+    "review": "editorial"
+  },
+  "Este link está desativado e não abre o WhatsApp. Ative e salve para usar.": {
+    "before": "Questo link è disabilitato e non apre WhatsApp. Abilita e salva da usare.",
+    "after": "Questo link è disattivato e non apre WhatsApp. Attivalo e salva per utilizzarlo.",
+    "review": "editorial"
+  },
+  "Instale uma vez antes de fechar o head e mantenha o botão normal de WhatsApp. Use apenas um script por número. O visitante precisa enviar a mensagem com o código para a atribuição chegar ao CRM.": {
+    "before": "Installare una volta prima di chiudere la testa e tenere premuto il normale pulsante WhatsApp. Utilizzare solo uno script per numero. Il visitatore ha bisogno di inviare il messaggio con il codice per arrivare all'assegnazione CRM.",
+    "after": "Inserisci lo script una sola volta prima della chiusura del tag head e mantieni il normale pulsante WhatsApp. Usa un solo script per numero. Il visitatore deve inviare il messaggio con il codice perché il CRM possa associarlo alla sua origine.",
+    "review": "editorial"
+  },
+  "Ative a codificação automática no Google Ads. O script preserva gclid, gbraid ou wbraid recebidos no site. UTMs sozinhas identificam a origem no CRM, mas não comprovam uma conversão no Google.": {
+    "before": "Attiva l'autocodifica su Google Ads. Lo script conserva gclid, gbraid o wbraid ricevuti sul sito. Gli sportelli automatici identificano l'origine in CRM, ma non provano una conversione su Google.",
+    "after": "Attiva la codifica automatica in Google Ads. Lo script conserva i parametri gclid, gbraid o wbraid ricevuti dal sito. I soli parametri UTM identificano l’origine nel CRM, ma non dimostrano una conversione su Google.",
+    "review": "editorial"
+  },
+  "Entre novamente para salvar.": {
+    "before": "Entrate di nuovo per salvare.",
+    "after": "Accedi di nuovo per salvare.",
+    "review": "editorial"
+  },
+  "Não consegui ler o histórico agora. Atualize a página em instantes.": {
+    "before": "Non riuscivo a leggere la storia in questo momento.",
+    "after": "Impossibile caricare la cronologia. Ricarica la pagina tra poco.",
+    "review": "editorial"
+  },
+  "Não consegui ler o diagnóstico agora. Atualize a página em instantes.": {
+    "before": "Non riuscivo a leggere la diagnosi in questo momento.",
+    "after": "Impossibile caricare la diagnostica. Ricarica la pagina tra poco.",
+    "review": "editorial"
+  },
+  "Envio pausado": {
+    "before": "Caricamento in corso",
+    "after": "Invio sospeso",
+    "review": "editorial"
+  },
+  "A conta está conectada, mas o envio está desligado na aba Configuração.": {
+    "before": "L'account è collegato, ma la spedizione viene disattivata nella scheda Impostazioni.",
+    "after": "L’account è collegato, ma l’invio è disattivato nella scheda Configurazione.",
+    "review": "editorial"
+  },
+  "A conta está conectada e o envio está ligado.": {
+    "before": "L'account è collegato e il caricamento è collegato.",
+    "after": "L’account è collegato e l’invio è attivo.",
+    "review": "editorial"
+  },
+  "A conta desta empresa está suspensa.": {
+    "before": "Il conto di questa azienda è sospeso.",
+    "after": "L’account di questa azienda è sospeso.",
+    "review": "editorial"
+  },
+  "Conversões chegando ao Google": {
+    "before": "Conversioni di Google",
+    "after": "Conversioni ricevute da Google",
+    "review": "editorial"
+  },
+  "Nenhuma conversão aceita ainda": {
+    "before": "Nessuna conversione accettata ancora",
+    "after": "Nessuna conversione ancora accettata",
+    "review": "editorial"
+  },
+  "Sem falhas recentes": {
+    "before": "Nessun difetto recente",
+    "after": "Nessun errore recente",
+    "review": "editorial"
+  },
+  "Abra o histórico filtrando por Falhas: o detalhe de cada linha é a resposta do Google.": {
+    "before": "Aprire la storia filtrando dai fallimenti: il dettaglio di ogni riga è la risposta di Google.",
+    "after": "Apri la cronologia e filtra per Errori: il dettaglio di ogni riga contiene la risposta di Google.",
+    "review": "editorial"
+  },
+  "Nenhum envio foi recusado nos últimos 7 dias.": {
+    "before": "Negli ultimi sette giorni non sono state rifiutate spedizioni.",
+    "after": "Nessun invio rifiutato negli ultimi 7 giorni.",
+    "review": "editorial"
+  },
+  "A confirmação é consultada sozinha. Passadas 24 horas, vira pendência na aba Configuração.": {
+    "before": "Dopo 24 ore, è in attesa nella scheda Impostazioni.",
+    "after": "La conferma viene verificata automaticamente. Dopo 24 ore senza conferma, l’invio compare tra quelli da verificare nella scheda Configurazione.",
+    "review": "editorial"
+  },
+  "Todos os envios já têm resposta.": {
+    "before": "Tutte le spedizioni hanno una risposta.",
+    "after": "Tutti gli invii hanno ricevuto una risposta.",
+    "review": "editorial"
+  },
+  "Saúde da integração com o Google Ads": {
+    "before": "Google Ads Integrazione Salute",
+    "after": "Stato dell’integrazione con Google Ads",
+    "review": "editorial"
+  },
+  "Problema": {
+    "before": "Problematiche",
+    "after": "Problema",
+    "review": "editorial"
+  },
+  "Venda (negócio ganho)": {
+    "before": "Vendita (business won)",
+    "after": "Vendita (trattativa vinta)",
+    "review": "editorial"
+  },
+  "Recebe a compra quando o negócio é marcado como ganho. Deixe vazio se você só quer enviar etapas do funil.": {
+    "before": "Riceve l'acquisto quando il business è contrassegnato come guadagno. Lascia vuoto se si desidera solo inviare i passi imbuti.",
+    "after": "Riceve l’evento di acquisto quando la trattativa viene segnata come vinta. Lascia vuoto per inviare soltanto gli eventi delle fasi del funnel.",
+    "review": "editorial"
+  },
+  "Valor do negócio": {
+    "before": "Valore di affari",
+    "after": "Valore della trattativa",
+    "review": "editorial"
+  },
+  "Sem conexão direta com a Meta, a venda de quem veio de anúncio pode ir pelo canal intermediado do WhatsApp, quando ele já liga o seu conjunto de dados da Meta ao número. Saem para o provedor do canal o valor, a moeda, o telefone do cliente e a conversa. Vem desligado: ligue só se a sua política de privacidade cobre esse uso.": {
+    "before": "Senza connessione diretta a Meta, la vendita di coloro che sono venuti da annuncio può passare attraverso il canale intermediato WhatsApp, quando già collega il tuo Meta set di dati al numero. Il valore, la valuta, il telefono del cliente e la conversazione sono lasciati al fornitore del canale.",
+    "after": "Senza una connessione diretta con Meta, le vendite provenienti dagli annunci possono essere inviate tramite il canale WhatsApp intermediato, se questo associa già il dataset Meta al numero. Al fornitore del canale vengono trasmessi valore, valuta, telefono del cliente e conversazione. La funzione è disattivata per impostazione predefinita: attivala solo se questo utilizzo è previsto dalla tua informativa sulla privacy.",
+    "review": "editorial"
+  },
+  "Enviar a venda; o valor vai quando estiver preenchido": {
+    "before": "Invia la vendita; il valore va quando è riempito",
+    "after": "Invia la vendita, includendo il valore se compilato",
+    "review": "editorial"
+  },
+  "Só enviar venda com valor preenchido": {
+    "before": "Invia solo venduto con valore pieno",
+    "after": "Invia soltanto le vendite con valore compilato",
+    "review": "editorial"
+  },
+  "Enviar a venda sempre sem valor": {
+    "before": "Invia la vendita sempre inutile",
+    "after": "Invia sempre la vendita senza valore",
+    "review": "editorial"
+  },
+  "Buscar por negócio": {
+    "before": "Ricerca per affari",
+    "after": "Cerca per trattativa",
+    "review": "editorial"
+  },
+  "Nome do negócio": {
+    "before": "Nome di affari",
+    "after": "Nome della trattativa",
+    "review": "editorial"
+  },
+  "Filtrar": {
+    "before": "Filtro",
+    "after": "Filtra",
+    "review": "editorial"
+  },
+  "envio": {
+    "before": "Caricamento",
+    "after": "invio",
+    "review": "editorial"
+  },
+  "envios": {
+    "before": "Caricamenti",
+    "after": "invii",
+    "review": "editorial"
+  },
+  "Nenhum envio com estes filtros.": {
+    "before": "Nessun caricamento con questi filtri.",
+    "after": "Nessun invio corrisponde a questi filtri.",
+    "review": "editorial"
+  },
+  "sem valor": {
+    "before": "svalutato",
+    "after": "senza valore",
+    "review": "editorial"
+  },
+  "Aconteceu em": {
+    "before": "E' successo in",
+    "after": "Data dell’evento",
+    "review": "editorial"
+  },
+  "Etapas recomendadas ligadas. Informe ou crie a ação de conversão de cada uma e salve.": {
+    "before": "Informare o creare l'azione di conversione di ciascuno e salvare.",
+    "after": "Fasi consigliate attivate. Inserisci o crea l’azione di conversione per ciascuna fase e salva.",
+    "review": "editorial"
+  },
+  "Crie um funil com etapas para escolher o que cada etapa informa ao Google Ads.": {
+    "before": "Creare un imbuto con i passaggi per scegliere ciò che ogni passo informa Google Ads.",
+    "after": "Crea un funnel con le sue fasi per scegliere quali eventi comunicare a Google Ads.",
+    "review": "editorial"
+  },
+  "O que cada etapa do funil informa ao Google Ads": {
+    "before": "Che ogni passo imbuto informa Google Ads",
+    "after": "Eventi comunicati a Google Ads da ciascuna fase del funnel",
+    "review": "editorial"
+  },
+  "etapas enviando": {
+    "before": "passi invio",
+    "after": "fasi con invio attivo",
+    "review": "editorial"
+  },
+  "Usar o recomendado": {
+    "before": "Uso consigliato",
+    "after": "Applica le impostazioni consigliate",
+    "review": "editorial"
+  },
+  "É como o Google agrupa a conversão nos relatórios e nos lances.": {
+    "before": "È così che i gruppi di Google si convertono in rapporti e offerte.",
+    "after": "Determina come Google raggruppa la conversione nei report e nelle strategie di offerta.",
+    "review": "editorial"
+  },
+  "As conversões só saem quando o negócio muda de etapa — pela equipe, pela IA ou por automação — e só para quem veio de anúncio do Google. Movimentos anteriores a ligar a regra não são enviados.": {
+    "before": "Le conversioni escono solo quando le fasi di cambiamento del business — dal team, dall'intelligenza artificiale o dall'automazione — e solo a coloro che sono venuti dall'annuncio di Google.",
+    "after": "Le conversioni vengono inviate solo quando una trattativa proveniente da un annuncio Google cambia fase, per intervento del team, dell’IA o di un’automazione. Gli spostamenti avvenuti prima dell’attivazione della regola non vengono inviati.",
+    "review": "editorial"
+  },
+  "Contato (conversa, ligação, e-mail)": {
+    "before": "Contatto (conversazione, connessione, e-mail)",
+    "after": "Contatto (conversazione, telefonata, email)",
+    "review": "editorial"
+  },
+  "Envio de formulário de lead": {
+    "before": "Invia il modulo",
+    "after": "Invio di un modulo di contatto",
+    "review": "editorial"
+  },
+  "Lead importado": {
+    "before": "Piombo importato",
+    "after": "Lead importato",
+    "review": "editorial"
+  },
+  "Lead convertido": {
+    "before": "Piombo convertito",
+    "after": "Lead convertito",
+    "review": "editorial"
+  },
+  "Assinatura paga": {
+    "before": "Firma pagata",
+    "after": "Abbonamento pagato",
+    "review": "editorial"
+  },
+  "Adicionou ao carrinho": {
+    "before": "Addizione al carrello",
+    "after": "Aggiunta al carrello",
+    "review": "editorial"
+  },
+  "Lead por ligação": {
+    "before": "Guidare dal link",
+    "after": "Lead da telefonata",
+    "review": "editorial"
+  },
+  "Visualização de página": {
+    "before": "Pagina",
+    "after": "Visualizzazione di pagina",
+    "review": "editorial"
+  },
+  "Pedido de rota": {
+    "before": "Richiesta per percorso",
+    "after": "Richiesta di indicazioni stradali",
+    "review": "editorial"
+  },
+  "Clique de saída": {
+    "before": "Uscita Clic",
+    "after": "Clic su un link esterno",
+    "review": "editorial"
+  },
+  "Engajamento": {
+    "before": "Impegno",
+    "after": "Interazioni",
+    "review": "editorial"
+  },
+  "Só fora do WhatsApp": {
+    "before": "Appena fuori da WhatsApp",
+    "after": "Solo canali diversi da WhatsApp",
+    "review": "editorial"
+  },
+  "Histórico de envios": {
+    "before": "Scarica la cronologia",
+    "after": "Cronologia degli invii",
+    "review": "editorial"
+  },
+  "Diagnóstico": {
+    "before": "Diagnosi",
+    "after": "Diagnostica",
+    "review": "editorial"
+  },
+  "Ao ganhar": {
+    "before": "# Vincendo #",
+    "after": "Alla chiusura come vinta",
+    "review": "editorial"
+  },
+  "Ao perder": {
+    "before": "# When you lost #",
+    "after": "Alla chiusura come persa",
+    "review": "editorial"
+  },
+  "Este funil exige alguns dados antes de mover o negócio. Preencha o que falta para continuar.": {
+    "before": "Questo imbuto richiede alcuni dati prima di spostare il business. Riempire ciò che manca per continuare.",
+    "after": "Questo funnel richiede alcuni dati prima di spostare la trattativa. Compila i campi mancanti per continuare.",
+    "review": "editorial"
+  },
+  "Motivos de ganho (separados por vírgula)": {
+    "before": "Motivi di guadagno (separati da virgola)",
+    "after": "Motivi di vittoria (separati da virgole)",
+    "review": "editorial"
+  },
+  "Sem motivos cadastrados o motivo de ganho é texto livre. Com a lista, só o que está nela é aceito.": {
+    "before": "Senza motivi registrati, il motivo del guadagno è il testo gratuito. Con l'elenco, solo ciò che è in esso è accettato.",
+    "after": "Senza motivi predefiniti puoi scrivere liberamente il motivo della vittoria. Se esiste un elenco, puoi scegliere soltanto uno dei motivi presenti.",
+    "review": "editorial"
+  },
+  "Exigir motivo de ganho ao fechar como ganho": {
+    "before": "Richiedere guadagno quando si chiude come guadagno",
+    "after": "Richiedi il motivo alla chiusura della trattativa come vinta",
+    "review": "editorial"
+  },
+  "Desligado, arrastar um negócio perdido ou ganho para uma etapa aberta reabre o mesmo negócio. Ligado, o encerrado fica como está e o quadro oferece criar uma nova tentativa com o mesmo contato.": {
+    "before": "Off, trascinare un business perso o ottenere in un passo aperto riaprire la stessa attività. Su, quello chiuso rimane come è e il frame offre di creare un nuovo tentativo con lo stesso contatto.",
+    "after": "Se la funzione è disattivata, trascinare una trattativa vinta o persa in una fase aperta riapre la stessa trattativa. Se è attiva, la trattativa chiusa resta invariata e il pannello propone di creare un nuovo tentativo con lo stesso contatto.",
+    "review": "editorial"
+  },
+  "Motivo do ganho": {
+    "before": "Motivo per il guadagno",
+    "after": "Motivo della vittoria",
+    "review": "editorial"
+  },
+  "Script copiado.": {
+    "before": "Ricevuto.",
+    "after": "Script copiato.",
+    "review": "editorial"
+  },
+  "Lead qualificado (opcional)": {
+    "before": "Piombo qualificato (opzionale)",
+    "after": "Lead qualificato (facoltativo)",
+    "review": "editorial"
+  },
+  "Lead qualificado": {
+    "before": "Piombo qualificato",
+    "after": "Lead qualificato",
+    "review": "editorial"
+  },
+  "Ação de conversão de lead qualificado": {
+    "before": "Azione di conversione di piombo qualificata",
+    "after": "Azione di conversione per lead qualificati",
+    "review": "editorial"
+  },
+  "Informe uma ação do Google diferente da compra. Configure a categoria de lead qualificado e o uso na otimização no Google Ads. Salvar não envia qualificações antigas.": {
+    "before": "Impostare la categoria di piombo qualificata e utilizzare per l'ottimizzazione in Google Ads. Salva non invia vecchie qualifiche.",
+    "after": "Inserisci un’azione Google distinta dall’acquisto. Imposta la categoria Lead qualificato e il suo utilizzo per l’ottimizzazione in Google Ads. Il salvataggio non invia le qualificazioni precedenti.",
+    "review": "editorial"
+  },
+  "Nenhuma pendência. Ainda pode não haver vendas ou qualificações com origem em anúncio.": {
+    "before": "Non ci possono ancora essere vendite o titoli originari di un annuncio.",
+    "after": "Nessun invio da verificare. Potrebbero non esserci ancora vendite o qualificazioni provenienti da annunci.",
+    "review": "editorial"
+  },
+  "A plataforma recebeu o envio. A confirmação será consultada automaticamente.": {
+    "before": "La piattaforma ha ricevuto l'upload. La conferma verrà consultata automaticamente.",
+    "after": "La piattaforma ha ricevuto l’invio. La conferma verrà verificata automaticamente.",
+    "review": "editorial"
+  },
+  "Falha temporária. Uma nova tentativa foi agendada automaticamente.": {
+    "before": "Un nuovo tentativo è stato programmato automaticamente.",
+    "after": "Errore temporaneo. Un nuovo tentativo è stato programmato automaticamente.",
+    "review": "editorial"
+  },
+  "Não há novo envio a agendar. Atualizamos a lista.": {
+    "before": "Non c'è nessun nuovo upload per programmare.",
+    "after": "Nessun nuovo invio da programmare. L’elenco è stato aggiornato.",
+    "review": "editorial"
+  },
+  "Revise antes de enviar.": {
+    "before": "Recensione prima dell'invio.",
+    "after": "Controlla il testo prima di inviarlo.",
+    "review": "editorial"
+  },
+  "Origem do rascunho inválida.": {
+    "before": "Invalid bozza di origine.",
+    "after": "Origine della bozza non valida.",
+    "review": "editorial"
+  },
+  "Texto do rascunho inválido.": {
+    "before": "Progetto non valido.",
+    "after": "Testo della bozza non valido.",
+    "review": "editorial"
+  },
+  "Avaliações no Google": {
+    "before": "Google recensioni",
+    "after": "Recensioni su Google",
+    "review": "editorial"
+  },
+  "Voltar às conversas": {
+    "before": "Torna a Chat",
+    "after": "Torna alle conversazioni",
+    "review": "editorial"
+  },
+  "conversas não lidas": {
+    "before": "conversazioni illeggibili",
+    "after": "conversazioni non lette",
+    "review": "editorial"
+  },
+  "Não foi possível atualizar as mensagens.": {
+    "before": "Non poteva chiudere la cartella temporanea: %",
+    "after": "Impossibile aggiornare i messaggi.",
+    "review": "editorial"
+  },
+  "A janela de atendimento fechou. Abra o Inbox para ver as opções deste canal.": {
+    "before": "La finestra di chiamata è chiusa. Aprire la casella di posta per vedere le opzioni per questo canale.",
+    "after": "La finestra di assistenza è scaduta. Apri Posta in arrivo per vedere le opzioni disponibili per questo canale.",
+    "review": "editorial"
+  },
+  "Preparando rascunho…": {
+    "before": "Preparare la bozza...",
+    "after": "Preparazione della bozza in corso…",
+    "review": "editorial"
+  },
+  "Testando resposta…": {
+    "before": "Rispondendo alla prova...",
+    "after": "Prova della risposta in corso…",
+    "review": "editorial"
+  },
+  "Testar resposta": {
+    "before": "Risposta del test",
+    "after": "Prova la risposta",
+    "review": "editorial"
+  },
+  "Parar de esperar": {
+    "before": "Smettila di aspettare.",
+    "after": "Interrompi l’attesa",
+    "review": "editorial"
+  },
+  "Cada teste avalia uma mensagem. Ações sobre contatos e envios não são executados nesta simulação.": {
+    "before": "Ogni test valuta un messaggio. Le azioni sui contatti e gli upload non vengono eseguite in questa simulazione.",
+    "after": "Ogni prova valuta un solo messaggio. Le azioni sui contatti e gli invii non vengono eseguiti in questa simulazione.",
+    "review": "editorial"
+  },
+  "Configurar assistente de voz neste rascunho": {
+    "before": "Configurare la procedura guidata vocale in questo progetto",
+    "after": "Configura l’assistente vocale per questa bozza",
+    "review": "editorial"
+  },
+  "Vamos definir na conversa": {
+    "before": "Mettiamo la conversazione.",
+    "after": "Definiamolo durante la conversazione",
+    "review": "editorial"
+  },
+  "Permissões: consultar contatos e atualizar negócios no funil escolhido.": {
+    "before": "Permessi: Consultare i contatti e aggiornare le aziende sull'imbuto scelto.",
+    "after": "Permessi: consultare i contatti e aggiornare le trattative nel funnel selezionato.",
+    "review": "editorial"
+  },
+  "Configurar por conversa": {
+    "before": "Configurare da Chat",
+    "after": "Configura tramite conversazione",
+    "review": "editorial"
+  },
+  "Complete a configuração e recupere uma publicação pendente antes de testar.": {
+    "before": "Completare la configurazione e recuperare un post in sospeso prima di testare.",
+    "after": "Completa la configurazione e recupera l’eventuale pubblicazione in sospeso prima di eseguire la prova.",
+    "review": "editorial"
+  },
+  "Qualificar interessados": {
+    "before": "Qualifica delle parti interessate",
+    "after": "Qualifica i potenziali clienti",
+    "review": "editorial"
+  },
+  "Quero montar um agente para descobrir o problema do cliente e qualificar interessados.": {
+    "before": "Voglio creare un agente per scoprire il problema del cliente e qualificarmi.",
+    "after": "Voglio creare un agente che comprenda il problema del cliente e qualifichi i potenziali clienti.",
+    "review": "editorial"
+  },
+  "Configuração por conversa": {
+    "before": "Configurazione della chat",
+    "after": "Configurazione tramite conversazione",
+    "review": "editorial"
+  },
+  "Conversa com alterações não salvas": {
+    "before": "Chatta con modifiche non salvate",
+    "after": "Conversazione con modifiche non salvate",
+    "review": "editorial"
+  },
+  "Modo do assistente": {
+    "before": "Modalità guidata",
+    "after": "Modalità dell’assistente",
+    "review": "editorial"
+  },
+  "Configurar conversando": {
+    "before": "Configurare la chat",
+    "after": "Configura tramite conversazione",
+    "review": "editorial"
+  },
+  "Organizando suas escolhas e preparando a próxima pergunta…": {
+    "before": "Organizzare le vostre scelte e preparare la prossima domanda...",
+    "after": "Riepilogo delle tue scelte e preparazione della prossima domanda…",
+    "review": "editorial"
+  },
+  "Preparando resposta…": {
+    "before": "Preparare la risposta...",
+    "after": "Preparazione della risposta in corso…",
+    "review": "editorial"
+  },
+  "Rascunho salvo e pausado. Você pode testar e ajustar antes de publicar.": {
+    "before": "Si può testare e regolare prima di pubblicare.",
+    "after": "Bozza salvata e in pausa. Puoi provarla e modificarla prima di pubblicare.",
+    "review": "editorial"
+  },
+  "Ao publicar, o agente poderá atender mensagens recebidas neste canal. A prospecção começa apenas quando você iniciar a campanha.": {
+    "before": "Quando pubblichi, l'agente sarà in grado di rispondere ai messaggi in arrivo su questo canale. La prospettiva inizia solo quando si avvia la campagna.",
+    "after": "Dopo la pubblicazione, l’agente potrà rispondere ai messaggi ricevuti su questo canale. I contatti verso nuove aziende iniziano solo quando avvii la campagna.",
+    "review": "editorial"
+  },
+  "Publicando agente…": {
+    "before": "Agente editoriale...",
+    "after": "Pubblicazione dell’agente in corso…",
+    "review": "editorial"
+  },
+  "Recuperando rascunho…": {
+    "before": "Recuperare la bozza...",
+    "after": "Recupero della bozza in corso…",
+    "review": "editorial"
+  },
+  "Consultar criação salva": {
+    "before": "Creazione salvata di query",
+    "after": "Verifica la richiesta di creazione salvata",
+    "review": "editorial"
+  },
+  "Conta conectada": {
+    "before": "Conto collegato",
+    "after": "Account collegato",
+    "review": "editorial"
+  },
+  "Conectar conta": {
+    "before": "Conto di connessione",
+    "after": "Collega l’account",
+    "review": "editorial"
+  },
+  "Conta conectada. Agora escolha como seu assistente deve falar.": {
+    "before": "Conto collegato. Ora scegliere come il vostro assistente dovrebbe parlare.",
+    "after": "Account collegato. Ora scegli come deve parlare il tuo assistente.",
+    "review": "editorial"
+  },
+  "Assistente de voz salvo. Você já pode conversar com ele aqui.": {
+    "before": "Puoi parlargli qui adesso.",
+    "after": "Assistente vocale salvato. Ora puoi parlare con lui qui.",
+    "review": "editorial"
+  },
+  "Salvando assistente…": {
+    "before": "Assistente di risparmio...",
+    "after": "Salvataggio dell’assistente in corso…",
+    "review": "editorial"
+  },
+  "Salvar assistente de voz": {
+    "before": "Salvare la procedura vocale",
+    "after": "Salva l’assistente vocale",
+    "review": "editorial"
+  },
+  "Ouvindo você": {
+    "before": "Ascoltarti.",
+    "after": "In ascolto",
+    "review": "editorial"
+  },
+  "Ainda faltam informações. Continue a conversa para completar a configuração.": {
+    "before": "Continua la conversazione per completare la configurazione.",
+    "after": "Mancano ancora alcune informazioni. Continua la conversazione per completare la configurazione.",
+    "review": "editorial"
+  },
+  "Vamos montar seu agente": {
+    "before": "Mettiamo il tuo agente.",
+    "after": "Configuriamo il tuo agente",
+    "review": "editorial"
+  },
+  "Como vai abordar": {
+    "before": "Come ti avvicinerai",
+    "after": "Come contatterà le aziende",
+    "review": "editorial"
+  },
+  "Quando qualificar": {
+    "before": "Quando qualificarsi",
+    "after": "Quando considerare qualificato un potenziale cliente",
+    "review": "editorial"
+  },
+  "Permissões: consultar contatos e atualizar negócios neste funil.": {
+    "before": "Permessi: Consulta i contatti e aggiorna le aziende in questo imbuto.",
+    "after": "Permessi: consultare i contatti e aggiornare le trattative in questo funnel.",
+    "review": "editorial"
+  },
+  "Dar continuidade com o mesmo agente, salvo mudança de assunto ou transferência. Esta configuração vale para as conversas deste canal.": {
+    "before": "Continuare con lo stesso agente, a meno che non cambi o trasferisca l'oggetto. Questa impostazione è valida per conversazioni su questo canale.",
+    "after": "Prosegui con lo stesso agente, salvo cambio di argomento o trasferimento della conversazione. Questa impostazione vale per le conversazioni di questo canale.",
+    "review": "editorial"
+  },
+  "Preparando agente…": {
+    "before": "Agente di preparazione...",
+    "after": "Preparazione dell’agente in corso…",
+    "review": "editorial"
+  },
+  "Mantenha os dados desta tentativa. Recuperar a criação consulta a mesma solicitação, sem criar outro agente.": {
+    "before": "Tenere i dati da questo tentativo. Recuperare query creazione la stessa richiesta senza creare un altro agente.",
+    "after": "Mantieni i dati di questo tentativo. Il recupero verifica la stessa richiesta, senza creare un altro agente.",
+    "review": "editorial"
+  },
+  "Prospecção": {
+    "before": "Prospezione",
+    "after": "Ricerca di nuovi clienti",
+    "review": "editorial"
+  },
+  "Encontre empresas, aborde aos poucos e acompanhe quem avança na conversa.": {
+    "before": "Trovare le aziende, avvicinarsi lentamente e seguire coloro che avanzano nella conversazione.",
+    "after": "Trova aziende, contattale gradualmente e segui quelle che proseguono la conversazione.",
+    "review": "editorial"
+  },
+  "Falha ao carregar a prospecção.": {
+    "before": "Non poteva chiudere la cartella temporanea: %",
+    "after": "Impossibile caricare la ricerca di nuovi clienti.",
+    "review": "editorial"
+  },
+  "Chave da Apify": {
+    "before": "Apify Key",
+    "after": "Chiave API di Apify",
+    "review": "editorial"
+  },
+  "Solicitação registrada. Acompanhe o estado da busca nesta tela.": {
+    "before": "Seguire lo stato di ricerca su questa schermata.",
+    "after": "Richiesta registrata. Segui lo stato della ricerca in questa schermata.",
+    "review": "editorial"
+  },
+  "Ex.: São Paulo, SP": {
+    "before": "E.D., Civic Center Arena, 100 Colosseo St.",
+    "after": "Es.: São Paulo, SP",
+    "review": "editorial"
+  },
+  "Teto da busca (US$)": {
+    "before": "Soffitto di ricerca (US$)",
+    "after": "Limite di spesa della ricerca (US$)",
+    "review": "editorial"
+  },
+  "A pesquisa usa seu saldo da Apify. A quantidade encontrada pode ser menor que o limite. Nenhuma abordagem começa nesta etapa.": {
+    "before": "La ricerca utilizza il vostro equilibrio Apify. L'importo trovato può essere inferiore al limite. Nessun approccio inizia in questa fase.",
+    "after": "La ricerca utilizza il tuo credito Apify. Le aziende trovate possono essere meno del limite impostato. In questa fase non viene avviato alcun contatto.",
+    "review": "editorial"
+  },
+  "Encontrados": {
+    "before": "Trovato",
+    "after": "Trovati",
+    "review": "editorial"
+  },
+  "Na fila": {
+    "before": "In linea",
+    "after": "In coda",
+    "review": "editorial"
+  },
+  "Responderam": {
+    "before": "Risposero.",
+    "after": "Hanno risposto",
+    "review": "editorial"
+  },
+  "Qualificados": {
+    "before": "Qualifica",
+    "after": "Qualificati",
+    "review": "editorial"
+  },
+  "Ritmo:": {
+    "before": "Rhythm:",
+    "after": "Frequenza:",
+    "review": "editorial"
+  },
+  "Pausar abordagens": {
+    "before": "Approcci del pauso",
+    "after": "Sospendi i nuovi contatti",
+    "review": "editorial"
+  },
+  "Retomar fila": {
+    "before": "Riprendi la queue",
+    "after": "Riprendi la coda",
+    "review": "editorial"
+  },
+  "Publique e ative um agente para continuar.": {
+    "before": "Posta e attiva un agente per continuare.",
+    "after": "Pubblica e attiva un agente per continuare.",
+    "review": "editorial"
+  },
+  "Ao iniciar, os contatos novos com telefone entram no funil. Contatos já existentes são preservados. A fila faz uma primeira abordagem; respostas seguem no Inbox. Uma mensagem já em transmissão pode concluir após a pausa.": {
+    "before": "Quando si inizia, nuovi contatti con un telefono entrano nell'imbuto. I contatti esistenti sono conservati. La coda fa un primo approccio; le risposte seguono nella casella di posta. Un messaggio già in trasmissione può essere completato dopo la pausa.",
+    "after": "Quando si inizia, nuovi contatti con un telefono entrano nell'funnel. I contatti esistenti sono conservati. La coda fa un primo approccio; le risposte seguono nella casella di posta. Un messaggio già in trasmissione può essere completato dopo la pausa.",
+    "review": "terminology"
+  },
+  "Vender e mover o funil": {
+    "before": "Vendere e spostare imbuto",
+    "after": "Vendere e spostare funnel",
+    "review": "terminology"
+  },
+  "O agente mantém a casa em ordem: marcadores, etapas do funil, avisos automáticos e distribuição de trabalho.": {
+    "before": "L'agente mantiene la casa in ordine: marcatori, gradini imbuti, avvisi automatici e distribuzione del lavoro.",
+    "after": "L'agente mantiene la casa in ordine: marcatori, gradini funnel, avvisi automatici e distribuzione del lavoro.",
+    "review": "terminology"
+  },
+  "Não foi possível concluir a sugestão ou o envio": {
+    "before": "Non poteva chiudere la cartella temporanea: %",
+    "after": "Impossibile completare il suggerimento o l’invio",
+    "review": "editorial"
+  },
+  "Lead": {
+    "before": "Piombo",
+    "after": "Lead",
+    "review": "editorial"
+  },
+  "Falha ao publicar:": {
+    "before": "Non poteva chiudere la cartella temporanea: %",
+    "after": "Pubblicazione non riuscita:",
+    "review": "editorial"
+  },
+  "Marque os funis que este assistente cuida. Ele conversa com qualquer cliente, mas só move, edita ou encerra negócio dos funis marcados aqui.": {
+    "before": "Segna imbuti che questo assistente gestisce, parla con qualsiasi cliente, ma si muove, modifica o chiude il business dei imbuti contrassegnati qui.",
+    "after": "Segna funnel che questo assistente gestisce, parla con qualsiasi cliente, ma si muove, modifica o chiude il business dei funnel contrassegnati qui.",
+    "review": "terminology"
+  },
+  "Você ainda não tem nenhum funil. Crie um em Funis para poder liberar o assistente.": {
+    "before": "Non hai ancora imbuti.",
+    "after": "Non hai ancora funnel.",
+    "review": "terminology"
+  },
+  "— ele não sabe organizar este funil ainda": {
+    "before": "— non può ancora organizzare questo imbuto",
+    "after": "— non può ancora organizzare questo funnel",
+    "review": "terminology"
+  },
+  "Sem nenhum funil marcado, ele conversa com os clientes normalmente, mas não mexe em negócio nenhum — nem move, nem encerra, nem marca.": {
+    "before": "Senza imbuto programmato, parla normalmente ai clienti, ma non si muove affatto — né si muove, né si chiude, né segna.",
+    "after": "Senza funnel programmato, parla normalmente ai clienti, ma non si muove affatto — né si muove, né si chiude, né segna.",
+    "review": "terminology"
+  },
+  ", mas ninguém disse ao assistente o que cada etapa desse funil significa — ele vai atender e deixar os negócios parados onde estão.": {
+    "before": "Ma nessuno ha detto all'assistente che cosa ogni fase di questo imbuto significa — risponderà e lascerà il business in piedi dove è.",
+    "after": "Ma nessuno ha detto all'assistente che cosa ogni fase di questo funnel significa — risponderà e lascerà il business in piedi dove è.",
+    "review": "terminology"
+  },
+  "funis em que ninguém disse ao assistente o que cada etapa significa — ele vai atender e deixar os negócios parados onde estão.": {
+    "before": "imbuti in cui nessuno ha detto all'assistente che cosa significa ogni passo — egli risponderà e lascerà il business in piedi dove sono.",
+    "after": "funnel in cui nessuno ha detto all'assistente che cosa significa ogni passo — egli risponderà e lascerà il business in piedi dove sono.",
+    "review": "terminology"
+  },
+  "O lead não receberá mais mensagens deste fluxo. Essa ação não pode ser desfeita.": {
+    "before": "Il piombo non riceverà più messaggi da questo flusso. Questa azione non può essere annullata.",
+    "after": "Il lead non riceverà più messaggi da questo flusso. Questa azione non può essere annullata.",
+    "review": "terminology"
+  },
+  "Nenhuma etapa ativa encontrada — crie o funil antes de usar esta regra.": {
+    "before": "Nessun passo attivo trovato — creare l'imbuto prima di utilizzare questa regola.",
+    "after": "Nessun passo attivo trovato — creare l'funnel prima di utilizzare questa regola.",
+    "review": "terminology"
+  },
+  "foi digitado à mão e não é uma etapa do funil. Escolha a etapa na lista — do jeito que está, esta regra nunca decide nada.": {
+    "before": "è stato digitato a mano e non è un passo imbuto. Scegliere il passaggio nella lista — il modo in cui è, questa regola non decide mai nulla.",
+    "after": "è stato digitato a mano e non è un passo funnel. Scegliere il passaggio nella lista — il modo in cui è, questa regola non decide mai nulla.",
+    "review": "terminology"
+  },
+  "Esta regra não aponta para uma etapa ativa do funil. Abra o nó e escolha a etapa na lista.": {
+    "before": "Questa regola non punta ad un passo attivo imbuto. Apri il nodo e scegli il passaggio nella lista.",
+    "after": "Questa regola non punta ad un passo attivo funnel. Apri il nodo e scegli il passaggio nella lista.",
+    "review": "terminology"
+  },
+  "Nenhuma etapa ativa encontrada — crie o funil antes de armar este gatilho.": {
+    "before": "Nessun passo attivo trovato — creare l'imbuto prima di impostare questo trigger.",
+    "after": "Nessun passo attivo trovato — creare l'funnel prima di impostare questo trigger.",
+    "review": "terminology"
+  },
+  "Cancelar se o lead responder": {
+    "before": "Annullare se il piombo risponde",
+    "after": "Annullare se il lead risponde",
+    "review": "terminology"
+  },
+  "O lead não receberá mais mensagens deste fluxo. Diferente de pausar, isto não pode ser desfeito.": {
+    "before": "Il piombo non riceverà più messaggi da questo flusso. A differenza della pausa, questo non può essere annullato.",
+    "after": "Il lead non riceverà più messaggi da questo flusso. A differenza della pausa, questa azione è irreversibile.",
+    "review": "editorial"
+  },
+  "Vocabulário do tenant para 'lead' (ex: cliente)": {
+    "before": "Inquilino Vocabolario per piombo (ad esempio cliente)",
+    "after": "Inquilino Vocabolario per lead (ad esempio cliente)",
+    "review": "terminology"
+  },
+  "Escrever o que o cliente lê e agir no funil durante a conversa.": {
+    "before": "Scrivere ciò che il cliente legge e agire sull'imbuto durante la conversazione.",
+    "after": "Scrivere ciò che il cliente legge e agire sull'funnel durante la conversazione.",
+    "review": "terminology"
+  },
+  "Trabalhar o funil": {
+    "before": "Lavorare l'imbuto",
+    "after": "Lavorare l'funnel",
+    "review": "terminology"
+  },
+  "O cliente é atendido normalmente, mas nada aparece no funil — nenhum lead criado, nenhuma etapa movida.": {
+    "before": "Il cliente viene normalmente servito, ma nulla appare nell'imbuto — nessun piombo creato, nessun stadio spostato.",
+    "after": "Il cliente riceve assistenza normalmente, ma il funnel resta invariato: non vengono creati lead né spostate trattative.",
+    "review": "editorial"
+  },
+  "O lead entra pelo formulário, a automação roda, e a mensagem de abordagem nunca é escrita — o contato fica no funil sem ninguém falar com ele.": {
+    "before": "Il piombo entra attraverso il modulo, l'automazione corre, e il messaggio di approccio non è mai scritto — il contatto rimane nell'imbuto senza che nessuno parli con esso.",
+    "after": "Il lead entra attraverso il modulo, l'automazione corre, e il messaggio di approccio non è mai scritto — il contatto rimane nell'funnel senza che nessuno parli con esso.",
+    "review": "terminology"
+  },
+  "Crie um funil com etapas para escolher o que cada etapa informa à Meta.": {
+    "before": "Creare un imbuto con i passaggi per scegliere ciò che ogni passo dice al Meta.",
+    "after": "Creare un funnel con i passaggi per scegliere ciò che ogni passo dice al Meta.",
+    "review": "terminology"
+  },
+  "O que cada etapa do funil informa à Meta": {
+    "before": "Che ogni passo imbuto informa Meta",
+    "after": "Che ogni passo funnel informa Meta",
+    "review": "terminology"
+  },
+  "Lead enviado": {
+    "before": "Piombo inviato",
+    "after": "Lead inviato",
+    "review": "editorial"
+  },
+  "Identificar a etapa do lead": {
+    "before": "Identificare il passo di piombo",
+    "after": "Identificare il passo di lead",
+    "review": "terminology"
+  },
+  "Lê a conversa e sugere em que etapa do funil aquele cliente está de verdade.": {
+    "before": "Leggi la conversazione e suggerisci a quale stadio dell'imbuto che il cliente è veramente.",
+    "after": "Leggi la conversazione e suggerisci a quale stadio dell'funnel che il cliente è veramente.",
+    "review": "terminology"
+  },
+  "Os leads param de andar sozinhos pelo funil e ficam todos na etapa em que entraram.": {
+    "before": "I conducenti si fermano a camminare da soli attraverso l'imbuto e tutti rimangono nella fase in cui sono entrati.",
+    "after": "I conducenti si fermano a camminare da soli attraverso l'funnel e tutti rimangono nella fase in cui sono entrati.",
+    "review": "terminology"
+  },
+  "Leads": {
+    "before": "Piombo",
+    "after": "Lead",
+    "review": "editorial"
+  },
+  "Falha ao carregar solicitação.": {
+    "before": "Non poteva chiudere la cartella temporanea: %",
+    "after": "Impossibile caricare la richiesta.",
+    "review": "editorial"
+  },
+  "Leads recebidos": {
+    "before": "Piombo ricevuti",
+    "after": "Lead ricevuti",
+    "review": "editorial"
+  },
+  "Escolha o funil": {
+    "before": "Scegli l'imbuto",
+    "after": "Scegli l'funnel",
+    "review": "terminology"
+  },
+  "Escolha o funil primeiro": {
+    "before": "Scegliere il imbuto prima",
+    "after": "Scegliere il funnel prima",
+    "review": "terminology"
+  },
+  "Quando faltarem N dias para uma data do funil": {
+    "before": "Quando i giorni N sono mancanti a una data di imbuto",
+    "after": "Quando i giorni N sono mancanti a una data di funnel",
+    "review": "terminology"
+  },
+  "Ver o lead no funil": {
+    "before": "Vedere piombo su imbuto",
+    "after": "Apri il lead nel funnel",
+    "review": "editorial"
+  },
+  "Escolha o funil e o estágio de entrada.": {
+    "before": "Scegli la fase dell'imbuto e dell'ingresso.",
+    "after": "Scegli la fase dell'funnel e dell'ingresso.",
+    "review": "terminology"
+  },
+  "Dê um nome e diga em qual funil o contato deve entrar quando alguém preencher seu formulário.": {
+    "before": "Dare un nome e dirci quale imbuto il contatto dovrebbe entrare quando qualcuno compila il modulo.",
+    "after": "Dare un nome e dirci quale funnel il contatto dovrebbe entrare quando qualcuno compila il modulo.",
+    "review": "terminology"
+  },
+  "Funil de entrada": {
+    "before": "Imbuto di ingresso",
+    "after": "funnel di ingresso",
+    "review": "terminology"
+  },
+  "Funcionou! Um lead de teste entrou no seu funil.": {
+    "before": "Un test di piombo e' entrato nel tuo imbuto.",
+    "after": "Prova riuscita: un lead di test è stato inserito nel tuo funnel.",
+    "review": "editorial"
+  },
+  "Cada envio para o endereço abaixo vira um lead no seu funil, automaticamente.": {
+    "before": "Ogni spedizione all'indirizzo qui sotto diventa un vantaggio sul vostro imbuto automaticamente.",
+    "after": "Ogni invio all’indirizzo qui sotto crea automaticamente un lead nel tuo funnel.",
+    "review": "editorial"
+  },
+  "O endereço para de funcionar imediatamente. Leads já recebidos continuam no seu funil — só a captação futura é interrompida. Essa ação não pode ser desfeita.": {
+    "before": "L'indirizzo smette di funzionare immediatamente. I lead già ricevuti continuano nel vostro imbuto — solo la cattura futura è interrotta. Questa azione non può essere annullata.",
+    "after": "L'indirizzo smette di funzionare immediatamente. I lead già ricevuti continuano nel vostro funnel — solo la cattura futura è interrotta. Questa azione non può essere annullata.",
+    "review": "terminology"
+  },
+  "1. Crie uma fonte e diga em qual funil o contato entra.": {
+    "before": "1. Creare una fonte e dire quale imbuto il contatto entra.",
+    "after": "1. Creare una fonte e dire quale funnel il contatto entra.",
+    "review": "terminology"
+  },
+  "Os dados chegaram, mas o lead não pôde ser criado — confira se o funil e a etapa da fonte ainda existem.": {
+    "before": "I dati sono arrivati, ma il piombo non potrebbe essere creato — controllare se l'imbuto e la fase di origine ancora esistono.",
+    "after": "I dati sono arrivati, ma il lead non potrebbe essere creato — controllare se l'funnel e la fase di origine ancora esistono.",
+    "review": "terminology"
+  },
+  "Criar/mover lead no funil": {
+    "before": "Creare/move lead su imbuto",
+    "after": "Creare/move lead su funnel",
+    "review": "terminology"
+  },
+  "A ação não recebeu o que precisava (o lead do evento ou a pessoa configurada). Abra a automação e revise.": {
+    "before": "L'azione non ha ricevuto ciò che serve (il piombo dell'evento o la persona configurata).",
+    "after": "L'azione non ha ricevuto ciò che serve (il lead dell'evento o la persona configurata).",
+    "review": "terminology"
+  },
+  "Mover um lead para outro funil está desligado nesta organização.": {
+    "before": "Trasferire un piombo a un altro imbuto è fuori in questa organizzazione.",
+    "after": "Trasferire un lead a un altro funnel è fuori in questa organizzazione.",
+    "review": "terminology"
+  },
+  "Outra regra deste mesmo evento já levou o lead para outro funil. Vale a primeira regra; esta não transfere de novo.": {
+    "before": "Un'altra regola di questo stesso evento ha già portato ad un altro imbuto, vale la prima regola; non si trasferisce di nuovo.",
+    "after": "Un'altra regola di questo stesso evento ha già portato ad un altro funnel, vale la prima regola; non si trasferisce di nuovo.",
+    "review": "terminology"
+  },
+  "O funil escolhido não está ativo, então a inscrição não foi feita. Ative o funil ou escolha outro na automação.": {
+    "before": "L'imbuto scelto non è attivo, quindi la registrazione non è stata fatta. Attivare l'imbuto o scegliere un altro in automazione.",
+    "after": "L'funnel scelto non è attivo, quindi la registrazione non è stata fatta. Attivare l'funnel o scegliere un altro in automazione.",
+    "review": "terminology"
+  },
+  "O contato já está em um funil ativo — esta ação não inscreve duas vezes.": {
+    "before": "Il contatto è già in un imbuto attivo — questa azione non si iscrive due volte.",
+    "after": "Il contatto è già in un funnel attivo — questa azione non si iscrive due volte.",
+    "review": "terminology"
+  },
+  "Título do lead": {
+    "before": "Titolo di piombo",
+    "after": "Titolo del lead",
+    "review": "editorial"
+  },
+  "Tags do lead": {
+    "before": "Tag di piombo",
+    "after": "Etichette del lead",
+    "review": "editorial"
+  },
+  "Mover lead no funil": {
+    "before": "Spostare il piombo sull'imbuto",
+    "after": "Spostare il lead sull'funnel",
+    "review": "terminology"
+  },
+  "Gravar tag no lead": {
+    "before": "Salva tag per piombo",
+    "after": "Salva tag per lead",
+    "review": "terminology"
+  },
+  "move o card para outra etapa do funil": {
+    "before": "sposta la carta in un altro passo imbuto",
+    "after": "sposta la carta in un altro passo funnel",
+    "review": "terminology"
+  },
+  "Tags para gravar no lead": {
+    "before": "Tag per scrivere su piombo",
+    "after": "Tag per scrivere su lead",
+    "review": "terminology"
+  },
+  "Separe por vírgula. Tags que o lead já tem são mantidas e nada é apagado.": {
+    "before": "Separato da virgola. Tags che il piombo già è tenuto e nulla è cancellato.",
+    "after": "Separato da virgola. Tags che il lead già è tenuto e nulla è cancellato.",
+    "review": "terminology"
+  },
+  "O card vai para esta etapa do mesmo funil — trocar de funil é recusado, como no quadro.": {
+    "before": "La carta va a questa fase dello stesso imbuto — cambiare imbuto è rifiutato, come nella cornice.",
+    "after": "La carta va a questa fase dello stesso funnel — cambiare funnel è rifiutato, come nella cornice.",
+    "review": "terminology"
+  },
+  "Não funcionou. Confira se a fonte está ativa e se o funil/estágio ainda existem.": {
+    "before": "Controllare se la fonte è attiva e se l'imbuto/stadio esiste ancora.",
+    "after": "Controllare se la fonte è attiva e se l'funnel/stadio esiste ancora.",
+    "review": "terminology"
+  },
+  "Não foi possível desligar todos os grupos.": {
+    "before": "Non poteva chiudere la cartella temporanea: %",
+    "after": "Impossibile disattivare tutti i gruppi.",
+    "review": "editorial"
+  },
+  "Quem recebe cada cliente novo, e o que cada atendente enxerga. As duas decisões andam juntas: distribuir sem restringir deixa todo mundo vendo a carteira do colega; restringir sem distribuir deixa o funil de cada um vazio.": {
+    "before": "Chi riceve ogni nuovo cliente, e ciò che ogni partecipante vede. Le due decisioni vanno insieme: distribuiscono senza restringere lascia tutti vedere il portafoglio del collega; limitano senza distribuire foglie l'imbuto di ogni vuoto.",
+    "after": "Chi riceve ogni nuovo cliente, e ciò che ogni partecipante vede. Le due decisioni vanno insieme: distribuiscono senza restringere lascia tutti vedere il portafoglio del collega; limitano senza distribuire foglie l'funnel di ogni vuoto.",
+    "review": "terminology"
+  },
+  "Lead ganho": {
+    "before": "Piombo ha vinto",
+    "after": "Trattativa vinta",
+    "review": "editorial"
+  },
+  "Você ainda não tem nenhum funil. Enquanto for assim, o agente atende normalmente, mas não tem para onde levar o card de ninguém — não há etapas para onde mover. Criar o funil é feito por quem instalou o sistema, direto no banco; depois ele aparece aqui para você escolher a etapa de cada passo.": {
+    "before": "Non hai ancora un imbuto. Finché lo fai, l'agente di solito frequenta, ma non c'è nessun posto per prendere la carta di nessuno — non ci sono passi da spostare. Creare l'imbuto è fatto da coloro che hanno installato il sistema, proprio in banca; allora sembra qui a voi scegliere il passo di ogni passo.",
+    "after": "Non hai ancora un funnel. Finché lo fai, l'agente di solito frequenta, ma non c'è nessun posto per prendere la carta di nessuno — non ci sono passi da spostare. Creare l'funnel è fatto da coloro che hanno installato il sistema, proprio in banca; allora sembra qui a voi scegliere il passo di ogni passo.",
+    "review": "terminology"
+  },
+  "Este funil não tem nenhuma etapa marcada como fechamento, então não há para onde levar o card quando a pessoa fecha. Marque uma etapa como «aqui o cliente fecha» em «Etapas deste funil».": {
+    "before": "Questo imbuto non ha una fase segnata come chiusura, quindi non c'è posto per prendere la carta quando la persona si chiude. Segna un passo come “qui il cliente chiude” in “Etapas di questo imbuto”.",
+    "after": "Questo funnel non ha una fase segnata come chiusura, quindi non c'è posto per prendere la carta quando la persona si chiude. Segna un passo come “qui il cliente chiude” in “Etapas di questo funnel”.",
+    "review": "terminology"
+  },
+  "Este funil não tem nenhuma etapa marcada como perda, então não há para onde levar o card quando a pessoa desiste. Marque uma etapa como «aqui o cliente desiste» em «Etapas deste funil».": {
+    "before": "Questo imbuto non ha un palco segnato come perdita, quindi non c'è posto per prendere la carta quando la persona si arrende. Segna un passo come “qui il cliente si arrende” in “Etapas di questo imbuto”.",
+    "after": "Questo funnel non ha un palco segnato come perdita, quindi non c'è posto per prendere la carta quando la persona si arrende. Segna un passo come “qui il cliente si arrende” in “Etapas di questo funnel”.",
+    "review": "terminology"
+  },
+  "Este funil só tem etapas de fechamento e de perda, então não há etapa comum para receber o card neste passo. Crie as etapas do meio do caminho em «Etapas deste funil».": {
+    "before": "Questo imbuto ha solo passaggi di chiusura e perdita, quindi non c'è un passo comune per ricevere la carta in questo passaggio.",
+    "after": "Questo funnel ha solo passaggi di chiusura e perdita, quindi non c'è un passo comune per ricevere la carta in questo passaggio.",
+    "review": "terminology"
+  },
+  "Você não tem permissão para mudar a configuração deste funil.": {
+    "before": "Non è consentito modificare questa configurazione dell'imbuto.",
+    "after": "Non è consentito modificare questa configurazione dell'funnel.",
+    "review": "terminology"
+  },
+  "Não foi possível carregar as etapas deste funil agora. Recarregue a página.": {
+    "before": "Non poteva caricare i passi di questo imbuto ora.",
+    "after": "Non poteva caricare i passi di questo funnel ora.",
+    "review": "terminology"
+  },
+  "Carregando as etapas deste funil…": {
+    "before": "Caricamento dei passi di questo imbuto...",
+    "after": "Caricamento dei passi di questo funnel...",
+    "review": "terminology"
+  },
+  "Quando o agente avança no atendimento, o card do cliente pode andar sozinho no seu funil. Escolha para qual etapa ele vai em cada momento. Deixar em «não mover» é uma escolha válida — o card fica onde está e o agente segue trabalhando.": {
+    "before": "Quando l'agente avanza nel servizio, la carta del cliente può camminare da solo nel vostro imbuto. Scegliere quale passo va a ogni volta. Lasciare in “non muoversi” è una scelta valida — la carta rimane dove è e l'agente continua a lavorare.",
+    "after": "Quando l'agente avanza nel servizio, la carta del cliente può camminare da solo nel vostro funnel. Scegliere quale passo va a ogni volta. Lasciare in “non muoversi” è una scelta valida — la carta rimane dove è e l'agente continua a lavorare.",
+    "review": "terminology"
+  },
+  "Ir para as etapas do funil": {
+    "before": "Vai ai passi dell'imbuto",
+    "after": "Vai ai passi dell'funnel",
+    "review": "terminology"
+  },
+  "entrou no fim do funil.": {
+    "before": "E' alla fine dell'imbuto.",
+    "after": "E' alla fine dell'funnel.",
+    "review": "terminology"
+  },
+  "Etapas deste funil": {
+    "before": "Fasi di questo imbuto",
+    "after": "Fasi di questo funnel",
+    "review": "terminology"
+  },
+  "é onde ele se perde. Cada funil precisa de uma de cada — por isso a marcação se muda de lugar, não se apaga.": {
+    "before": "Ogni imbuto ha bisogno di uno di ciascuno — così il segno cambia posto, non esce.",
+    "after": "Ogni funnel ha bisogno di uno di ciascuno — così il segno cambia posto, non esce.",
+    "review": "terminology"
+  },
+  "no funil": {
+    "before": "in imbuto",
+    "after": "in funnel",
+    "review": "terminology"
+  },
+  "Não foi possível verificar as conexões": {
+    "before": "Non poteva chiudere la cartella temporanea: %",
+    "after": "Impossibile verificare le connessioni",
+    "review": "editorial"
+  },
+  "Leads recentes": {
+    "before": "Piombo recenti",
+    "after": "Lead recenti",
+    "review": "editorial"
+  },
+  "Nenhum funil configurado nesta organização.": {
+    "before": "Nessun imbuto configurato in questa organizzazione.",
+    "after": "Nessun funnel configurato in questa organizzazione.",
+    "review": "terminology"
+  },
+  "Não foi possível atualizar a mensagem.": {
+    "before": "Non poteva chiudere la cartella temporanea: %",
+    "after": "Impossibile aggiornare il messaggio.",
+    "review": "editorial"
+  },
+  "Campos definidos no funil padrão da organização.": {
+    "before": "Campi definiti nell'imbuto predefinito dell'organizzazione.",
+    "after": "Campi definiti nell'funnel predefinito dell'organizzazione.",
+    "review": "terminology"
+  },
+  "Funil de vendas criado:": {
+    "before": "Imbuto di vendita creato:",
+    "after": "funnel di vendita creato:",
+    "review": "terminology"
+  },
+  "Nenhum funil de vendas ainda": {
+    "before": "Nessuna vendita di imbuti",
+    "after": "Nessun funnel di vendita ancora creato",
+    "review": "editorial"
+  },
+  "Como se chama o seu negócio?": {
+    "before": "Come si chiama la tua attivita'?",
+    "after": "Come si chiama la tua attività?",
+    "review": "editorial"
+  },
+  "É o nome que aparece para o seu time e nos relatórios. Pode ser clínica, loja, escritório — o que for seu.": {
+    "before": "E' il nome che viene fuori per la tua squadra e i rapporti, potrebbe essere clinica, negozio, ufficio, qualunque sia la tua.",
+    "after": "È il nome mostrato al team e nei report. Può essere il nome della tua clinica, del negozio, dello studio o di qualsiasi altra attività.",
+    "review": "editorial"
+  },
+  "O que vocês fazem?": {
+    "before": "Cosa fai?",
+    "after": "Di cosa si occupa la tua attività?",
+    "review": "editorial"
+  },
+  "Uma linha basta. É com isso que seu funcionário aprende com quem ele está falando — e que a gente monta o quadro de clientes do seu jeito.": {
+    "before": "Una riga è sufficiente, questo è ciò che il tuo dipendente impara da chi sta parlando e abbiamo creato la commissione clienti a modo suo.",
+    "after": "Basta una breve descrizione: serve all’assistente IA per conoscere la tua attività e al sistema per preparare un funnel adatto al tuo lavoro.",
+    "review": "editorial"
+  },
+  "Onde você atende": {
+    "before": "Dove lavori",
+    "after": "Fuso orario della tua attività",
+    "review": "editorial"
+  },
+  "Decide o horário em que seu funcionário pode falar com clientes.": {
+    "before": "Decidi quando il tuo dipendente può parlare con i clienti.",
+    "after": "Questo fuso orario determina gli orari in cui l’assistente IA può contattare i clienti.",
+    "review": "editorial"
+  },
+  "Falha ao criar agente:": {
+    "before": "Non poteva chiudere la cartella temporanea: %",
+    "after": "Creazione dell’agente non riuscita:",
+    "review": "editorial"
+  },
+  "que esta instalação conhece não sabem usar ferramentas — sem isso ele conversaria bem e nunca criaria um cliente nem moveria um negócio no funil. Escolha outra empresa de IA em": {
+    "before": "che questa installazione non sa come utilizzare gli strumenti — senza di essa si parlerebbe bene e non creerebbe mai un cliente o spostare un business nel imbuto.",
+    "after": "disponibili in questa installazione non supportano gli strumenti: l’assistente potrebbe rispondere, ma non creare clienti né spostare trattative nel funnel. Scegli un altro provider IA in",
+    "review": "editorial"
+  },
+  "Seu funcionário montou este quadro olhando o que você me contou sobre o negócio. Ajuste o que quiser.": {
+    "before": "Il tuo dipendente ha organizzato questo dipinto guardando quello che mi hai detto sull'azienda.",
+    "after": "L’assistente IA ha preparato questo funnel in base alla descrizione della tua attività. Puoi modificarlo come preferisci.",
+    "review": "editorial"
+  },
+  "Listar oportunidades do funil": {
+    "before": "Elenca le opportunità di imbuto",
+    "after": "Elenca le opportunità di funnel",
+    "review": "terminology"
+  },
+  "Listar funis": {
+    "before": "Elenco imbuti",
+    "after": "Elenco funnel",
+    "review": "terminology"
+  },
+  "Criar oportunidade no funil": {
+    "before": "Creare opportunità di imbuto",
+    "after": "Crea opportunità di funnel",
+    "review": "terminology"
+  },
+  "Ver as etapas de um funil": {
+    "before": "Visualizza le fasi di un imbuto",
+    "after": "Visualizza le fasi di un funnel",
+    "review": "terminology"
+  },
+  "Nenhum funil ainda": {
+    "before": "Nessun imbuto ancora",
+    "after": "Nessun funnel ancora",
+    "review": "terminology"
+  },
+  "Um funil é o caminho que o cliente percorre até fechar. Crie o primeiro para ter um quadro.": {
+    "before": "Un imbuto è il modo in cui il cliente va a chiudere. Creare il primo ad avere un dipinto.",
+    "after": "Un funnel è il modo in cui il cliente va a chiudere. Creare il primo ad avere un dipinto.",
+    "review": "terminology"
+  },
+  "Entrou no funil": {
+    "before": "E' nell'imbuto.",
+    "after": "E' nell'funnel.",
+    "review": "terminology"
+  },
+  "Não foi possível registrar a decisão.": {
+    "before": "Non poteva chiudere la cartella temporanea: %",
+    "after": "Impossibile registrare la decisione.",
+    "review": "editorial"
+  },
+  "Falha ao aprovar a solicitação. Tente novamente.": {
+    "before": "Non poteva chiudere la cartella temporanea: %",
+    "after": "Impossibile approvare la richiesta. Riprova.",
+    "review": "editorial"
+  },
+  "Nome do funil — ex.: Consultas, Obras, Matrículas": {
+    "before": "Nome di imbuto — ex.: Consultazioni, lavori, registrazioni",
+    "after": "Nome di funnel — ex.: Consultazioni, lavori, registrazioni",
+    "review": "terminology"
+  },
+  "Nome do novo funil": {
+    "before": "Nome del nuovo imbuto",
+    "after": "Nome del nuovo funnel",
+    "review": "terminology"
+  },
+  "Criar funil": {
+    "before": "Creare imbuti",
+    "after": "Crea funnel",
+    "review": "terminology"
+  },
+  "Criar meu primeiro funil": {
+    "before": "Crea il mio primo imbuto",
+    "after": "Crea il mio primo funnel",
+    "review": "terminology"
+  },
+  "Funil de clientes": {
+    "before": "Imbuto clienti",
+    "after": "funnel clienti",
+    "review": "terminology"
+  },
+  "Deixar de ser funil de clientes": {
+    "before": "Smettere di essere imbuto clienti",
+    "after": "Smettere di essere funnel clienti",
+    "review": "terminology"
+  },
+  "Quem já tem atendimento marcado entra pelo funil de clientes. Sem um funil marcado, entra pelo padrão.": {
+    "before": "Coloro che hanno già programmato il servizio entrano dall'imbuto dei clienti. Senza un imbuto marcato, entra dal modello.",
+    "after": "Coloro che hanno già programmato il servizio entrano dall'funnel dei clienti. Senza un funnel marcato, entra dal modello.",
+    "review": "terminology"
+  },
+  "Desligado: ninguém ganha a etiqueta, a ficha não mostra “Cliente desde” e todo contato novo entra pelo funil padrão. As etiquetas que já existem ficam como estão.": {
+    "before": "Off: nessuno vince il tag, il chip non mostra “Customer da” e ogni nuovo contatto entra dall’imbuto predefinito.",
+    "after": "Off: nessuno vince il tag, il chip non mostra “Customer da” e ogni nuovo contatto entra dall’funnel predefinito.",
+    "review": "terminology"
+  },
+  "Funis arquivados": {
+    "before": "Imbuti non montati",
+    "after": "funnel non montati",
+    "review": "terminology"
+  },
+  "Funil arquivado não aparece na lista nem recebe negócio novo. Traga de volta para usar outra vez, ou exclua de vez para liberar o nome.": {
+    "before": "Imbuto archiviato non appare nell'elenco o diventa nuovo business. Riportalo di nuovo ad usare, o cancellarlo per bene per rilasciare il nome.",
+    "after": "funnel archiviato non appare nell'elenco o diventa nuovo business. Riportalo di nuovo ad usare, o cancellarlo per bene per rilasciare il nome.",
+    "review": "terminology"
+  },
+  "Isso não tem volta: o funil e as etapas dele somem. Se ele já recebeu negócio, a exclusão é recusada e ele continua arquivado.": {
+    "before": "Questo non ha alcuna svolta: l'imbuto e i suoi passi scompaiono; se ha già ricevuto affari, l'esclusione viene rifiutata e rimane archiviata.",
+    "after": "Questo non ha alcuna svolta: l'funnel e i suoi passi scompaiono; se ha già ricevuto affari, l'esclusione viene rifiutata e rimane archiviata.",
+    "review": "terminology"
+  },
+  "Não consegui carregar este funil:": {
+    "before": "Non sono riuscito a caricare questo imbuto:",
+    "after": "Non sono riuscito a caricare questo funnel:",
+    "review": "terminology"
+  },
+  "O card sai do funil com o histórico de atividades. O contato e as conversas continuam. Esta ação não pode ser desfeita.": {
+    "before": "La carta esce dall'imbuto con la storia dell'attività. Continuano i contatti e le conversazioni. Questa azione non può essere annullata.",
+    "after": "La carta esce dall'funnel con la storia dell'attività. Continuano i contatti e le conversazioni. Questa azione non può essere annullata.",
+    "review": "terminology"
+  },
+  "Lead atualizado": {
+    "before": "Piombo aggiornato",
+    "after": "Lead aggiornato",
+    "review": "editorial"
+  },
+  "Ações do lead": {
+    "before": "Azioni di piombo",
+    "after": "Azioni di lead",
+    "review": "terminology"
+  },
+  "Informe o motivo. Essa informação ajuda a melhorar o funil.": {
+    "before": "Queste informazioni aiutano a migliorare l'imbuto.",
+    "after": "Queste informazioni aiutano a migliorare l'funnel.",
+    "review": "terminology"
+  },
+  "Lead criado": {
+    "before": "Piombo creato",
+    "after": "Lead creato",
+    "review": "editorial"
+  },
+  "Crie um lead manualmente neste pipeline.": {
+    "before": "Creare un piombo manualmente su questo gasdotto.",
+    "after": "Crea manualmente un lead in questo funnel.",
+    "review": "editorial"
+  },
+  "Não consegui carregar a agenda": {
+    "before": "Non poteva chiudere la cartella temporanea: %",
+    "after": "Impossibile caricare il calendario",
+    "review": "editorial"
+  },
+  "Atrito, funil e performance por atendente nos últimos 30 dias.": {
+    "before": "Attrizione, imbuto e prestazioni partecipando negli ultimi 30 giorni.",
+    "after": "Attrizione, funnel e prestazioni partecipando negli ultimi 30 giorni.",
+    "review": "terminology"
+  },
+  "Atrito, seu funil e sua performance nos últimos 30 dias.": {
+    "before": "Atrito, il suo imbuto e la sua performance negli ultimi 30 giorni.",
+    "after": "Atrito, il suo funnel e la sua performance negli ultimi 30 giorni.",
+    "review": "terminology"
+  },
+  "Campos do lead neste funil": {
+    "before": "Campi di piombo in questo imbuto",
+    "after": "Campi di lead in questo funnel",
+    "review": "terminology"
+  },
+  "Este funil não tem campos extras.": {
+    "before": "Questo imbuto non ha campi extra.",
+    "after": "Questo funnel non ha campi extra.",
+    "review": "terminology"
+  },
+  "Não foi possível desbloquear o contato.": {
+    "before": "Non poteva chiudere la cartella temporanea: %",
+    "after": "Impossibile sbloccare il contatto.",
+    "review": "editorial"
+  },
+  "Dê um nome ao funil — é o que aparece na lista e no topo do quadro.": {
+    "before": "Chiamare l'imbuto - questo è ciò che è nella lista e nella parte superiore del bordo.",
+    "after": "Chiamare l'funnel - questo è ciò che è nella lista e nella parte superiore del bordo.",
+    "review": "terminology"
+  },
+  "Dê um nome ao funil — é o que aparece na lista.": {
+    "before": "Chiama l'imbuto, ecco cosa c'e' nella lista.",
+    "after": "Chiama l'funnel, ecco cosa c'e' nella lista.",
+    "review": "terminology"
+  },
+  "Erro ao buscar agent.": {
+    "before": "Non poteva chiudere la cartella temporanea: %",
+    "after": "Errore nel recupero dell’agente.",
+    "review": "editorial"
+  },
+  "Falha ao atualizar o aviso.": {
+    "before": "Non poteva chiudere la cartella temporanea: %",
+    "after": "Impossibile aggiornare l’avviso.",
+    "review": "editorial"
+  },
+  "Falha ao carregar as propostas.": {
+    "before": "Non poteva chiudere la cartella temporanea: %",
+    "after": "Impossibile caricare le proposte.",
+    "review": "editorial"
+  },
+  "Falha ao carregar conexões/knobs.": {
+    "before": "Non poteva chiudere la cartella temporanea: %",
+    "after": "Impossibile caricare le connessioni e le impostazioni.",
+    "review": "editorial"
+  },
+  "Falha ao decifrar credential.": {
+    "before": "Non poteva chiudere la cartella temporanea: %",
+    "after": "Impossibile decifrare la credenziale.",
+    "review": "editorial"
+  },
+  "Lead não encontrado.": {
+    "before": "Piombo non trovato.",
+    "after": "Lead non trovato.",
+    "review": "editorial"
+  },
+  "Não entendi o que mudar neste funil.": {
+    "before": "Non capisco cosa cambiare in questo imbuto.",
+    "after": "Non capisco cosa cambiare in questo funnel.",
+    "review": "terminology"
+  },
+  "listagem sem recorte: informe contato, lead, dia, período (de+ate) ou responsável.": {
+    "before": "Elenco non tagliato: contatto, piombo, giorno, periodo (de+ate) o responsabile.",
+    "after": "Elenco non tagliato: contatto, lead, giorno, periodo (de+ate) o responsabile.",
+    "review": "terminology"
+  },
+  "O lead não respondeu no prazo que você definiu": {
+    "before": "Il piombo non ha risposto all'interno della cornice temporale che hai definito",
+    "after": "Il lead non ha risposto all'interno della cornice temporale che hai definito",
+    "review": "terminology"
+  },
+  "Não foi possível ler o acervo.": {
+    "before": "Non poteva chiudere la cartella temporanea: %",
+    "after": "Impossibile caricare la raccolta di conoscenze.",
+    "review": "editorial"
+  },
+  "Não foi possível consultar o acervo.": {
+    "before": "Non poteva chiudere la cartella temporanea: %",
+    "after": "Impossibile consultare la raccolta di conoscenze.",
+    "review": "editorial"
+  },
+  "Carregando a agenda": {
+    "before": "Sincronizzazione cartella",
+    "after": "Caricamento del calendario in corso",
+    "review": "editorial"
+  },
+  "Continuam de pé: as pessoas da equipe, as configurações, os funis e etapas, os agentes de IA e os canais de WhatsApp já conectados.": {
+    "before": "Continuano a stare in piedi: le persone, le configurazioni, imbuti e i passi, gli agenti dell'AI e i canali di WhatsApp già collegati.",
+    "after": "Continuano a stare in piedi: le persone, le configurazioni, funnel e i passi, gli agenti dell'AI e i canali di WhatsApp già collegati.",
+    "review": "terminology"
+  },
+  "Um arquivo CSV com uma linha por lead. Os leads entram na primeira etapa aberta do funil escolhido.": {
+    "before": "Un file CSV con una linea per piombo. Conduce ad entrare nel primo passo aperto dell'imbuto scelto.",
+    "after": "Un file CSV con una riga per lead. I lead vengono inseriti nella prima fase aperta del funnel selezionato.",
+    "review": "editorial"
+  },
+  "Funil de destino": {
+    "before": "Imbuto di destinazione",
+    "after": "funnel di destinazione",
+    "review": "terminology"
+  },
+  "Escolha o funil de destino.": {
+    "before": "Scegli l'imbuto di destinazione.",
+    "after": "Scegli l'funnel di destinazione.",
+    "review": "terminology"
+  },
+  "Este funil não tem etapas abertas.": {
+    "before": "Questo imbuto non ha tappe aperte.",
+    "after": "Questo funnel non ha tappe aperte.",
+    "review": "terminology"
+  },
+  "Escolha o funil e a etapa de destino.": {
+    "before": "Scegli il passo imbuto e la destinazione.",
+    "after": "Scegli il passo funnel e la destinazione.",
+    "review": "terminology"
+  },
+  "A etapa escolhida para o gatilho não existe mais neste funil — escolha outra.": {
+    "before": "La fase scelta per il trigger non esiste più in questo imbuto — scegliere un altro.",
+    "after": "La fase scelta per il trigger non esiste più in questo funnel — scegliere un altro.",
+    "review": "terminology"
+  },
+  "Escolha a etapa do funil que dispara este fluxo antes de publicar.": {
+    "before": "Scegli il passaggio imbuto che accende questo flusso prima di pubblicare.",
+    "after": "Scegli il passaggio funnel che accende questo flusso prima di pubblicare.",
+    "review": "terminology"
+  },
+  "Lead foi modificado por outro usuário. Recarregue e tente novamente.": {
+    "before": "Il piombo è stato modificato da un altro utente. Ricarica e riprova.",
+    "after": "Il lead è stato modificato da un altro utente. Ricarica e riprova.",
+    "review": "terminology"
+  },
+  "Move cross-pipeline não é permitido. Use POST /api/v1/leads/[id]/clone para levar o negócio a outro funil.": {
+    "before": "Non è consentito spostare la linea trasversale. Utilizzare POST /api/v1/leads/[id]/clone per portare l'attività in un altro imbuto.",
+    "after": "Non è consentito spostare la linea trasversale. Utilizzare POST /api/v1/leads/[id]/clone per portare l'attività in un altro funnel.",
+    "review": "terminology"
+  },
+  "Esse funil não está mais na sua lista. Recarregue a página e tente de novo.": {
+    "before": "Questo imbuto non è più nella tua lista. Ricarica la pagina e riprova.",
+    "after": "Questo funnel non è più nella tua lista. Ricarica la pagina e riprova.",
+    "review": "terminology"
+  },
+  "O funil que você escolheu como vizinho não está mais na lista. Recarregue a página.": {
+    "before": "L'imbuto che hai scelto come tuo vicino non è più nella lista.",
+    "after": "L'funnel che hai scelto come tuo vicino non è più nella lista.",
+    "review": "terminology"
+  },
+  "O modelo em uso não sabe usar as ferramentas do CRM — o agente conversa, mas não registra nada no funil.": {
+    "before": "Il modello in uso non sa come utilizzare gli strumenti CRM — l'agente parla, ma non registra nulla nell'imbuto.",
+    "after": "Il modello in uso non sa come utilizzare gli strumenti CRM — l'agente parla, ma non registra nulla nell'funnel.",
+    "review": "terminology"
+  },
+  "Os funis desta lista estão empatados na ordenação. Recarregue a página e mova o funil para outro lugar.": {
+    "before": "Gli imbuti in questa lista sono legati alla selezione, ricaricare la pagina e spostare l'imbuto altrove.",
+    "after": "Gli funnel in questa lista sono legati alla selezione, ricaricare la pagina e spostare l'funnel altrove.",
+    "review": "terminology"
+  },
+  "Falha ao criar lead.": {
+    "before": "Non sono riuscito a creare piombo.",
+    "after": "Non sono riuscito a creare lead.",
+    "review": "terminology"
+  },
+  "Lead foi modificado concorrentemente.": {
+    "before": "Il piombo è stato modificato contemporaneamente.",
+    "after": "Il lead è stato modificato contemporaneamente.",
+    "review": "terminology"
+  },
+  "Esse motivo de perda não está na lista deste funil — escolha um dos motivos configurados.": {
+    "before": "Questo motivo di perdita non è nell'elenco di questo imbuto — scegliere uno dei motivi configurati.",
+    "after": "Questo motivo di perdita non è nell'elenco di questo funnel — scegliere uno dei motivi configurati.",
+    "review": "terminology"
+  },
+  "Veio de outro funil": {
+    "before": "Viene da un altro imbuto.",
+    "after": "Viene da un altro funnel.",
+    "review": "terminology"
+  },
+  "Levado para outro funil": {
+    "before": "Portato in un altro imbuto",
+    "after": "Portato in un altro funnel",
+    "review": "terminology"
+  },
+  "Levar para outro funil": {
+    "before": "Prendere in un altro imbuto",
+    "after": "Prendere in un altro funnel",
+    "review": "terminology"
+  },
+  "Este funil não reabre negócios encerrados. Retomar cria um negócio novo com o mesmo contato, copiando campos e tags, e guarda a ligação com este — o negócio original fica intacto, com o motivo dele.": {
+    "before": "Questo imbuto non riaprire le aziende chiuse. Riprendere crea una nuova attività con lo stesso contatto, copiare campi e tag, e mantiene la connessione a questo - l'azienda originale rimane intatta, con il suo movente.",
+    "after": "Questo funnel non riaprire le aziende chiuse. Riprendere crea una nuova attività con lo stesso contatto, copiare campi e tag, e mantiene la connessione a questo - l'azienda originale rimane intatta, con il suo movente.",
+    "review": "terminology"
+  },
+  "Este funil retoma como novo negócio: mover um negócio encerrado para uma etapa aberta não o reabre. Use POST /api/v1/leads/{id}/retomar para criar a nova tentativa.": {
+    "before": "Questo imbuto riprende come nuova attività: spostare un business chiuso per un passo aperto non lo riaprisce.{id}/riprendere per creare il nuovo tentativo.",
+    "after": "Questo funnel riprende come nuova attività: spostare un business chiuso per un passo aperto non lo riaprisce.{id}/riprendere per creare il nuovo tentativo.",
+    "review": "terminology"
+  },
+  "A etapa escolhida não está disponível para a retomada: escolha uma etapa aberta deste funil.": {
+    "before": "Il passo scelto non è disponibile per la ripresa: scegli una fase aperta di questo imbuto.",
+    "after": "Il passo scelto non è disponibile per la ripresa: scegli una fase aperta di questo funnel.",
+    "review": "terminology"
+  },
+  "Este funil não tem etapa aberta para receber a nova tentativa.": {
+    "before": "Questo imbuto non ha una fase aperta per ricevere il nuovo tentativo.",
+    "after": "Questo funnel non ha una fase aperta per ricevere il nuovo tentativo.",
+    "review": "terminology"
+  },
+  "Escolha o funil de destino": {
+    "before": "Scegli l'imbuto di destinazione",
+    "after": "Scegli l'funnel di destinazione",
+    "review": "terminology"
+  },
+  "Este é o único funil. Crie outro funil para poder levar o negócio até ele.": {
+    "before": "Questo è l'unico imbuto. Crea un altro imbuto in modo da poter prendere il business ad esso.",
+    "after": "Questo è l'unico funnel. Crea un altro funnel in modo da poter prendere il business ad esso.",
+    "review": "terminology"
+  },
+  "O negócio é recriado no funil escolhido e este encerra como perdido, com o motivo \"Levado para outro funil\" — o histórico dos dois lados fica registrado na linha do tempo.": {
+    "before": "L'attività è ricreata nell'imbuto scelto e finisce come persa, con il motivo \"Preso a un altro imbuto\" — la storia di entrambi i lati è registrata nella linea temporale.",
+    "after": "L'attività è ricreata nell'funnel scelto e finisce come persa, con il motivo \"Preso a un altro funnel\" — la storia di entrambi i lati è registrata nella linea temporale.",
+    "review": "terminology"
+  },
+  "O negócio já está neste funil. Para trocar de etapa use /api/v1/leads/[id]/move.": {
+    "before": "L'attività è già in questo imbuto. Per cambiare l'uso passo /api/v1/leads/[id]/move.",
+    "after": "L'attività è già in questo funnel. Per cambiare l'uso passo /api/v1/leads/[id]/move.",
+    "review": "terminology"
+  },
+  "Só um negócio aberto pode ser levado para outro funil.": {
+    "before": "Solo un business aperto può essere portato a un altro imbuto.",
+    "after": "Solo un business aperto può essere portato a un altro funnel.",
+    "review": "terminology"
+  },
+  "A etapa não pertence ao funil de destino.": {
+    "before": "Il palco non appartiene all'imbuto di destinazione.",
+    "after": "Il palco non appartiene all'funnel di destinazione.",
+    "review": "terminology"
+  },
+  "A etapa de destino é de fechamento: escolha uma etapa aberta do funil.": {
+    "before": "Il passo di destinazione è la chiusura: scegliere un passo di imbuto aperto.",
+    "after": "Il passo di destinazione è la chiusura: scegliere un passo di funnel aperto.",
+    "review": "terminology"
+  },
+  "O funil de destino não tem etapa aberta para receber o negócio.": {
+    "before": "L'imbuto di destinazione non ha una fase aperta per ricevere l'attività.",
+    "after": "L'funnel di destinazione non ha una fase aperta per ricevere l'attività.",
+    "review": "terminology"
+  },
+  "Funil de destino não encontrado.": {
+    "before": "Imbuto di destinazione non trovato.",
+    "after": "funnel di destinazione non trovato.",
+    "review": "terminology"
+  },
+  "O funil de origem não tem etapa de perda para encerrar o negócio.": {
+    "before": "L'imbuto di origine non ha fase di perdita per chiudere l'azienda.",
+    "after": "L'funnel di origine non ha fase di perdita per chiudere l'azienda.",
+    "review": "terminology"
+  },
+  "Essa etapa não faz parte deste funil. Recarregue a página e tente de novo.": {
+    "before": "Questo passaggio non fa parte di questo imbuto. Ricaricare la pagina e riprovare.",
+    "after": "Questo passaggio non fa parte di questo funnel. Ricaricare la pagina e riprovare.",
+    "review": "terminology"
+  },
+  "Abre um endereço novo para o site da empresa mandar contatos direto para um funil. A partir daí ele passa a receber gente de fora sozinho.": {
+    "before": "Si apre un nuovo indirizzo per il sito web dell'azienda per inviare contatti diretti a un imbuto. Da lì inizia a ricevere persone dall'esterno da solo.",
+    "after": "Si apre un nuovo indirizzo per il sito web dell'azienda per inviare contatti diretti a un funnel. Da lì inizia a ricevere persone dall'esterno da solo.",
+    "review": "terminology"
+  },
+  "Acrescenta uma coluna nova no fim do funil, quando o jeito de trabalhar da empresa tem um passo que ainda não está no quadro.": {
+    "before": "Aggiunge una nuova colonna alla fine dell'imbuto, quando il modo in cui lavora l'azienda ha un passo che non è ancora sul bordo.",
+    "after": "Aggiunge una nuova colonna alla fine dell'funnel, quando il modo in cui lavora l'azienda ha un passo che non è ancora sul bordo.",
+    "review": "terminology"
+  },
+  "Arquivar uma etapa do funil": {
+    "before": "Archiviare un passo imbuto",
+    "after": "Archiviare un passo funnel",
+    "review": "terminology"
+  },
+  "Criar etapa no funil": {
+    "before": "Creare un passo imbuto",
+    "after": "Crea un passo funnel",
+    "review": "terminology"
+  },
+  "Funil de vendas": {
+    "before": "Imbuto di vendita",
+    "after": "funnel di vendita",
+    "review": "terminology"
+  },
+  "Lista as oportunidades de venda de um funil, com a etapa em que cada uma está e quem é o responsável por ela.": {
+    "before": "Esso elenca le opportunità di vendere un imbuto, con la fase in cui ciascuno è e chi è responsabile per esso.",
+    "after": "Esso elenca le opportunità di vendere un funnel, con la fase in cui ciascuno è e chi è responsabile per esso.",
+    "review": "terminology"
+  },
+  "Mostra as colunas de um funil na ordem em que aparecem no quadro, para o agente saber onde pode colocar cada negócio.": {
+    "before": "Mostra le colonne di un imbuto nell'ordine in cui appaiono nella cornice, quindi l'agente sa dove mettere ogni attività.",
+    "after": "Mostra le colonne di un funnel nell'ordine in cui appaiono nella cornice, quindi l'agente sa dove mettere ogni attività.",
+    "review": "terminology"
+  },
+  "Mostra os funis de venda existentes e suas etapas, para o agente saber onde pode colocar uma oportunidade.": {
+    "before": "Mostra imbuti di vendita esistenti e le loro fasi, così l'agente sa dove può mettere un'opportunità.",
+    "after": "Mostra funnel di vendita esistenti e le loro fasi, così l'agente sa dove può mettere un'opportunità.",
+    "review": "terminology"
+  },
+  "Move a oportunidade para outra etapa do funil, registrando o avanço da negociação ou a perda do negócio.": {
+    "before": "Sposta l'opportunità in un'altra fase dell'imbuto, registrando l'avanzamento della negoziazione o la perdita del business.",
+    "after": "Sposta l'opportunità in un'altra fase dell'funnel, registrando l'avanzamento della negoziazione o la perdita del business.",
+    "review": "terminology"
+  },
+  "Registra uma nova oportunidade de venda no funil, para que o interesse demonstrado pelo cliente não se perca.": {
+    "before": "Registra una nuova opportunità di vendere sull'imbuto, in modo che l'interesse mostrato dal cliente non sia perso.",
+    "after": "Registra una nuova opportunità di vendere sull'funnel, in modo che l'interesse mostrato dal cliente non sia perso.",
+    "review": "terminology"
+  },
+  "Troca o nome de uma coluna do funil, muda o lugar dela na ordem ou define em qual delas o negócio é dado como fechado ou perdido.": {
+    "before": "Modificare il nome di una colonna dell'imbuto, cambiare il suo posto in ordine o definire in quale di essi l'azienda è dato come chiuso o perso.",
+    "after": "Modificare il nome di una colonna dell'funnel, cambiare il suo posto in ordine o definire in quale di essi l'azienda è dato come chiuso o perso.",
+    "review": "terminology"
+  },
+  "Não foi possível confirmar o link": {
+    "before": "Non poteva chiudere la cartella temporanea: %",
+    "after": "Impossibile verificare il link",
+    "review": "editorial"
+  },
+  "As colunas de cada funil, o vocabulário do negócio e os motivos de perda.": {
+    "before": "Le colonne di ogni imbuto, il vocabolario aziendale e le ragioni di perdita.",
+    "after": "Configura le fasi di ciascun funnel, i termini usati dalla tua attività e i motivi di perdita delle trattative.",
+    "review": "editorial"
+  },
+  "Não foi possível conferir as orientações instaladas": {
+    "before": "Non poteva chiudere la cartella temporanea: %",
+    "after": "Impossibile verificare le istruzioni installate",
+    "review": "editorial"
+  },
+  "Não foi possível concluir a operação.": {
+    "before": "Non poteva chiudere la cartella temporanea: %",
+    "after": "Impossibile completare l’operazione.",
+    "review": "editorial"
+  },
+  "As etiquetas que os agentes, o Inbox e o funil usam nesta organização. Renomear ou juntar corrige também as regras de agente que escrevem a etiqueta, na mesma operação.": {
+    "before": "I tag che gli agenti, Posta in arrivo e imbuto utilizzano in questa organizzazione. Rinominare o unire corregge anche le regole dell'agente che scrivono il tag nella stessa operazione.",
+    "after": "I tag che gli agenti, Posta in arrivo e funnel utilizzano in questa organizzazione. Rinominare o unire corregge anche le regole dell'agente che scrivono il tag nella stessa operazione.",
+    "review": "terminology"
+  },
+  "Nenhuma etiqueta nesta organização ainda. Elas aparecem aqui conforme os agentes, o Inbox e o funil usarem.": {
+    "before": "Non ci sono ancora tag su questa organizzazione, qui appaiono come gli agenti, la Posta in arrivo e l'uso di imbuto.",
+    "after": "Non ci sono ancora tag su questa organizzazione, qui appaiono come gli agenti, la Posta in arrivo e l'uso di funnel.",
+    "review": "terminology"
+  },
+  "lead(s) e": {
+    "before": "piombo(i) e",
+    "after": "lead(i) e",
+    "review": "terminology"
+  },
+  "Etapa do funil que dispara": {
+    "before": "Fase dell'imbuto che spara",
+    "after": "Fase del funnel che attiva la regola",
+    "review": "editorial"
+  },
+  "O negócio entrar na etapa do funil que você escolher.": {
+    "before": "Il business entra nella fase dell'imbuto che si sceglie.",
+    "after": "Quando la trattativa entra nella fase del funnel selezionata.",
+    "review": "editorial"
+  },
+  "Funil do campo": {
+    "before": "Imbuto di campo",
+    "after": "funnel di campo",
+    "review": "terminology"
+  },
+  "Este funil ainda não tem campo de data. Cadastre um em Funis → Campos personalizados para poder escolhê-lo aqui.": {
+    "before": "Questo imbuto non ha ancora campo di data. Registrare uno a Funis → campi personalizzati per sceglierlo qui.",
+    "after": "Questo funnel non ha ancora campo di data. Registrare uno a Funis → campi personalizzati per sceglierlo qui.",
+    "review": "terminology"
+  },
+  "Não foi possível ler o catálogo.": {
+    "before": "Non poteva chiudere la cartella temporanea: %",
+    "after": "Impossibile caricare il catalogo.",
+    "review": "editorial"
+  },
+  "Não foi possível consultar esta tabela agora.": {
+    "before": "Non poteva chiudere la cartella temporanea: %",
+    "after": "Impossibile consultare questa tabella al momento.",
+    "review": "editorial"
+  },
+  "Contexto do negócio": {
+    "before": "Contesto aziendale",
+    "after": "Contesto della trattativa",
+    "review": "editorial"
+  },
+  "Não foi possível remover.": {
+    "before": "Non poteva chiudere la cartella temporanea: %",
+    "after": "Impossibile rimuovere l’elemento.",
+    "review": "editorial"
+  },
+  "funil removido": {
+    "before": "imbuto rimosso",
+    "after": "funnel rimosso",
+    "review": "terminology"
+  },
+  "Com negócio no funil": {
+    "before": "Con gli affari nell'imbuto",
+    "after": "Con gli affari nell'funnel",
+    "review": "terminology"
+  },
+  "Em branco, tudo segue como hoje: o card nasce no funil do número e quem atende é o agente publicado nele.": {
+    "before": "In bianco, tutto segue come è oggi: la carta è nata nell'imbuto numero e l'agente pubblicato in esso è il rispondente.",
+    "after": "In bianco, tutto segue come è oggi: la carta è nata nell'funnel numero e l'agente pubblicato in esso è il rispondente.",
+    "review": "terminology"
+  },
+  "Funil do número (padrão)": {
+    "before": "Imbuto numerico (default)",
+    "after": "funnel numerico (default)",
+    "review": "terminology"
+  },
+  "Primeira etapa do funil": {
+    "before": "Prima fase di imbuto",
+    "after": "Prima fase di funnel",
+    "review": "terminology"
+  },
+  "Vira card no funil": {
+    "before": "Scheda Flip sull'imbuto",
+    "after": "Crea una scheda nel funnel",
+    "review": "editorial"
+  },
+  "Não foi possível copiar.": {
+    "before": "Non poteva chiudere la cartella temporanea: %",
+    "after": "Impossibile copiare.",
+    "review": "editorial"
+  },
+  "ID do lead (opcional)": {
+    "before": "ID piombo (opzionale)",
+    "after": "ID lead (opzionale)",
+    "review": "terminology"
+  },
+  "cole o ID do lead": {
+    "before": "pasta di piombo ID",
+    "after": "incolla l’ID del lead",
+    "review": "editorial"
+  },
+  "Falha ao listar propostas.": {
+    "before": "Non poteva chiudere la cartella temporanea: %",
+    "after": "Impossibile elencare le proposte.",
+    "review": "editorial"
+  },
+  "Dono do negócio": {
+    "before": "Proprietario aziendale",
+    "after": "Responsabile della trattativa",
+    "review": "editorial"
+  },
+  "Quando um lead ficar N dias na mesma etapa": {
+    "before": "Quando un piombo rimane N giorni nello stesso passo",
+    "after": "Quando un lead rimane N giorni nello stesso passo",
+    "review": "terminology"
+  },
+  "A tarefa não foi criada: o evento que disparou a regra não trouxe um lead nem um contato para pendurar nela.": {
+    "before": "Il compito non è stato creato: l'evento che ha innescato la regola non ha portato un piombo o un contatto per appenderlo.",
+    "after": "Il compito non è stato creato: l'evento che ha innescato la regola non ha portato un lead o un contatto per appenderlo.",
+    "review": "terminology"
+  },
+  "Chance de fechamento definida em cada etapa do funil.": {
+    "before": "Possibilità di chiusura definita in ogni fase dell'imbuto.",
+    "after": "Possibilità di chiusura definita in ogni fase dell'funnel.",
+    "review": "terminology"
+  },
+  "Nenhum negócio aberto com valor neste funil.": {
+    "before": "Nessun business aperto con valore in questo imbuto.",
+    "after": "Nessun business aperto con valore in questo funnel.",
+    "review": "terminology"
+  },
+  "Falha ao calcular a previsão do funil.": {
+    "before": "Non poteva chiudere la cartella temporanea: %",
+    "after": "Impossibile calcolare la previsione del funnel.",
+    "review": "editorial"
+  },
+  "Restringe o que cada atendente enxerga nas conversas e no funil.": {
+    "before": "Limita ciò che ogni partecipante vede nelle conversazioni e nell'imbuto.",
+    "after": "Limita le conversazioni e le trattative del funnel visibili a ciascun operatore.",
+    "review": "editorial"
+  },
+  "Diz ao agente para qual etapa do funil levar o negócio quando qualifica ou agenda.": {
+    "before": "Dite all'agente quale stadio del imbuto prendere l'attività quando si qualifica o programma.",
+    "after": "Dite all'agente quale stadio del funnel prendere l'attività quando si qualifica o programma.",
+    "review": "terminology"
+  },
+  "Cadastrar como campo do lead": {
+    "before": "Registrati come campo di piombo",
+    "after": "Registrati come campo di lead",
+    "review": "terminology"
+  },
+  "Não foi possível ler o funil desta fonte.": {
+    "before": "Non poteva leggere imbuto da questo carattere.",
+    "after": "Impossibile caricare il funnel associato a questa fonte.",
+    "review": "editorial"
+  },
+  "Não foi possível cadastrar o campo. Só quem administra o funil pode fazer isso.": {
+    "before": "Il campo non poteva essere registrato, solo la persona che amministra l'imbuto può farlo.",
+    "after": "Impossibile aggiungere il campo. Solo gli amministratori del funnel possono farlo.",
+    "review": "editorial"
+  },
+  "Campo cadastrado. Ele já aparece no card do lead e pode ser usado nas mensagens.": {
+    "before": "Campo registrato. Appare già nella carta di piombo e può essere utilizzato nei messaggi.",
+    "after": "Campo registrato. Appare già nella carta di lead e può essere utilizzato nei messaggi.",
+    "review": "terminology"
+  },
+  "O funil já tem o máximo de campos.": {
+    "before": "L'imbuto ha già tanti campi.",
+    "after": "Il funnel ha raggiunto il numero massimo di campi.",
+    "review": "editorial"
+  },
+  "Quando a empresa entra no funil": {
+    "before": "Quando l'azienda entra nell'imbuto",
+    "after": "Quando l'azienda entra nell'funnel",
+    "review": "terminology"
+  },
+  "O funil mostra só quem já recebeu a primeira mensagem.": {
+    "before": "L'imbuto mostra solo chi ha già ricevuto il primo messaggio.",
+    "after": "L'funnel mostra solo chi ha già ricevuto il primo messaggio.",
+    "review": "terminology"
+  },
+  "Ao iniciar, as empresas com telefone entram na fila. Cada uma entra no funil só quando for abordada. Contatos já existentes são preservados. A fila faz uma primeira abordagem; respostas seguem no Inbox. Uma mensagem já em transmissão pode concluir após a pausa.": {
+    "before": "All'inizio, le aziende con i telefoni sono in coda. Ognuno entra nell'imbuto solo quando viene avvicinato. I contatti esistenti sono conservati. La coda fa un primo approccio; le risposte seguono nella casella di posta. Un messaggio già in trasmissione può completare dopo la pausa.",
+    "after": "All'inizio, le aziende con i telefoni sono in coda. Ognuno entra nell'funnel solo quando viene avvicinato. I contatti esistenti sono conservati. La coda fa un primo approccio; le risposte seguono nella casella di posta. Un messaggio già in trasmissione può completare dopo la pausa.",
+    "review": "terminology"
+  },
+  "Esta campanha já criou o contato e o negócio dessas empresas ao iniciar. Desmarcar só impede o envio: elas continuam no funil.": {
+    "before": "Questa campagna ha già creato il contatto e il business di queste aziende quando inizia. L'eliminazione impedisce solo di inviare: rimangono nell'imbuto.",
+    "after": "Questa campagna ha già creato il contatto e il business di queste aziende quando inizia. L'eliminazione impedisce solo di inviare: rimangono nell'funnel.",
+    "review": "terminology"
+  },
+  "Onde você atende?": {
+    "before": "Dove lavori?",
+    "after": "Fuso orario della tua attività",
+    "review": "editorial"
+  },
+  "Busque empresas e conduza abordagens graduais com IA.": {
+    "before": "Ricerca di aziende e condurre approcci graduali con AI.",
+    "after": "Cerca aziende e contattale gradualmente con l’IA.",
+    "review": "editorial"
+  },
+  "O dia a dia da venda": {
+    "before": "Il giorno al giorno della vendita",
+    "after": "Gestione quotidiana delle vendite",
+    "review": "editorial"
+  },
+  "Quem esfriou e ainda está aberto — o que corre risco de morrer sem resposta.": {
+    "before": "Coloro che si sono raffreddati e sono ancora aperti — che rischiano di morire senza risposta.",
+    "after": "Trattative ancora aperte con conversazioni inattive, che rischiano di essere abbandonate senza una risposta.",
+    "review": "editorial"
+  },
+  "Fale com uma lista de contatos que você escolhe, no ritmo do número.": {
+    "before": "Parla con un elenco di contatti che scegli al tasso del numero.",
+    "after": "Invia messaggi a una lista di contatti scelta da te, rispettando la frequenza di invio del numero WhatsApp.",
+    "review": "editorial"
+  },
+  "Tarefas": {
+    "before": "Attività",
+    "after": "Attività da svolgere",
+    "review": "editorial"
+  },
+  "O que ficou combinado, com prazo — e o que já venceu sem ninguém fazer.": {
+    "before": "Ciò che è stato concordato, con una scadenza — e ciò che ha già vinto senza che nessuno lo faccia.",
+    "after": "Attività concordate con una scadenza, comprese quelle scadute e ancora da completare.",
+    "review": "editorial"
+  },
+  "Histórico de ligações (voz por IA) com transcrição.": {
+    "before": "Storia del collegamento (voce IA) con trascrizione.",
+    "after": "Cronologia delle chiamate vocali gestite dall’IA, con trascrizione.",
+    "review": "editorial"
+  },
+  "O catálogo da loja, com o preço que o atendente de IA responde.": {
+    "before": "Il catalogo del negozio, con il prezzo che l'assistente AI risponde.",
+    "after": "Catalogo dei prodotti e prezzi utilizzati dall’assistente IA nelle risposte.",
+    "review": "editorial"
+  },
+  "Preparar a venda": {
+    "before": "Prepararsi per la vendita",
+    "after": "Preparazione delle vendite",
+    "review": "editorial"
+  },
+  "Rascunhe, revise e envie propostas comerciais — do orçamento ao aceite.": {
+    "before": "Progetto, revisione e invio di proposte commerciali — dal bilancio all'accettazione.",
+    "after": "Prepara, controlla e invia proposte commerciali, dal preventivo all’accettazione.",
+    "review": "editorial"
+  },
+  "Fechar a venda": {
+    "before": "Vicino alla vendita",
+    "after": "Chiusura delle vendite",
+    "review": "editorial"
+  },
+  "Configure a validade padrão e condições para propostas comerciais.": {
+    "before": "Impostare la validità standard e le condizioni per le offerte commerciali.",
+    "after": "Imposta la durata di validità predefinita e le condizioni delle proposte commerciali.",
+    "review": "editorial"
+  },
+  "Montar o agente": {
+    "before": "Agente di montaggio",
+    "after": "Configurazione dell’agente",
+    "review": "editorial"
+  },
+  "Follow-ups": {
+    "before": "Follow-up",
+    "after": "Ricontatti automatici",
+    "review": "editorial"
+  },
+  "Perguntas que a IA conduz durante a conversa, com as respostas guardadas na ficha do cliente.": {
+    "before": "Domande che l'IA conduce durante la conversazione, con le risposte memorizzate nel file del cliente.",
+    "after": "Sequenze di domande poste dall’IA durante la conversazione, con risposte salvate nella scheda del cliente.",
+    "review": "editorial"
+  },
+  "Ligue o Jev para decisões rápidas e escolha qual inteligência atende cada parte do sistema.": {
+    "before": "Collegare Jev a decisioni rapide e scegliere quale intelligenza incontra ogni parte del sistema.",
+    "after": "Attiva Jev per le decisioni rapide e scegli quale IA utilizzare nelle diverse parti del sistema.",
+    "review": "editorial"
+  },
+  "Ensinar o agente": {
+    "before": "Insegnare l'Agente",
+    "after": "Conoscenze e strumenti dell’agente",
+    "review": "editorial"
+  },
+  "O que o agente já aprendeu sobre a sua operação e reaproveita.": {
+    "before": "Quello che l'agente ha già imparato sulla vostra operazione e approfittarne.",
+    "after": "Informazioni che l’agente ha appreso sulla tua attività e riutilizza nelle conversazioni.",
+    "review": "editorial"
+  },
+  "As ações que o agente pode executar sozinho durante o atendimento.": {
+    "before": "Le azioni che l'agente può eseguire da solo durante il servizio.",
+    "after": "Azioni che l’agente può eseguire autonomamente durante l’assistenza.",
+    "review": "editorial"
+  },
+  "Os atendimentos que o agente conduziu, do início ao desfecho.": {
+    "before": "Le visite che l'agente ha condotto, dall'inizio al risultato.",
+    "after": "Casi di assistenza gestiti dall’agente, dall’inizio alla conclusione.",
+    "review": "editorial"
+  },
+  "Acompanhar o agente": {
+    "before": "Accompagnamento dell'agente",
+    "after": "Monitoraggio dell’agente",
+    "review": "editorial"
+  },
+  "Receber no WhatsApp quando o assistente abrir um caso.": {
+    "before": "Ricevi da WhatsApp quando la procedura guidata apre un caso.",
+    "after": "Ricevi una notifica su WhatsApp quando l’assistente apre un caso.",
+    "review": "editorial"
+  },
+  "Melhorias que a IA sugere para si mesma, esperando sua decisão.": {
+    "before": "Miglioramenti che l'IA suggerisce a se stesso, in attesa della vostra decisione.",
+    "after": "Miglioramenti al proprio comportamento proposti dall’IA, in attesa della tua decisione.",
+    "review": "editorial"
+  },
+  "Seus números de WhatsApp: por QR ou canal oficial da Meta, com saúde, reconexão e templates.": {
+    "before": "I vostri numeri WhatsApp: da QR o canale ufficiale Meta, con salute, ricollegamento e modelli.",
+    "after": "Numeri WhatsApp collegati tramite QR o canale ufficiale Meta: stato della connessione, riconnessione e modelli di messaggio.",
+    "review": "editorial"
+  },
+  "Conecte a loja para trazer pedidos e clientes para dentro do CRM.": {
+    "before": "Collegare il negozio per portare ordini e clienti in CRM.",
+    "after": "Collega il negozio per importare ordini e clienti nel CRM.",
+    "review": "editorial"
+  },
+  "Avise outros sistemas quando algo acontecer aqui dentro.": {
+    "before": "Fate sapere agli altri sistemi quando succede qualcosa qui.",
+    "after": "Invia notifiche ad altri sistemi quando si verifica un evento nel CRM.",
+    "review": "editorial"
+  },
+  "Faturamento": {
+    "before": "Fatturazione",
+    "after": "Incassi",
+    "review": "editorial"
+  },
+  "Quanto entrou, de que forma, e quanto cada pessoa tem a receber.": {
+    "before": "Quanto sei venuto, quanto e quanto ogni persona deve ricevere.",
+    "after": "Incassi ricevuti, modalità di pagamento e importi spettanti a ciascuna persona.",
+    "review": "editorial"
+  },
+  "Dinheiro": {
+    "before": "Soldi",
+    "after": "Gestione economica",
+    "review": "editorial"
+  },
+  "O modelo de cobrança de cada caso e o calendário de parcelas.": {
+    "before": "il modello per la raccolta di ogni caso e il programma di pacchi.",
+    "after": "Modalità di pagamento di ogni pratica e calendario delle rate.",
+    "review": "editorial"
+  },
+  "Desempenho": {
+    "before": "Rendimento",
+    "after": "Risultati",
+    "review": "editorial"
+  },
+  "Funil e performance por atendente nos últimos 30 dias.": {
+    "before": "Funnel e performance partecipando negli ultimi 30 giorni.",
+    "after": "Risultati del funnel e di ciascun operatore negli ultimi 30 giorni.",
+    "review": "editorial"
+  },
+  "Os números do período": {
+    "before": "I numeri di periodo",
+    "after": "Dati del periodo",
+    "review": "editorial"
+  },
+  "Quanto custou cada resultado das campanhas que trazem gente para cá.": {
+    "before": "Quanto costano ogni risultato delle campagne che portano le persone qui.",
+    "after": "Costo di ciascun risultato delle campagne che portano nuovi contatti nel CRM.",
+    "review": "editorial"
+  },
+  "Atividades": {
+    "before": "Attività",
+    "after": "Registro delle attività",
+    "review": "editorial"
+  },
+  "Relatório do que a equipe e os agentes fizeram no período: quanto, quem e de que tipo.": {
+    "before": "Rapporto di ciò che la squadra e gli agenti hanno fatto nel periodo: quanto, chi e che tipo.",
+    "after": "Report delle attività svolte da team e agenti nel periodo, con quantità, autori e tipologia.",
+    "review": "editorial"
+  },
+  "Se o agente está melhorando, onde ele erra e o que falta ensinar.": {
+    "before": "Se l'agente sta migliorando, dov'e' sbagliato e quello che gli manca da insegnare.",
+    "after": "Verifica i miglioramenti dell’agente, gli errori e le conoscenze ancora da aggiungere.",
+    "review": "editorial"
+  },
+  "O histórico que se consulta": {
+    "before": "La storia che è consultata",
+    "after": "Cronologia consultabile",
+    "review": "editorial"
+  },
+  "Quem recebe cada cliente novo, e o que cada atendente enxerga.": {
+    "before": "Chi ottiene ogni nuovo cliente, e ciò che ogni partecipante vede.",
+    "after": "Definisci chi riceve ciascun nuovo cliente e quali conversazioni può vedere ogni operatore.",
+    "review": "editorial"
+  },
+  "Devolver ao anúncio as vendas que ele trouxe, e marcar a origem de quem chega pelo site.": {
+    "before": "Attribuisci le vendite agli annunci e identifica l’origine dei visitatori del sito.",
+    "after": "Invia alle piattaforme pubblicitarie le vendite provenienti dagli annunci e registra l’origine dei contatti arrivati dal sito.",
+    "review": "editorial"
+  },
+  "Conectar a conta de anúncios para ler o desempenho das campanhas.": {
+    "before": "Collegare l'account pubblicitario per leggere le prestazioni della campagna.",
+    "after": "Collega l’account pubblicitario per consultare i risultati delle campagne.",
+    "review": "editorial"
+  },
+  "Pedidos de exportação e exclusão de dados feitos por clientes.": {
+    "before": "Esportare richieste e cancellazione dei dati da parte dei clienti.",
+    "after": "Richieste dei clienti di esportazione o cancellazione dei propri dati.",
+    "review": "editorial"
+  },
+  "API Tokens": {
+    "before": "Tokens API",
+    "after": "Token API",
+    "review": "editorial"
+  },
+  "Credenciais do provedor SIP para chamadas de voz por IA.": {
+    "before": "Le credenziali del provider SIP per le chiamate vocali di AI.",
+    "after": "Credenziali del provider SIP per le chiamate vocali gestite dall’IA.",
+    "review": "editorial"
+  },
+  "Guias instalados para orientar o trabalho no CRM, com permissões e estado visíveis.": {
+    "before": "Guide installate per guidare il lavoro in CRM, con autorizzazioni e stato visibile.",
+    "after": "Guide installate per il lavoro nel CRM, con stato e permessi visibili.",
+    "review": "editorial"
+  },
+  "Conecte um banco de dados de outro sistema para o agente consultar em tempo real.": {
+    "before": "Collegare un database da un altro sistema per l'agente da consultare in tempo reale.",
+    "after": "Collega il database di un altro sistema per consentire all’agente di consultarlo in tempo reale.",
+    "review": "editorial"
+  },
+  "A espera foi interrompida. O teste já enviado pode continuar no provedor.": {
+    "before": "L'attesa è stata interrotta, il test già inviato può continuare nel fornitore.",
+    "after": "L’attesa è stata interrotta. La prova già inviata può continuare presso il provider.",
+    "review": "editorial"
+  },
+  "O telefone vai em SHA-256, nunca em claro, e ajuda o Google a ligar a conversão a quem clicou no anúncio. É dado pessoal: ligue só se a sua política de privacidade cobre esse uso.": {
+    "before": "Il telefono va in SHA-256, mai in chiaro, e aiuta Google a collegare la conversione a chiunque abbia cliccato sull'annuncio. E 'personale: solo chiamare se la vostra politica sulla privacy copre quell'uso.",
+    "after": "Il telefono viene inviato come hash SHA-256, mai in chiaro, per aiutare Google ad associare la conversione al clic sull’annuncio. È un dato personale: attiva questa opzione solo se l’utilizzo è previsto dalla tua informativa sulla privacy.",
+    "review": "editorial"
+  },
+  "Para não guardar a origem na aba, adicione data-storage=\"none\" ao script. Para excluir um link, adicione data-rastreio-ignorar nele. Botões controlados apenas por JavaScript e links abreviados precisam de adaptação no site.": {
+    "before": "Per non memorizzare la fonte nella scheda, aggiungere data-storage=\"none\" allo script. Per eliminare un link, aggiungere data-track-ignor su di esso.",
+    "after": "Per non conservare l’origine nella scheda, aggiungi data-storage=\"none\" allo script. Per escludere un link dal tracciamento, aggiungi a quel link data-rastreio-ignorar. I pulsanti gestiti solo tramite JavaScript e i link abbreviati richiedono un adattamento del sito.",
+    "review": "editorial"
+  },
+  "Teste abrindo o site com os parâmetros de uma campanha, navegando para outra página e clicando no WhatsApp. Confira o código na mensagem e a origem no contato. UTMs identificam a campanha no CRM; não garantem atribuição de conversão pela Meta.": {
+    "before": "Provare l'apertura del sito con i parametri di una campagna, la navigazione in un'altra pagina e fare clic su WhatsApp. Controllare il codice nel messaggio e la fonte nel contatto. Gli sportelli automatici identificano la campagna in CRM; non garantiscono l'assegnazione di conversione da Meta.",
+    "after": "Apri il sito con i parametri di una campagna, passa a un’altra pagina e fai clic sul pulsante WhatsApp. Controlla il codice nel messaggio e l’origine nel contatto. I parametri UTM identificano la campagna nel CRM, ma non garantiscono l’attribuzione della conversione da parte di Meta.",
+    "review": "editorial"
+  },
+  "Por favor, selecione o negócio associado à proposta.": {
+    "before": "Si prega di selezionare il business associato alla proposta.",
+    "after": "Seleziona la trattativa da associare alla proposta.",
+    "review": "editorial"
+  },
+  "Nenhum negócio elegível encontrado": {
+    "before": "Nessun risultato commerciale",
+    "after": "Nessuna trattativa disponibile per questa operazione",
+    "review": "editorial"
+  },
+  "Para criar uma proposta, é necessário ter pelo menos um negócio ativo com um contato vinculado na organização.": {
+    "before": "Per creare una proposta, è necessario avere almeno un business attivo con un contatto collegato nell'organizzazione.",
+    "after": "Per creare una proposta serve almeno una trattativa attiva con un contatto associato nell’organizzazione.",
+    "review": "editorial"
+  },
+  "Filtrar negócio por título, cliente ou telefone…": {
+    "before": "Filtra business per titolo, cliente o telefono...",
+    "after": "Filtra le trattative per titolo, cliente o telefono…",
+    "review": "editorial"
+  },
+  "Selecione o negócio...": {
+    "before": "Seleziona il business...",
+    "after": "Seleziona la trattativa…",
+    "review": "editorial"
+  },
+  "Nenhum negócio encontrado com este filtro.": {
+    "before": "Nessun business trovato con questo filtro.",
+    "after": "Nessuna trattativa corrisponde a questo filtro.",
+    "review": "editorial"
+  },
+  "A proposta será vinculada ao negócio e ao contato correspondente.": {
+    "before": "La proposta sarà collegata all'attività e al contatto corrispondente.",
+    "after": "La proposta verrà associata alla trattativa e al relativo contatto.",
+    "review": "editorial"
+  },
+  "Avisar a equipe quando o negócio entra na etapa": {
+    "before": "Avvertire la squadra quando il business entra nel palco",
+    "after": "Avvisa il team quando la trattativa entra nella fase",
+    "review": "editorial"
+  },
+  "É o nome que aparece para o seu time. O cliente vê só a conversa.": {
+    "before": "E' il nome che viene per la tua squadra.",
+    "after": "È il nome mostrato al team. Il cliente vede solo la conversazione.",
+    "review": "editorial"
+  },
+  "Preparando o código…": {
+    "before": "Preparare il codice...",
+    "after": "Preparazione del codice in corso…",
+    "review": "editorial"
+  },
+  "Não consegui falar com o WhatsApp": {
+    "before": "Non riuscivo a passare da WhatsApp.",
+    "after": "Impossibile comunicare con il servizio WhatsApp",
+    "review": "editorial"
+  },
+  "Escolha QR Code ou código de pareamento e confirme no WhatsApp do celular.": {
+    "before": "Scegli il codice QR o il codice di accoppiamento e conferma su WhatsApp sul tuo telefono cellulare.",
+    "after": "Scegli il codice QR o il codice di collegamento e conferma nell’app WhatsApp sul telefono.",
+    "review": "editorial"
+  },
+  "Isso leva alguns segundos. O código aparece aqui sozinho.": {
+    "before": "Ci vogliono pochi secondi.",
+    "after": "Occorrono alcuni secondi. Il codice comparirà automaticamente qui.",
+    "review": "editorial"
+  },
+  "O número está no ar. Seguindo para o próximo passo.": {
+    "before": "Il numero e' in onda, che si sposta al passo successivo.",
+    "after": "Il numero è collegato. Passaggio alla fase successiva in corso.",
+    "review": "editorial"
+  },
+  "É normal — ele vale poucos minutos. Dá para gerar outro.": {
+    "before": "E' normale, vale qualche minuto.",
+    "after": "È normale: il codice vale solo pochi minuti. Puoi generarne un altro.",
+    "review": "editorial"
+  },
+  "Falha ao pular:": {
+    "before": "Non ha saltato:",
+    "after": "Impossibile saltare questo passaggio:",
+    "review": "editorial"
+  },
+  "Falha ao marcar passo:": {
+    "before": "Non ha segnato il passo:",
+    "after": "Impossibile registrare il completamento del passaggio:",
+    "review": "editorial"
+  },
+  "Conectei em outro lugar": {
+    "before": "Mi sono collegato da un'altra parte.",
+    "after": "Ho già collegato il numero altrove",
+    "review": "editorial"
+  },
+  "o servidor respondeu": {
+    "before": "server risposto",
+    "after": "il server ha risposto",
+    "review": "editorial"
+  },
+  "Falha ao avançar:": {
+    "before": "Non ha fatto avanzare:",
+    "after": "Impossibile proseguire:",
+    "review": "editorial"
+  },
+  "Não consegui gerar outro código. Tente de novo em alguns segundos.": {
+    "before": "Non potevo generare un altro codice.",
+    "after": "Impossibile generare un altro codice. Riprova tra alcuni secondi.",
+    "review": "editorial"
+  },
+  "Como você já usa esse número?": {
+    "before": "Come si usa già quel numero?",
+    "after": "Come utilizzi attualmente questo numero WhatsApp?",
+    "review": "editorial"
+  },
+  "Conecte com QR Code ou digite um código de pareamento no WhatsApp do celular.": {
+    "before": "Connettiti con QR Code o inserisci un codice corrispondente in WhatsApp sul tuo telefono cellulare.",
+    "after": "Scansiona il codice QR oppure inserisci il codice di collegamento nell’app WhatsApp sul telefono.",
+    "review": "editorial"
+  },
+  "Você cadastrou o número na Meta e tem as credenciais em mãos. Não usa o celular para conectar.": {
+    "before": "Hai registrato il numero su Meta e hai le credenziali sulle tue mani.",
+    "after": "Hai registrato il numero su Meta e disponi delle credenziali. Per collegarlo non serve il telefono.",
+    "review": "editorial"
+  },
+  "Contrato de um provedor parceiro": {
+    "before": "Contratto di un partner",
+    "after": "Utilizzo un provider partner",
+    "review": "editorial"
+  },
+  "Este servidor ainda não está pronto para RECEBER por este caminho.": {
+    "before": "Questo server non è ancora pronto a RECEIVE in questo modo.",
+    "after": "Il server non è ancora configurato per RICEVERE messaggi tramite questo collegamento.",
+    "review": "editorial"
+  },
+  "Dá para conectar e já enviar, mas as respostas do cliente não vão chegar até quem administra a instalação cadastrar o App da Meta, em Admin › API Oficial (Meta). Se você quer atender hoje, o caminho do código com o celular funciona agora — e dá para trocar depois, sem perder nada.": {
+    "before": "È possibile connettersi e già inviare, ma le risposte del cliente non raggiungeranno chi gestisce l'installazione per registrare la Meta App, in Admin › API ufficiale (Meta). Se si desidera rispondere oggi, il percorso di codice con il telefono cellulare funziona ora - e si può cambiare in seguito, senza perdere nulla.",
+    "after": "Puoi collegare il numero e inviare messaggi, ma le risposte dei clienti non arriveranno finché l’amministratore non configura l’app Meta in Admin › API ufficiale (Meta). Per iniziare subito a ricevere, puoi usare il collegamento tramite codice sul telefono e cambiare modalità in seguito senza perdere i dati.",
+    "review": "editorial"
+  },
+  "O WhatsApp desta instalação ainda não subiu.": {
+    "before": "WhatsApp di questa struttura non è ancora salito.",
+    "after": "Il servizio WhatsApp di questa installazione non è ancora avviato.",
+    "review": "editorial"
+  },
+  "Canais › Conexões": {
+    "before": "Canali › Collegamenti",
+    "after": "Canali › Connessioni",
+    "review": "editorial"
+  },
+  "seu funcionário fica pronto de qualquer jeito, só não terá por onde atender ainda.": {
+    "before": "Il tuo dipendente si prepara comunque, non hai ancora una risposta.",
+    "after": "l’assistente IA può essere configurato comunque, ma non avrà ancora un canale su cui rispondere.",
+    "review": "editorial"
+  },
+  "Conectado! Avançando…": {
+    "before": "Collegato, andando avanti.",
+    "after": "Collegamento riuscito! Passaggio alla fase successiva…",
+    "review": "editorial"
+  },
+  "Aparelhos conectados": {
+    "before": "Apparecchi di collegamento",
+    "after": "Dispositivi collegati",
+    "review": "editorial"
+  },
+  "Gerando…": {
+    "before": "Generando...",
+    "after": "Generazione in corso…",
+    "review": "editorial"
+  },
+  "Gerar novo QR Code": {
+    "before": "Generare nuovo codice QR",
+    "after": "Genera un nuovo codice QR",
+    "review": "editorial"
+  },
+  "Tentando…": {
+    "before": "Cercando di...",
+    "after": "Nuovo tentativo in corso…",
+    "review": "editorial"
+  },
+  "Tentar de novo": {
+    "before": "Riprovazione",
+    "after": "Riprova",
+    "review": "editorial"
+  },
+  "O passo da IA ficou para depois: ele ainda não foi treinado nem colocado no ar.": {
+    "before": "Il ritmo dell'AI è stato fissato per più tardi: non è ancora stato addestrato o messo in aria.",
+    "after": "Hai rimandato la configurazione dell’IA: l’assistente non è ancora stato istruito né pubblicato.",
+    "review": "editorial"
+  },
+  "Ele já foi treinado, mas o atendimento ainda não foi publicado — ele segue em rascunho.": {
+    "before": "Egli è già stato addestrato, ma il servizio non è ancora stato pubblicato — segue nel progetto.",
+    "after": "L’assistente è stato istruito, ma non è ancora pubblicato: resta una bozza e non risponde ai clienti.",
+    "review": "editorial"
+  },
+  "Seu funcionário está montado. Daqui em diante é só acompanhar.": {
+    "before": "Il tuo dipendente e' in movimento, quindi d'ora in poi, tu segui.",
+    "after": "Il tuo assistente IA è configurato. Ora puoi monitorare il suo lavoro.",
+    "review": "editorial"
+  },
+  "Seu funcionário já está de pé. O que ficou para depois continua te esperando.": {
+    "before": "Il tuo impiegato e' gia' in piedi, e quello che e' rimasto per dopo ti sta ancora aspettando.",
+    "after": "Il tuo assistente IA è configurato. Puoi completare in seguito i passaggi rimandati.",
+    "review": "editorial"
+  },
+  "você pulou": {
+    "before": "Sei saltato.",
+    "after": "saltato",
+    "review": "editorial"
+  },
+  "ainda não": {
+    "before": "Non ancora.",
+    "after": "non ancora",
+    "review": "editorial"
+  },
+  "Falha:": {
+    "before": "Non è successo:",
+    "after": "Errore:",
+    "review": "editorial"
+  },
+  "Finalizando...": {
+    "before": "Finitura...",
+    "after": "Completamento in corso…",
+    "review": "editorial"
+  },
+  "Começar a usar": {
+    "before": "Iniziare a usare",
+    "after": "Inizia a usare il CRM",
+    "review": "editorial"
+  },
+  "Não consegui pedir uma sugestão para o seu funcionário agora": {
+    "before": "Non ho potuto dare un suggerimento al tuo dipendente, in questo momento.",
+    "after": "Al momento non è stato possibile ottenere un suggerimento dall’assistente IA",
+    "review": "editorial"
+  },
+  "Comecei por um quadro pronto de": {
+    "before": "Ho iniziato con una foto pronta",
+    "after": "È stato proposto un funnel predefinito per",
+    "review": "editorial"
+  },
+  "Isso não trava nada: escolha outro modelo abaixo ou ajuste as colunas na mão. Dá para mudar tudo depois, quando quiser.": {
+    "before": "Questo non blocca nulla: scegli un altro modello qui sotto o regola le colonne nella mano. Puoi cambiare tutto più tardi, quando vuoi.",
+    "after": "Puoi proseguire: scegli un altro modello qui sotto oppure modifica manualmente le colonne. Potrai cambiare tutto anche in seguito.",
+    "review": "editorial"
+  },
+  "Nome do quadro": {
+    "before": "Nome della tabella",
+    "after": "Nome del funnel",
+    "review": "editorial"
+  },
+  "Coluna que só vocês movem — ele não mexe nesta.": {
+    "before": "La colonna che si muove solo -- non tocca questo.",
+    "after": "Questa fase viene aggiornata solo dal team: l’assistente IA non sposta i clienti qui.",
+    "review": "editorial"
+  },
+  "colunas é o máximo — mais que isso não cabe na tela do celular.": {
+    "before": "le colonne sono più — più di questo non si adatta sullo schermo del telefono cellulare.",
+    "after": "è il numero massimo di colonne, per mantenerle leggibili sul telefono.",
+    "review": "editorial"
+  },
+  "O que veio na instalação": {
+    "before": "Che cosa è venuto nella struttura",
+    "after": "Funnel incluso nell’installazione",
+    "review": "editorial"
+  },
+  "Este é o quadro padrão, feito para loja online. Ao continuar, ele é substituído pelo de cima.": {
+    "before": "Questo è il telaio standard, realizzato per il negozio online. Continuando, è sostituito dalla parte superiore.",
+    "after": "Questo è il funnel predefinito per un negozio online. Proseguendo, verrà sostituito dal funnel mostrato sopra.",
+    "review": "editorial"
+  },
+  "Dê um nome à coluna em branco.": {
+    "before": "Dare alla colonna vuota un nome.",
+    "after": "Assegna un nome alla colonna vuota.",
+    "review": "editorial"
+  },
+  "Salvando...": {
+    "before": "Salvare...",
+    "after": "Salvataggio in corso…",
+    "review": "editorial"
+  },
+  "Usar este quadro": {
+    "before": "Utilizzare questa cornice",
+    "after": "Usa questo funnel",
+    "review": "editorial"
+  },
+  "convite(s) não puderam ser enviados por email. Copie os links abaixo e envie você mesmo.": {
+    "before": "inviti(i) non potrebbero essere inviati via e-mail. Copia i link qui sotto e invialo da solo.",
+    "after": "inviti non sono stati inviati via email. Copia i link qui sotto e inoltrali personalmente.",
+    "review": "editorial"
+  },
+  "E-mail de quem vai trabalhar com ele": {
+    "before": "E-mail di chi lavorerà con lui",
+    "after": "Email delle persone che lavoreranno con l’assistente",
+    "review": "editorial"
+  },
+  "Esta instalação não envia e-mail. Os convites estão prontos — copie o link de cada pessoa e mande por onde você já fala com ela:": {
+    "before": "Questa installazione non invia una e-mail. Gli inviti sono pronti — copiare il link di ogni persona e inviarlo a dove si parla già loro:",
+    "after": "Questa installazione non invia email. Gli inviti sono pronti: copia il link di ogni persona e inoltralo tramite il canale che usate abitualmente:",
+    "review": "editorial"
+  },
+  "da": {
+    "before": "Ed ecco.",
+    "after": "di",
+    "review": "editorial"
+  },
+  "Atendente criado, mas ainda não está no ar.": {
+    "before": "Membro del personale creato, ma non ancora in aria.",
+    "after": "Assistente creato, ma non ancora pubblicato.",
+    "review": "editorial"
+  },
+  "Agente criado, mas ainda não publicado.": {
+    "before": "L'agente ha creato, ma non ancora pubblicato.",
+    "after": "Agente creato, ma non ancora pubblicato.",
+    "review": "editorial"
+  },
+  "Como ele vai se chamar": {
+    "before": "Come si chiama?",
+    "after": "Nome dell’assistente IA",
+    "review": "editorial"
+  },
+  "O jeito dele falar": {
+    "before": "Il modo in cui parla.",
+    "after": "Stile delle risposte",
+    "review": "editorial"
+  },
+  "As regras da casa (opcional)": {
+    "before": "Le regole della casa (opzionale)",
+    "after": "Regole della tua attività (facoltative)",
+    "review": "editorial"
+  },
+  "Nunca prometa desconto sem confirmar com uma pessoa.": {
+    "before": "Non promettermi mai che avrai uno sconto senza controllare con qualcuno.",
+    "after": "Non promettere sconti senza la conferma di una persona del team.",
+    "review": "editorial"
+  },
+  "O que vale para qualquer atendimento aqui. Pode deixar em branco agora e escrever depois — ele aprende com você ao longo do tempo.": {
+    "before": "Ciò che va per qualsiasi servizio qui. È possibile lasciare vuoto ora e scrivere più tardi — impara da voi nel tempo.",
+    "after": "Regole da rispettare in tutte le conversazioni con i clienti. Puoi lasciare vuoto e aggiungerle in seguito: l’assistente impara dalle tue istruzioni nel tempo.",
+    "review": "editorial"
+  },
+  "Ele já vem sabendo": {
+    "before": "E' gia' stato in giro.",
+    "after": "Conoscenze già incluse",
+    "review": "editorial"
+  },
+  "E nunca vai fazer": {
+    "before": "# And you'll never do #",
+    "after": "Comportamenti sempre vietati",
+    "review": "editorial"
+  },
+  "Essas conferências acontecem antes de cada mensagem sair, e não têm interruptor.": {
+    "before": "Queste conferenze avvengono prima che ogni messaggio esca, e non c'e' un interruttore.",
+    "after": "Questi controlli vengono eseguiti prima di ogni invio e non possono essere disattivati.",
+    "review": "editorial"
+  },
+  "O atendente foi criado, mas as": {
+    "before": "Il partecipante è stato creato, ma il",
+    "after": "L’assistente è stato creato, ma le",
+    "review": "editorial"
+  },
+  "não foram gravadas. Copie o que você escreveu antes de sair — e salve de novo em": {
+    "before": "non registrato. Copia quello che hai scritto prima di partire — e salva di nuovo su",
+    "after": "non sono state salvate. Copia il testo prima di uscire e salvalo di nuovo in",
+    "review": "editorial"
+  },
+  "Seu atendente foi criado, mas ficou como": {
+    "before": "La tua partecipazione è stata creata, ma era come se",
+    "after": "L’assistente è stato creato, ma resta una",
+    "review": "editorial"
+  },
+  "rascunho": {
+    "before": "Progetto",
+    "after": "bozza",
+    "review": "editorial"
+  },
+  "— ele ainda não tem com o que pensar.": {
+    "before": "- Non ha ancora niente a cui pensare.",
+    "after": "perché non dispone ancora di un’IA utilizzabile.",
+    "review": "editorial"
+  },
+  "A chave que você colou ainda não foi confirmada pelo provedor.": {
+    "before": "La chiave su cui hai tradito non è ancora stata confermata dal fornitore.",
+    "after": "La chiave API che hai inserito non è ancora stata confermata dal provider.",
+    "review": "editorial"
+  },
+  "Assim que ela for confirmada, publique de novo — não precisa colar outra.": {
+    "before": "Una volta confermato, pubblicare di nuovo — non è necessario incollarne un altro.",
+    "after": "Quando sarà confermata, riprova a pubblicare. Non occorre inserire un’altra chiave.",
+    "review": "editorial"
+  },
+  "Não achei chave": {
+    "before": "Non sono riuscito a trovare una chiave.",
+    "after": "Nessuna chiave API trovata",
+    "review": "editorial"
+  },
+  "nem cadastrada aqui, nem vinda da instalação. Cole a chave no campo acima («o cérebro dele») e crie o atendente de novo — ou cadastre em": {
+    "before": "Incollare la chiave nel campo sopra (“il suo cervello”) e creare nuovamente il partecipante — o registrarsi",
+    "after": "né qui né nella configurazione dell’installazione. Inserisci la chiave nel campo precedente e riprova a creare l’assistente, oppure aggiungila in",
+    "review": "editorial"
+  },
+  "— e rascunho não responde mensagem.": {
+    "before": "— e il progetto non risponde al messaggio.",
+    "after": "Una bozza non risponde ai messaggi.",
+    "review": "editorial"
+  },
+  "IA › Provedores": {
+    "before": "IA › Fornitori",
+    "after": "IA › Provider",
+    "review": "editorial"
+  },
+  "Ela é baixada automaticamente uma vez por dia; depois disso, publique em": {
+    "before": "Viene scaricato automaticamente una volta al giorno; dopo di che, pubblicarlo",
+    "after": "L’elenco viene scaricato automaticamente una volta al giorno. Quando sarà disponibile, pubblica l’agente in",
+    "review": "editorial"
+  },
+  "Criando...": {
+    "before": "Creare...",
+    "after": "Creazione in corso…",
+    "review": "editorial"
+  },
+  "Criar e continuar": {
+    "before": "Creare e continuare",
+    "after": "Crea e continua",
+    "review": "editorial"
+  },
+  "Ele ainda não tem cérebro": {
+    "before": "Non ha ancora un cervello.",
+    "after": "Provider IA non ancora configurato",
+    "review": "editorial"
+  },
+  "Seu funcionário pensa com a inteligência artificial que você contratar. A instalação não trouxe nenhuma chave — cole a sua aqui e ele já nasce funcionando.": {
+    "before": "Il vostro dipendente pensa con l'intelligenza artificiale che assumete. L'installazione non ha portato chiave — incollare il vostro qui ed è nato lavorando.",
+    "after": "L’assistente utilizza il servizio IA che scegli. Questa installazione non include una chiave API: inserisci qui la tua per configurarlo.",
+    "review": "editorial"
+  },
+  "Qual você contratou": {
+    "before": "Quale delle due ha assunto",
+    "after": "Quale provider IA utilizzi?",
+    "review": "editorial"
+  },
+  "A chave": {
+    "before": "La chiave",
+    "after": "Chiave API",
+    "review": "editorial"
+  },
+  "Cole aqui a chave que a empresa de IA te deu": {
+    "before": "Ecco la chiave che ti ha dato l'AI.",
+    "after": "Incolla qui la chiave API fornita dal provider IA",
+    "review": "editorial"
+  },
+  "Esta escolha passa a valer para a empresa inteira: é esta inteligência que atende seus clientes.": {
+    "before": "Questa scelta va alla società completa: è questa intelligenza che serve i suoi clienti.",
+    "after": "Questa scelta si applica a tutta l’organizzazione: il provider selezionato verrà usato dall’IA che risponde ai clienti.",
+    "review": "editorial"
+  },
+  "A chave foi guardada, mas não consegui mudar a IA da empresa agora. Dá para trocar em IA › Provedores.": {
+    "before": "La chiave è stata salvata, ma non sono stato in grado di cambiare l’intelligenza artificiale dell’azienda.",
+    "after": "La chiave è stata salvata, ma non è stato possibile cambiare il provider IA dell’organizzazione. Puoi cambiarlo in IA › Provider.",
+    "review": "editorial"
+  },
+  "Chave guardada. Agora ele pode pensar.": {
+    "before": "La chiave è salvata, ora può pensare.",
+    "after": "Chiave salvata. L’assistente può ora utilizzare il provider IA.",
+    "review": "editorial"
+  },
+  "Guardando...": {
+    "before": "Continuare...",
+    "after": "Salvataggio in corso…",
+    "review": "editorial"
+  },
+  "Guardar a chave": {
+    "before": "Chiave di memorizzazione",
+    "after": "Salva la chiave API",
+    "review": "editorial"
+  },
+  "Ela é guardada cifrada — nem nós conseguimos lê-la depois.": {
+    "before": "E' criptato, anche se non possiamo leggerlo piu' tardi.",
+    "after": "La chiave viene conservata cifrata: nemmeno noi possiamo leggerla dopo il salvataggio.",
+    "review": "editorial"
+  },
+  "O cérebro dele:": {
+    "before": "Il suo cervello:",
+    "after": "Provider IA:",
+    "review": "editorial"
+  },
+  "Conferindo se a chave tem crédito…": {
+    "before": "Controllare se la chiave ha credito...",
+    "after": "Verifica del credito disponibile per la chiave API…",
+    "review": "editorial"
+  },
+  "Testei agora: a chave respondeu e tem crédito.": {
+    "before": "L'ho appena testato, la chiave ha risposto ed e' accreditata.",
+    "after": "Verifica riuscita: la chiave funziona e dispone di credito.",
+    "review": "editorial"
+  },
+  "Não consegui testar o crédito agora. Dá para seguir — mas confira o saldo na conta da empresa de IA antes de confiar nele.": {
+    "before": "Non ho potuto testare il credito in questo momento. Posso seguire - ma controllare l'equilibrio sul conto della società AI prima che ti fidi di lui.",
+    "after": "Impossibile verificare il credito al momento. Puoi proseguire, ma controlla il credito nell’account del provider IA prima di utilizzare l’assistente.",
+    "review": "editorial"
+  },
+  "seu funcionário": {
+    "before": "Il tuo dipendente",
+    "after": "il tuo assistente IA",
+    "review": "editorial"
+  },
+  "Você ainda não montou seu funcionário.": {
+    "before": "Non hai ancora stabilito il tuo dipendente.",
+    "after": "Non hai ancora configurato il tuo assistente IA.",
+    "review": "editorial"
+  },
+  "está como": {
+    "before": "E' come se...",
+    "after": "è ancora una",
+    "review": "editorial"
+  },
+  "ainda não foi para o ar.": {
+    "before": "Non è ancora salito.",
+    "after": "non è ancora stato pubblicato.",
+    "review": "editorial"
+  },
+  "Rascunho não responde mensagem, então não há o que ensaiar. O passo anterior explicou o que falta; você pode resolver depois em IA › Agentes.": {
+    "before": "Il progetto non risponde al messaggio, quindi non c'è nulla da provare. Il passo precedente ha spiegato ciò che manca; si può risolvere in seguito in AI › Agenti.",
+    "after": "Un agente in bozza non risponde ai messaggi e non può essere provato qui. Il passaggio precedente indica cosa manca; puoi completarlo in seguito in IA › Agenti.",
+    "review": "editorial"
+  },
+  "Mandar mensagem": {
+    "before": "Non può aprire un messaggio",
+    "after": "Invia messaggio",
+    "review": "editorial"
+  },
+  "respondeu": {
+    "before": "Rispose.",
+    "after": "ha risposto",
+    "review": "editorial"
+  },
+  "As causas mais comuns são a chave da empresa de IA sem saldo ou o modelo indisponível. Dá para conferir em": {
+    "before": "Le cause più comuni sono la chiave della società AI senza equilibrio o il modello non disponibile.",
+    "after": "Le cause più comuni sono il credito esaurito del provider IA o un modello non disponibile. Puoi controllare in",
+    "review": "editorial"
+  },
+  "e seguir daqui mesmo — o que você montou está salvo.": {
+    "before": "e seguire da qui — ciò che si imposta è sicuro.",
+    "after": "e riprendere da questo punto: la configurazione è stata salvata.",
+    "review": "editorial"
+  },
+  "Não consegui salvar este passo.": {
+    "before": "Non riuscivo a salvare questo passo.",
+    "after": "Impossibile salvare questo passaggio.",
+    "review": "editorial"
+  },
+  "Ex.: clínica odontológica, ou venda de roupa fitness pelo WhatsApp": {
+    "before": "Ad esempio, la clinica dentale, o la vendita di vestiti di fitness da WhatsApp",
+    "after": "Es.: studio dentistico oppure vendita di abbigliamento sportivo tramite WhatsApp",
+    "review": "editorial"
+  },
+  "Li e aceito os": {
+    "before": "Ho letto e accettato",
+    "after": "Ho letto e accetto i",
+    "review": "editorial"
+  },
+  "Servidor no ar e banco de dados instalado": {
+    "before": "Server dell'aria e database installato",
+    "after": "Server operativo e database installato",
+    "review": "editorial"
+  },
+  "Inteligência contratada:": {
+    "before": "Intelligence assunta:",
+    "after": "Provider IA configurato:",
+    "review": "editorial"
+  },
+  "Chave cadastrada — conferindo com a empresa de IA": {
+    "before": "Tasto registrato — conferendo con l'azienda AI",
+    "after": "Chiave API salvata: verifica con il provider IA in corso",
+    "review": "editorial"
+  },
+  "O WhatsApp desta instalação ainda não subiu": {
+    "before": "WhatsApp di questa installazione non è ancora salito",
+    "after": "Il servizio WhatsApp di questa installazione non è ancora avviato",
+    "review": "editorial"
+  },
+  "Você já instalou o sistema. Isto aqui já está de pé:": {
+    "before": "Hai già installato il sistema.",
+    "after": "Il sistema è installato. Questi componenti sono già pronti:",
+    "review": "editorial"
+  },
+  "Agora é montar quem vai atender por você.": {
+    "before": "Ora sta guidando chi si prendera' cura di te.",
+    "after": "Ora configura l’assistente IA che risponderà ai clienti.",
+    "review": "editorial"
+  },
+  "O que falta a gente resolve nos próximos passos.": {
+    "before": "Quello che dobbiamo risolvere nei prossimi passi.",
+    "after": "Completerai ciò che manca nei prossimi passaggi.",
+    "review": "editorial"
+  },
+  "Carregando organização…": {
+    "before": "L'organizzazione di caricamento...",
+    "after": "Caricamento dell’organizzazione in corso…",
+    "review": "editorial"
+  },
+  "Não foi possível trocar de organização. Tente novamente.": {
+    "before": "Non poteva cambiare l'organizzazione.",
+    "after": "Impossibile cambiare organizzazione. Riprova.",
+    "review": "editorial"
+  },
+  "Assistido: revisar antes de enviar": {
+    "before": "Guardato: recensione prima del caricamento",
+    "after": "Assistito: controlla prima di inviare",
+    "review": "editorial"
+  },
+  "Salvar prazos": {
+    "before": "Risparmiare le scadenze",
+    "after": "Salva le scadenze",
+    "review": "editorial"
+  },
+  "Pausado": {
+    "before": "Paused",
+    "after": "In pausa",
+    "review": "editorial"
+  },
+  "Pausada": {
+    "before": "Paused",
+    "after": "In pausa",
+    "review": "editorial"
+  },
+  "Perdida": {
+    "before": "Perdita",
+    "after": "Persa",
+    "review": "editorial"
+  },
+  "Perdido": {
+    "before": "Perdita",
+    "after": "Perso",
+    "review": "editorial"
+  },
+  "Perdidos": {
+    "before": "Perdita",
+    "after": "Persi",
+    "review": "editorial"
+  },
+  "Perdido —": {
+    "before": "Perdita —",
+    "after": "Perso —",
+    "review": "editorial"
+  },
+  "Perdas": {
+    "before": "Perdita",
+    "after": "Perdite",
+    "review": "editorial"
+  },
+  "Salvar rascunho": {
+    "before": "Salvare il progetto",
+    "after": "Salva la bozza",
+    "review": "editorial"
+  },
+  "Salve o rascunho antes de publicar.": {
+    "before": "Salvare il progetto prima di pubblicare.",
+    "after": "Salva la bozza prima di pubblicare.",
+    "review": "editorial"
+  },
+  "Confere antes de enviar": {
+    "before": "Controllare prima di caricare",
+    "after": "Controlla prima di inviare",
+    "review": "editorial"
+  },
+  "Carregando as capacidades…": {
+    "before": "Capacità di carico...",
+    "after": "Caricamento delle funzionalità in corso…",
+    "review": "editorial"
+  },
+  "Erro ao carregar fluxos.": {
+    "before": "Flussi di carico di errore.",
+    "after": "Impossibile caricare i flussi.",
+    "review": "editorial"
+  },
+  "Erro ao carregar execuções.": {
+    "before": "Esecuzioni di caricamento di errori.",
+    "after": "Impossibile caricare le esecuzioni.",
+    "review": "editorial"
+  },
+  "Pausado (atendimento humano)": {
+    "before": "Paused (servizio umano)",
+    "after": "In pausa (assistenza gestita da un operatore)",
+    "review": "editorial"
+  },
+  "Pausado por uma pessoa": {
+    "before": "Pausa da una persona",
+    "after": "Messo in pausa da una persona",
+    "review": "editorial"
+  },
+  "pausar": {
+    "before": "pausa pausa",
+    "after": "metti in pausa",
+    "review": "editorial"
+  },
+  "cancelar": {
+    "before": "Cancellazione",
+    "after": "annulla",
+    "review": "editorial"
+  },
+  "Excluir aresta": {
+    "before": "Eliminare il bordo",
+    "after": "Elimina collegamento",
+    "review": "editorial"
+  },
+  "Excluir esta aresta?": {
+    "before": "Eliminare questo bordo?",
+    "after": "Elimina questo collegamento?",
+    "review": "editorial"
+  },
+  "Do último envio deste fluxo": {
+    "before": "Dall'ultimo caricamento di questo flusso",
+    "after": "Dall’ultimo invio di questo flusso",
+    "review": "editorial"
+  },
+  "Salvar gatilho": {
+    "before": "Salvare il grilletto",
+    "after": "Salva l’evento di attivazione",
+    "review": "editorial"
+  },
+  "Criar fonte": {
+    "before": "Creare font",
+    "after": "Crea una fonte",
+    "review": "editorial"
+  },
+  "Carregando agent…": {
+    "before": "Agente di carico...",
+    "after": "Caricamento dell’agente in corso…",
+    "review": "editorial"
+  },
+  "Erro ao salvar": {
+    "before": "Risparmio di errori",
+    "after": "Errore durante il salvataggio",
+    "review": "editorial"
+  },
+  "Guardar o combinado": {
+    "before": "Salvare la combo",
+    "after": "Salva le istruzioni concordate",
+    "review": "editorial"
+  },
+  "Suspender tenant": {
+    "before": "Sospendere inquilino",
+    "after": "Sospendi l’organizzazione",
+    "review": "editorial"
+  },
+  "Tenant Suspenso": {
+    "before": "Inquilino sospeso",
+    "after": "Organizzazione sospesa",
+    "review": "editorial"
+  },
+  "Tenant suspenso": {
+    "before": "Sospeso involucro",
+    "after": "Organizzazione sospesa",
+    "review": "editorial"
+  },
+  "Confirmar suspensão": {
+    "before": "Conferma della sospensione",
+    "after": "Conferma la sospensione",
+    "review": "editorial"
+  },
+  "Aguardando envio": {
+    "before": "Caricamento in corso",
+    "after": "In attesa di invio",
+    "review": "editorial"
+  },
+  "Excluir fonte": {
+    "before": "Eliminare i caratteri",
+    "after": "Elimina la fonte",
+    "review": "editorial"
+  },
+  "Ativar": {
+    "before": "Abilita'",
+    "after": "Attiva",
+    "review": "editorial"
+  },
+  "Desligar e desconectar o aparelho": {
+    "before": "Scollegare e scollegare il dispositivo",
+    "after": "Disattiva e scollega il dispositivo",
+    "review": "editorial"
+  },
+  "Mover os negócios e arquivar": {
+    "before": "Spostare il business e l'archivio",
+    "after": "Sposta le trattative e archivia",
+    "review": "editorial"
+  },
+  "Gravar áudio": {
+    "before": "Salvare audio",
+    "after": "Registra audio",
+    "review": "editorial"
+  },
+  "Pausar áudio": {
+    "before": "Pausa audio",
+    "after": "Metti in pausa l’audio",
+    "review": "editorial"
+  },
+  "Está certo, salvar": {
+    "before": "Va bene, risparmia.",
+    "after": "Conferma e salva",
+    "review": "editorial"
+  },
+  "Conta suspensa": {
+    "before": "Conto sospeso",
+    "after": "Account sospeso",
+    "review": "editorial"
+  },
+  "Excluir de vez": {
+    "before": "Elimina per il bene",
+    "after": "Elimina definitivamente",
+    "review": "editorial"
+  },
+  "Apagar de vez": {
+    "before": "Elimina per il bene",
+    "after": "Elimina definitivamente",
+    "review": "editorial"
+  },
+  "reenviado": {
+    "before": "Responsabilità",
+    "after": "inviato nuovamente",
+    "review": "editorial"
+  },
+  "Tenant suspenso com sucesso": {
+    "before": "Inquinamento con successo sospeso",
+    "after": "Organizzazione sospesa",
+    "review": "editorial"
+  },
+  "Erro ao suspender tenant": {
+    "before": "Errore durante la sospensione dell'inquilino",
+    "after": "Errore durante la sospensione dell’organizzazione",
+    "review": "editorial"
+  },
+  "IA pausada": {
+    "before": "AI Paused",
+    "after": "IA in pausa",
+    "review": "editorial"
+  },
+  "Pausar respostas da IA": {
+    "before": "Risposte Pause AI",
+    "after": "Sospendi le risposte dell’IA",
+    "review": "editorial"
+  },
+  "Manter IA pausada": {
+    "before": "Tenere l'AI in pausa",
+    "after": "Mantieni l’IA in pausa",
+    "review": "editorial"
+  },
+  "Desmarque para voltar a salvar.": {
+    "before": "Non scegliere di salvare di nuovo.",
+    "after": "Deseleziona per poter salvare di nuovo.",
+    "review": "editorial"
+  },
+  "Desmarque para poder salvar.": {
+    "before": "Scollegare in modo da poter salvare.",
+    "after": "Deseleziona per poter salvare.",
+    "review": "editorial"
+  },
+  "Iniciar envio": {
+    "before": "Avviare il carico",
+    "after": "Avvia l’invio",
+    "review": "editorial"
+  },
+  "Salvar ritmo": {
+    "before": "Risparmiare il ritmo",
+    "after": "Salva la frequenza di invio",
+    "review": "editorial"
+  },
+  "Lista de exclusão": {
+    "before": "Cancella elenco",
+    "after": "Lista dei contatti esclusi",
+    "review": "editorial"
+  },
+  "Adicionar parcela": {
+    "before": "Aggiungi trama",
+    "after": "Aggiungi una rata",
+    "review": "editorial"
+  },
+  "Excluir desmarcadas": {
+    "before": "Eliminare non programmato",
+    "after": "Elimina le voci non selezionate",
+    "review": "editorial"
+  },
+  "Criar empresa": {
+    "before": "Creare un business",
+    "after": "Crea un’azienda",
+    "review": "editorial"
+  },
+  "Campanha pausada": {
+    "before": "Campagna pausata",
+    "after": "Campagna in pausa",
+    "review": "editorial"
+  },
+  "Pausando...": {
+    "before": "Pausing...",
+    "after": "Sospensione in corso…",
+    "review": "editorial"
+  },
+  "Cancelando…": {
+    "before": "Cancelleria...",
+    "after": "Annullamento in corso…",
+    "review": "editorial"
+  },
+  "Apagando…": {
+    "before": "Cancellare...",
+    "after": "Eliminazione in corso…",
+    "review": "editorial"
+  },
+  "Erro ao apagar a tarefa.": {
+    "before": "E' un'operazione di cancellazione degli errori.",
+    "after": "Errore durante l’eliminazione dell’attività.",
+    "review": "editorial"
+  },
+  "Erro ao carregar conversas.": {
+    "before": "Conversazioni di caricamento degli errori.",
+    "after": "Impossibile caricare le conversazioni.",
+    "review": "editorial"
+  },
+  "Erro ao carregar mensagens.": {
+    "before": "Messaggi di caricamento di errore.",
+    "after": "Impossibile caricare i messaggi.",
+    "review": "editorial"
+  },
+  "Erro ao carregar contato.": {
+    "before": "Contatto di carico di errore.",
+    "after": "Impossibile caricare il contatto.",
+    "review": "editorial"
+  },
+  "Erro ao carregar contatos.": {
+    "before": "Contatti di caricamento degli errori.",
+    "after": "Impossibile caricare i contatti.",
+    "review": "editorial"
+  },
+  "Erro ao carregar timeline.": {
+    "before": "Timeline di caricamento degli errori.",
+    "after": "Impossibile caricare la cronologia.",
+    "review": "editorial"
+  },
+  "Erro ao carregar solicitações.": {
+    "before": "Richieste di caricamento degli errori.",
+    "after": "Impossibile caricare le richieste.",
+    "review": "editorial"
+  },
+  "Erro ao carregar membros.": {
+    "before": "Membri di caricamento degli errori.",
+    "after": "Impossibile caricare i membri del team.",
+    "review": "editorial"
+  },
+  "Erro ao carregar atendentes.": {
+    "before": "Assistenti di carico di errori.",
+    "after": "Impossibile caricare gli operatori.",
+    "review": "editorial"
+  },
+  "Erro ao carregar métricas.": {
+    "before": "Metriche di carico di errore.",
+    "after": "Impossibile caricare le metriche.",
+    "review": "editorial"
+  },
+  "Erro ao carregar o agente.": {
+    "before": "Agente di carico di errori.",
+    "after": "Impossibile caricare l’agente.",
+    "review": "editorial"
+  },
+  "Erro ao carregar agent.": {
+    "before": "Agente di carico di errori.",
+    "after": "Impossibile caricare l’agente.",
+    "review": "editorial"
+  },
+  "Erro ao carregar convites.": {
+    "before": "Inviti di caricamento di errori.",
+    "after": "Impossibile caricare gli inviti.",
+    "review": "editorial"
+  },
+  "Erro ao carregar o relatório.": {
+    "before": "Rapporto di caricamento degli errori.",
+    "after": "Impossibile caricare il report.",
+    "review": "editorial"
+  },
+  "Erro ao carregar empresas.": {
+    "before": "Le società di carico di errori.",
+    "after": "Impossibile caricare le aziende.",
+    "review": "editorial"
+  },
+  "Erro ao carregar empresa.": {
+    "before": "La società di carico di errori.",
+    "after": "Impossibile caricare l’azienda.",
+    "review": "editorial"
+  },
+  "Erro ao carregar as campanhas.": {
+    "before": "Campagne di carico di errori.",
+    "after": "Impossibile caricare le campagne.",
+    "review": "editorial"
+  },
+  "Erro ao carregar a previsão.": {
+    "before": "Anteprima di caricamento di errore.",
+    "after": "Impossibile caricare la previsione.",
+    "review": "editorial"
+  },
+  "Erro ao arquivar fonte.": {
+    "before": "Errore durante l'archiviazione del carattere.",
+    "after": "Errore durante l’archiviazione della fonte.",
+    "review": "editorial"
+  },
+  "Erro ao salvar o som.": {
+    "before": "Risparmio di errori.",
+    "after": "Errore durante il salvataggio del suono.",
+    "review": "editorial"
+  },
+  "Falha ao salvar os knobs.": {
+    "before": "Non ho fatto in modo di salvare le manopole.",
+    "after": "Impossibile salvare le impostazioni.",
+    "review": "editorial"
+  },
+  "Falha ao salvar o teto diário.": {
+    "before": "Non ha fatto in modo di salvare il tetto giornaliero.",
+    "after": "Impossibile salvare il limite giornaliero.",
+    "review": "editorial"
+  },
+  "Não foi possível salvar.": {
+    "before": "Non ho potuto salvare.",
+    "after": "Impossibile salvare.",
+    "review": "editorial"
+  },
+  "Não foi possível gravar.": {
+    "before": "Non potevo salvare.",
+    "after": "Impossibile salvare.",
+    "review": "editorial"
+  },
+  "Não foi possível gravar o dado.": {
+    "before": "Non poteva salvare i dati.",
+    "after": "Impossibile salvare il dato.",
+    "review": "editorial"
+  },
+  "Não foi possível criar o agente.": {
+    "before": "Incapace di creare agente.",
+    "after": "Impossibile creare l’agente.",
+    "review": "editorial"
+  },
+  "Não foi possível carregar as tarefas.": {
+    "before": "Incapace di caricare le attività.",
+    "after": "Impossibile caricare le attività da svolgere.",
+    "review": "editorial"
+  },
+  "Não foi possível salvar a tarefa.": {
+    "before": "Incapace di salvare l'attività.",
+    "after": "Impossibile salvare l’attività.",
+    "review": "editorial"
+  },
+  "Pausar o automático": {
+    "before": "Pausa Auto",
+    "after": "Sospendi l’automazione",
+    "review": "editorial"
+  },
+  "Automático pausado": {
+    "before": "Automatico in pausa",
+    "after": "Automazione in pausa",
+    "review": "editorial"
+  },
+  "Pausou o automático": {
+    "before": "Paused l'automatico",
+    "after": "Ha sospeso l’automazione",
+    "review": "editorial"
+  },
+  "Retorno cancelado": {
+    "before": "Cancellazione del ritorno",
+    "after": "Ricontatto annullato",
+    "review": "editorial"
+  },
+  "Follow-up pausado": {
+    "before": "Seguito in pausa",
+    "after": "Ricontatto automatico in pausa",
+    "review": "editorial"
+  },
+  "Pausado por uma pessoa da equipe": {
+    "before": "Paused da un membro del team",
+    "after": "Messo in pausa da una persona del team",
+    "review": "editorial"
+  },
+  "Criar direto no Google exige o developer token do Google Ads nesta instalação e a conta reconectada. Enquanto isso, cole o ID da ação.": {
+    "before": "Creare direttamente su Google richiede Google Ads token sviluppatore su questa installazione e l'account ricollegato. Nel frattempo, incollare l'ID azione.",
+    "after": "Crea direttamente su Google richiede Google Ads token sviluppatore su questa installazione e l'account ricollegato. Nel frattempo, incollare l'ID azione.",
+    "review": "terminology"
+  },
+  "Salvar regras": {
+    "before": "Salvare le regole",
+    "after": "Salva le regole",
+    "review": "terminology"
+  },
+  "Salvar chave e conectar": {
+    "before": "Salvare la chiave e connettersi",
+    "after": "Salva la chiave e connettersi",
+    "review": "terminology"
+  },
+  "Criar agente para esta campanha": {
+    "before": "Creare agente per questa campagna",
+    "after": "Crea agente per questa campagna",
+    "review": "terminology"
+  },
+  "Criar e usar agente": {
+    "before": "Creare e utilizzare l'agente",
+    "after": "Crea e utilizzare l'agente",
+    "review": "terminology"
+  },
+  "Salvar lista de teste": {
+    "before": "Salvare la lista dei test",
+    "after": "Salva la lista dei test",
+    "review": "terminology"
+  },
+  "Salvar responsáveis": {
+    "before": "Salvare i responsabili",
+    "after": "Salva i responsabili",
+    "review": "terminology"
+  },
+  "Salvar interface": {
+    "before": "Salvare l'interfaccia",
+    "after": "Salva l'interfaccia",
+    "review": "terminology"
+  },
+  "Criar agente": {
+    "before": "Creare agente",
+    "after": "Crea agente",
+    "review": "terminology"
+  },
+  "Salvar padrão": {
+    "before": "Salvare il default",
+    "after": "Salva il default",
+    "review": "terminology"
+  },
+  "Criar rascunho de proposta fica só com o assistente que conversa: ele segue o seu roteiro e sabe quando o cliente já explicou o que quer.": {
+    "before": "Creare una bozza di proposta rimane solo con l'assistente che parla: segue il tuo copione e sa quando il cliente ha già spiegato ciò che vuole.",
+    "after": "Crea una bozza di proposta rimane solo con l'assistente che parla: segue il tuo copione e sa quando il cliente ha già spiegato ciò che vuole.",
+    "review": "terminology"
+  },
+  "Criar fluxo": {
+    "before": "Creare flusso",
+    "after": "Crea flusso",
+    "review": "terminology"
+  },
+  "Excluir nó": {
+    "before": "Eliminare Node",
+    "after": "Elimina Node",
+    "review": "terminology"
+  },
+  "Excluir este nó?": {
+    "before": "Eliminare questo nodo?",
+    "after": "Elimina questo nodo?",
+    "review": "terminology"
+  },
+  "Criar a partir da proposta que a empresa já usa": {
+    "before": "Creare dalla proposta che l'azienda già utilizza",
+    "after": "Crea dalla proposta che l'azienda già utilizza",
+    "review": "terminology"
+  },
+  "Excluir credencial": {
+    "before": "Eliminare le credenziali",
+    "after": "Elimina le credenziali",
+    "review": "terminology"
+  },
+  "Salvar e validar": {
+    "before": "Salvare e convalidare",
+    "after": "Salva e convalidare",
+    "review": "terminology"
+  },
+  "Salvar aprendizado": {
+    "before": "Salvare l'apprendimento",
+    "after": "Salva l'apprendimento",
+    "review": "terminology"
+  },
+  "Salvar uma cor válida aqui apaga este alerta.": {
+    "before": "Salvare un colore valido qui cancella questo avviso.",
+    "after": "Salva un colore valido qui cancella questo avviso.",
+    "review": "terminology"
+  },
+  "Criar automação": {
+    "before": "Creare l'automazione",
+    "after": "Crea l'automazione",
+    "review": "terminology"
+  },
+  "Excluir automação": {
+    "before": "Eliminare l'automazione",
+    "after": "Elimina l'automazione",
+    "review": "terminology"
+  },
+  "Excluir esta automação?": {
+    "before": "Eliminare questa automazione?",
+    "after": "Elimina questa automazione?",
+    "review": "terminology"
+  },
+  "Excluir esta fonte?": {
+    "before": "Eliminare questa fonte?",
+    "after": "Elimina questa fonte?",
+    "review": "terminology"
+  },
+  "Criar novo token": {
+    "before": "Creare un nuovo token",
+    "after": "Crea un nuovo token",
+    "review": "terminology"
+  },
+  "Criar e editar contatos": {
+    "before": "Creare e modificare i contatti",
+    "after": "Crea e modificare i contatti",
+    "review": "terminology"
+  },
+  "Criar e editar leads": {
+    "before": "Creare e modificare i lead",
+    "after": "Crea e modificare i lead",
+    "review": "terminology"
+  },
+  "Salvar estas escolhas": {
+    "before": "Salvare queste scelte",
+    "after": "Salva queste scelte",
+    "review": "terminology"
+  },
+  "Excluir nota": {
+    "before": "Eliminare le note",
+    "after": "Elimina le note",
+    "review": "terminology"
+  },
+  "Salvar este link no modelo": {
+    "before": "Salvare questo link al modello",
+    "after": "Salva questo link al modello",
+    "review": "terminology"
+  },
+  "Salvar link": {
+    "before": "Salvare il link",
+    "after": "Salva il link",
+    "review": "terminology"
+  },
+  "Criar contato": {
+    "before": "Creare contatti",
+    "after": "Crea contatti",
+    "review": "terminology"
+  },
+  "Criar lead": {
+    "before": "Creare lead",
+    "after": "Crea lead",
+    "review": "terminology"
+  },
+  "Excluir este template?": {
+    "before": "Eliminare questo modello?",
+    "after": "Elimina questo modello?",
+    "review": "terminology"
+  },
+  "Salvar conteúdo": {
+    "before": "Salvare i contenuti",
+    "after": "Salva i contenuti",
+    "review": "terminology"
+  },
+  "Excluir template": {
+    "before": "Eliminare il modello",
+    "after": "Elimina il modello",
+    "review": "terminology"
+  },
+  "Excluir contato": {
+    "before": "Eliminare il contatto",
+    "after": "Elimina il contatto",
+    "review": "terminology"
+  },
+  "Excluir contato?": {
+    "before": "Eliminare il contatto?",
+    "after": "Elimina il contatto?",
+    "review": "terminology"
+  },
+  "Salvar chave": {
+    "before": "Salvare la chiave",
+    "after": "Salva la chiave",
+    "review": "terminology"
+  },
+  "Criar tipo": {
+    "before": "Creare il tipo",
+    "after": "Crea il tipo",
+    "review": "terminology"
+  },
+  "Salvar produto": {
+    "before": "Salvare il prodotto",
+    "after": "Salva il prodotto",
+    "review": "terminology"
+  },
+  "Salvar conexão": {
+    "before": "Salvare la connessione",
+    "after": "Salva la connessione",
+    "review": "terminology"
+  },
+  "Salvar para os próximos agendamentos": {
+    "before": "Salvare per i prossimi orari",
+    "after": "Salva per i prossimi orari",
+    "review": "terminology"
+  },
+  "Criar uma entrada automática de contatos": {
+    "before": "Creare una voce di contatti automatica",
+    "after": "Crea una voce di contatti automatica",
+    "review": "terminology"
+  },
+  "Criar organização": {
+    "before": "Creare un'organizzazione",
+    "after": "Crea un'organizzazione",
+    "review": "terminology"
+  },
+  "Salvar endereço de captura": {
+    "before": "Salvare l'indirizzo di Capture",
+    "after": "Salva l'indirizzo di Capture",
+    "review": "terminology"
+  },
+  "Salvar links": {
+    "before": "Salvare i link",
+    "after": "Salva i link",
+    "review": "terminology"
+  },
+  "Salvar seção": {
+    "before": "Salvare la sezione",
+    "after": "Salva la sezione",
+    "review": "terminology"
+  },
+  "Excluir das campanhas": {
+    "before": "Eliminare dalle campagne",
+    "after": "Elimina dalle campagne",
+    "review": "terminology"
+  },
+  "Salvar padrões": {
+    "before": "Salvare i default",
+    "after": "Salva i default",
+    "review": "terminology"
+  },
+  "Salvar texto": {
+    "before": "Salvare il testo",
+    "after": "Salva il testo",
+    "review": "terminology"
+  },
+  "Criar contrato": {
+    "before": "Creare un contratto",
+    "after": "Crea un contratto",
+    "review": "terminology"
+  },
+  "Criar e abrir editor": {
+    "before": "Creare e aprire Editor",
+    "after": "Crea e aprire Editor",
+    "review": "terminology"
+  },
+  "Criar tarefa interna (sem mensagem ao cliente)": {
+    "before": "Creare un'attività interna (nessun messaggio client)",
+    "after": "Crea un'attività interna (nessun messaggio client)",
+    "review": "terminology"
+  },
+  "Agente de IA": {
+    "before": "Agente AI",
+    "after": "Agente IA",
+    "review": "editorial"
+  },
+  "Ver tudo em IA": {
+    "before": "Tutte le funzioni AI",
+    "after": "Tutte le funzioni IA",
+    "review": "editorial"
+  },
+  "Nome da etapa": {
+    "before": "Nome del passo",
+    "after": "Nome della fase",
+    "review": "editorial"
+  },
+  "Tag: todas": {
+    "before": "Tags: tutti",
+    "after": "Tag: tutte",
+    "review": "editorial"
+  },
+  "Novo lead": {
+    "before": "Nuovo vantaggio",
+    "after": "Nuovo lead",
+    "review": "editorial"
+  },
+  "Nova tarefa": {
+    "before": "Nuovo compito",
+    "after": "Nuova attività",
+    "review": "editorial"
+  },
+  "3. Cole no seu site — cada envio vira um lead aqui dentro.": {
+    "before": "3. Cole sul tuo sito — ogni spedizione diventa un vantaggio qui.",
+    "after": "3. Incolla il codice nel tuo sito: ogni invio crea un lead nel CRM.",
+    "review": "editorial"
+  },
+  "Nome do lead": {
+    "before": "Nome del cavo",
+    "after": "Nome del lead",
+    "review": "editorial"
+  },
+  "Quando um lead encerrado for reaberto": {
+    "before": "Quando un cavo chiuso viene riaperto",
+    "after": "Quando un lead chiuso viene riaperto",
+    "review": "editorial"
+  },
+  "Lead perdido": {
+    "before": "Guida persa",
+    "after": "Lead perso",
+    "review": "editorial"
+  },
+  "Sem contato, este lead não recebe WhatsApp nem entra nas automações.": {
+    "before": "Senza contatto, questo vantaggio non riceve WhatsApp o entra nelle automazioni.",
+    "after": "Senza un contatto associato, questo lead non può ricevere messaggi WhatsApp né entrare nelle automazioni.",
+    "review": "editorial"
+  },
+  "Um lead tem um dono: informe owner_user_id OU owner_agent_id.": {
+    "before": "Un vantaggio ha un proprietario: informa il proprietario_user_id O proprietario_agent_id.",
+    "after": "Un lead deve avere un responsabile: specifica owner_user_id oppure owner_agent_id.",
+    "review": "editorial"
+  },
+  "Importar contatos de planilha": {
+    "before": "Importa contatti foglio di calcolo",
+    "after": "Importa contatti da un file CSV",
+    "review": "editorial"
+  },
+  "Importar": {
+    "before": "Importazioni",
+    "after": "Importa",
+    "review": "editorial"
+  },
+  "Importando…": {
+    "before": "Mi dispiace.",
+    "after": "Importazione in corso…",
+    "review": "editorial"
+  },
+  "contato(s) importado(s)": {
+    "before": "contatti importati(i)",
+    "after": "contatti importati",
+    "review": "editorial"
+  },
+  "linha(s) com problema": {
+    "before": "linea di problemi(i)",
+    "after": "righe con problemi",
+    "review": "editorial"
+  },
+  "linha(s) lidas": {
+    "before": "linea di lettura(i)",
+    "after": "righe lette",
+    "review": "editorial"
+  },
+  "já existente(s)": {
+    "before": "esistenti(i)",
+    "after": "già presenti",
+    "review": "editorial"
+  },
+  "com erro": {
+    "before": "errore",
+    "after": "con errori",
+    "review": "editorial"
+  },
+  "Linha": {
+    "before": "Linea",
+    "after": "Riga",
+    "review": "editorial"
+  },
+  "Importar outro arquivo": {
+    "before": "Importare un altro file",
+    "after": "Importa un altro file",
+    "review": "editorial"
+  },
+  "Envie um arquivo .csv com cabeçalho — colunas reconhecidas: nome, telefone, email, cpf, nascimento, tags. Excel: use “Salvar como” → “CSV UTF-8”. Máximo de 500 linhas por arquivo.": {
+    "before": "Inviare un file .csv con intestazione — colonne riconosciute: nome, telefono, e-mail, cpf, nascita, tag. Excel: utilizzare “Salva come” → “CSV UTF-8”. Massima 500 linee per file.",
+    "after": "Carica un file .csv con la riga di intestazione. Usa questi nomi di colonna: nome, telefone, email, cpf, nascimento, tags. In Excel scegli “Salva con nome” → “CSV UTF-8”. Massimo 500 righe per file.",
+    "review": "editorial"
+  }
+}

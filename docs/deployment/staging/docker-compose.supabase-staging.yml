@@ -1,0 +1,51 @@
+# Apply after the official Supabase compose and the Deskcomm single-server overlay.
+# Expose only the SDK API paths through the existing proxy. Studio stays private.
+services:
+  studio:
+    mem_limit: 384m
+    cpus: 0.5
+  api-gw:
+    mem_limit: 128m
+    cpus: 0.25
+    networks:
+      proxy: {}
+    labels:
+      traefik.enable: "true"
+      traefik.docker.network: "coolify"
+      traefik.http.routers.deskcomm-staging-supabase.rule: "Host(`deskcomm-staging.cristianocosta.it`) && (PathPrefix(`/auth/v1`) || PathPrefix(`/rest/v1`) || PathPrefix(`/realtime/v1`) || PathPrefix(`/storage/v1`) || PathPrefix(`/functions/v1`) || PathPrefix(`/graphql/v1`))"
+      traefik.http.routers.deskcomm-staging-supabase.priority: "100"
+      traefik.http.routers.deskcomm-staging-supabase.entrypoints: "https"
+      traefik.http.routers.deskcomm-staging-supabase.tls.certresolver: "letsencrypt"
+      traefik.http.routers.deskcomm-staging-supabase.service: "deskcomm-staging-supabase"
+      traefik.http.services.deskcomm-staging-supabase.loadbalancer.server.port: "8000"
+  db:
+    mem_limit: 768m
+    cpus: 1.0
+  auth:
+    mem_limit: 192m
+    cpus: 0.5
+  rest:
+    mem_limit: 192m
+    cpus: 0.5
+  realtime:
+    mem_limit: 384m
+    cpus: 0.5
+  storage:
+    mem_limit: 256m
+    cpus: 0.5
+  imgproxy:
+    mem_limit: 128m
+    cpus: 0.25
+  meta:
+    mem_limit: 128m
+    cpus: 0.25
+  functions:
+    mem_limit: 256m
+    cpus: 0.5
+  supavisor:
+    mem_limit: 384m
+    cpus: 0.5
+networks:
+  proxy:
+    external: true
+    name: coolify

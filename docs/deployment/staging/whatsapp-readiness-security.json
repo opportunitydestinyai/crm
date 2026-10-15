@@ -1,0 +1,9 @@
+{
+  "encryption_keys_present": {
+    "CPF_ENCRYPTION_KEY": true,
+    "WAHA_BYO_ENCRYPTION_KEY": true,
+    "AI_CRED_AES_KEY": true
+  },
+  "anonymous_channels_http": 401,
+  "unknown_webhook_token_http": 404
+}

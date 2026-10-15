@@ -1,0 +1,26 @@
+{
+  "global_webhook": {
+    "scheme": "http",
+    "host": "app",
+    "path": "/api/v1/webhooks/waha",
+    "events": "message.any,message.ack,message.edited,message.revoked,session.status,state.change"
+  },
+  "sessions": [
+    {
+      "status": "SCAN_QR_CODE",
+      "paired_identity_present": false,
+      "webhooks": []
+    }
+  ],
+  "internal_receiver": {
+    "http_status": 200,
+    "result": {
+      "data": {
+        "accepted": false,
+        "reason": "session_not_registered",
+        "session": "readiness-unregistered"
+      }
+    }
+  },
+  "public_global_webhook_status": 403
+}

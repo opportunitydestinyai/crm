@@ -1,0 +1,31 @@
+[Unit]
+Description=Taccuino - archivio privato Note AI Tools (sola lettura)
+After=network.target
+
+[Service]
+Type=simple
+User=root
+ExecStart=/usr/bin/python3 /opt/deskcomm-staging/.runtime/taccuino/notes_archive.py --db /var/lib/deskcomm-taccuino/archive.sqlite3 serve --socket /run/deskcomm-taccuino/viewer.sock --port 18871
+Restart=on-failure
+RestartSec=5
+UMask=0077
+NoNewPrivileges=true
+PrivateTmp=true
+ProtectSystem=strict
+RuntimeDirectory=deskcomm-taccuino
+RuntimeDirectoryMode=0700
+ProtectHome=true
+ProtectKernelTunables=true
+ProtectKernelModules=true
+ProtectControlGroups=true
+PrivateNetwork=true
+RestrictAddressFamilies=AF_UNIX
+IPAddressDeny=any
+IPAddressAllow=localhost
+CapabilityBoundingSet=
+MemoryMax=128M
+CPUQuota=10%
+TasksMax=16
+
+[Install]
+WantedBy=multi-user.target
