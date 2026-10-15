@@ -802,3 +802,17 @@ apagar histórico de decisões que cite PRs do upstream sem necessidade.
 - Embedding do RAG: precisa de modelo de embedding. Pelo OpenRouter é pago (chave tem limite US$0 → falha). Alternativa gratuita: Google `gemini-embedding-001` (precisa chave `AIza…` válida; a que o dono passou, `AQ.…`, é inválida).
 
 **Pendências menores:** limpeza de nomes do autor original (ver seção acima); fazer push dos commits locais para `origin` (opportunitydestinyai/crm) com ok do dono; integrar OpenWA depois; WSL/Docker só é necessário no PC de dev; venda direta/pagamento, prospecção, camada SaaS (cadastro/planos/cobrança) e ligações são as lacunas para o SaaS completo.
+
+## LIÇÕES DA SESSÃO DE 15/10/2026 (o que deu errado e o que ainda NÃO está confirmado)
+
+**Erros meus que custaram tempo ao dono:**
+1. Mandei o dono ao painel do WAHA para conectar o WhatsApp; o certo é pela tela Conexões do CRM.
+2. Disse "tudo funcionando" olhando só o health check; o teste de IA do onboarding ainda falhava. Health verde NÃO prova atendimento.
+3. O teste do onboarding falhou 3 vezes por causas diferentes, descobertas uma a uma, e eu deveria ter lido o log do servidor (`dev_server*.log`, linha `[ai.test]`) logo na primeira: (a) agente com modelo pago + chave OpenRouter com limite US$0; (b) falta do playbook de plataforma (`playbook_pointers`), que só o worker cria no boot — rodei o seed à mão; (c) a página do navegador mantinha a versão antiga do agente até recarregar.
+4. O `.env.local` tinha segredos vazios (WAHA_API_KEY, AI_CRED_AES_KEY etc.) e eu mascarei com `sed` sem ver que estavam vazios. Conferir TAMANHO do valor, não só a presença da linha.
+5. Mudei o agente do dono (nova versão publicada) antes de explicar; ele pediu explicação ANTES de qualquer alteração.
+6. Respostas longas demais para quem lê com pressa: manter curtas.
+
+**NÃO confirmado ao fim da sessão:** o log mostra `POST .../versions/1c8c991b.../test 200` (modelo gratuito respondeu), mas a resposta NÃO foi vista na tela. WhatsApp real (QR em Conexões), `pnpm worker` rodando, IA respondendo mensagem real e movendo card: nada disso foi provado.
+
+**Antes de afirmar que algo funciona:** ver o log do servidor e a tela/resposta real, não só o status HTTP ou o health.
