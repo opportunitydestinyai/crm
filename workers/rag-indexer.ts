@@ -422,17 +422,41 @@ export async function indexarFonte(
   // incompleta e a anterior — que funciona — é quem deve continuar no ar.
   const falhas: Array<{ posicao: number; mensagem: string }> = [];
 
+  // RITMO DO PLANO GRATUITO DO GOOGLE: o embedding do Gemini aceita 100 pedidos
+  // por minuto, e este laço faz um pedido por trecho. Sem ritmo, um site de 120
+  // trechos estourava a cota no meio e a indexação falhava (medido em 28/10/2026:
+  // "embedding falhou no trecho 292 ... limit: 100"). ~85 por minuto cabe com folga;
+  // se mesmo assim o Google disser "tente em X segundos", espera esse tempo.
+  const INTERVALO_GOOGLE_MS = 700;
+  let ultimoPedidoEm = 0;
+  const dormir = (ms: number) => new Promise<void>((resolve) => setTimeout(resolve, ms));
+
   for (let i = 0; i < pedacos.length; i++) {
     const p = pedacos[i]!;
     let embedding: number[];
     try {
-      // `chave` já resolvida: sem isto, um documento de 200 trechos decifraria a
-      // credencial 200 vezes.
-      const r = await embedText(p.content, {
-        organizationId: fonte.organization_id,
-        chave,
-      });
-      embedding = r.embedding;
+      if (chave.provedor === "google") {
+        const espera = ultimoPedidoEm + INTERVALO_GOOGLE_MS - Date.now();
+        if (espera > 0) await dormir(espera);
+      }
+      let r: Awaited<ReturnType<typeof embedText>> | null = null;
+      for (let tentativa = 0; r === null; tentativa++) {
+        try {
+          ultimoPedidoEm = Date.now();
+          // `chave` já resolvida: sem isto, um documento de 200 trechos decifraria a
+          // credencial 200 vezes.
+          r = await embedText(p.content, {
+            organizationId: fonte.organization_id,
+            chave,
+          });
+        } catch (err) {
+          const msg = err instanceof Error ? err.message : String(err);
+          const sugerido = /retry in ([\d.]+)s/i.exec(msg);
+          if (tentativa >= 2 || !sugerido) throw err;
+          await dormir(Math.min(60_000, Math.ceil(Number(sugerido[1]) * 1000) + 1000));
+        }
+      }
+      embedding = r!.embedding;
     } catch (err) {
       const detalhe = err instanceof Error ? err.message : String(err);
       await markVersionFailed(versionId, fonte.organization_id, `embed@${i}: ${detalhe}`);

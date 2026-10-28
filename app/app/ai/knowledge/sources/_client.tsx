@@ -19,6 +19,7 @@ import {
 } from "@/hooks/ai/useKnowledgeSources";
 import { KnowledgeSourceCard } from "@/components/ai/KnowledgeSourceCard";
 import { NovoMaterialDialog } from "@/components/ai/NovoMaterialDialog";
+import { LerSiteCard } from "@/components/ai/LerSiteCard";
 import {
   ChaveDeConhecimento,
   type EstadoDaChave,
@@ -75,6 +76,8 @@ export function AcervoClient({ initialSources, initialChave, agentes }: Props) {
     <div className="space-y-5">
       <ChaveDeConhecimento estado={estado} onChaveCadastrada={recarregar} />
       <StatusDaBase materiais={lista} podeIndexar={estado.pode_indexar} />
+
+      <LerSiteCard onLido={recarregar} />
 
       <div className="flex items-center justify-between gap-3">
         <p className="text-sm text-text-muted">
