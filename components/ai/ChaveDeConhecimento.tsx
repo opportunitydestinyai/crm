@@ -65,7 +65,7 @@ const ONDE_PEGAR: Record<ProvedorDaChave, { url: string; texto: string; placehol
   google: {
     url: "https://aistudio.google.com/apikey",
     texto: "aistudio.google.com/apikey",
-    placeholder: "AIza…",
+    placeholder: "AQ.… ou AIza…",
   },
 };
 

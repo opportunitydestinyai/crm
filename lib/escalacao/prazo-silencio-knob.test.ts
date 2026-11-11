@@ -11,16 +11,16 @@ import { lerPrazoDoSilencioManualMinutos } from "@/lib/escalacao/atendimento-man
  * estragado no `settings` (jsonb livre, pode ter sido gravado à mão) não pode
  * ficar com a IA falando por cima de quem está atendendo à mão — que é
  * exatamente o defeito que este módulo existe para evitar. Então o teste
- * abaixo mede os valores que caem no padrão de 60 min.
+ * abaixo mede os valores que caem no padrão de 5 min.
  */
-const PADRAO_MIN = 60;
+const PADRAO_MIN = 5;
 
 function comValor(valor: unknown): unknown {
   return { routing: { manual_reply_silence_minutes: valor } };
 }
 
 describe("lerPrazoDoSilencioManualMinutos — ajuste por empresa", () => {
-  it("SEM o ajuste mantém o prazo documentado de 60 minutos", () => {
+  it("SEM o ajuste mantém o prazo documentado de 5 minutos", () => {
     expect(lerPrazoDoSilencioManualMinutos({})).toBe(PADRAO_MIN);
     expect(lerPrazoDoSilencioManualMinutos({ routing: {} })).toBe(PADRAO_MIN);
     expect(lerPrazoDoSilencioManualMinutos(null)).toBe(PADRAO_MIN);
@@ -53,7 +53,7 @@ describe("lerPrazoDoSilencioManualMinutos — ajuste por empresa", () => {
     ["lixo com numero", "15 min"],
     ["NaN", Number.NaN],
     ["Infinity", Number.POSITIVE_INFINITY],
-  ])("valor inválido (%s) cai no padrão de 60 min", (_rotulo, valor) => {
+  ])("valor inválido (%s) cai no padrão de 5 min", (_rotulo, valor) => {
     expect(lerPrazoDoSilencioManualMinutos(comValor(valor))).toBe(PADRAO_MIN);
   });
 });

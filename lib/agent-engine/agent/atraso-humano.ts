@@ -64,6 +64,9 @@ export const ATRASO_MINIMO_MS = 1200;
 /** Acima disto o silêncio lê como queda, não como digitação. */
 export const ATRASO_MAXIMO_MS = 7500;
 
+/** Diferença mínima entre máximo e mínimo para o alvo ser sorteado em vez de calculado pelo texto. */
+export const FAIXA_LARGA_MS = 10_000;
+
 /** Os quatro números do atraso humano — o default é o do código de antes. */
 export interface AtrasoHumanoKnobs {
   atrasoNotarMs?: number;
@@ -87,8 +90,19 @@ export function atrasoHumanoEfetivo(knobs: AtrasoHumanoKnobs | undefined): Requi
  * testável sem relógio e sem canal. `knobs` opcional: sem eles vale
  * EXATAMENTE o comportamento histórico (regressão zero).
  */
-export function calcularAtrasoHumano(texto: string, knobs?: AtrasoHumanoKnobs): number {
+export function calcularAtrasoHumano(
+  texto: string,
+  knobs?: AtrasoHumanoKnobs,
+  sortear?: () => number,
+): number {
   const ef = atrasoHumanoEfetivo(knobs);
+  // FAIXA LARGA: quando o dono abre uma faixa de pelo menos 10 s entre o mínimo e o
+  // máximo (ex.: 5 s a 30 s), o alvo é SORTEADO nela, para a resposta não ter sempre
+  // o mesmo tempo. Faixa menor (o default é 1,2–7,5 s) segue só pelo tamanho do texto.
+  if (sortear !== undefined && ef.atrasoMaximoMs - ef.atrasoMinimoMs >= FAIXA_LARGA_MS) {
+    const u = Math.min(1, Math.max(0, sortear()));
+    return Math.round(ef.atrasoMinimoMs + u * (ef.atrasoMaximoMs - ef.atrasoMinimoMs));
+  }
   const comprimento = (texto ?? '').trim().length;
   const bruto = ef.atrasoNotarMs + ef.msPorCaractere * comprimento;
   return Math.min(ef.atrasoMaximoMs, Math.max(ef.atrasoMinimoMs, bruto));
@@ -101,6 +115,8 @@ export interface EsperaHumanaArgs {
   processamentoMs?: number;
   sleep: (ms: number) => Promise<void>;
   log: Logger;
+  /** Fonte do sorteio (0 a 1) para a faixa larga. Padrão: `Math.random`; teste injeta uma fixa. */
+  sortear?: () => number;
   /**
    * Os quatro números do atraso por conexão (channel_knobs 0499). Omitir =
    * comportamento histórico (defaults de atraso-humano.ts).
@@ -129,7 +145,8 @@ export async function esperarComoHumano(args: EsperaHumanaArgs): Promise<number>
   const gasto = args.processamentoMs ?? 0;
   const ms = Math.max(
     0,
-    calcularAtrasoHumano(args.texto, args.knobs) - (Number.isFinite(gasto) ? Math.max(0, gasto) : 0),
+    calcularAtrasoHumano(args.texto, args.knobs, args.sortear ?? Math.random) -
+      (Number.isFinite(gasto) ? Math.max(0, gasto) : 0),
   );
 
   // O cliente já esperou o alvo: não acrescentar presença decorativa nem sleep.
@@ -171,4 +188,39 @@ export function acenderDigitando(sinalizarDigitando: () => Promise<void>, log: L
       error: err instanceof Error ? err.name : 'unknown',
     });
   });
+}
+
+/** De quanto em quanto tempo o "digitando…" é renovado (o WhatsApp o apaga sozinho em poucos segundos). */
+export const DIGITANDO_RENOVA_A_CADA_MS = 4000;
+
+/** Teto de segurança: o indicador nunca fica aceso mais que isto, mesmo se o turno travar. */
+export const DIGITANDO_TETO_MS = 90_000;
+
+/**
+ * "digitando…" que dura enquanto o turno trabalha: acende já e renova a cada
+ * `DIGITANDO_RENOVA_A_CADA_MS` até `parar()` ou o teto. Quem chama DEVE chamar
+ * `parar()` num `finally` — o timer não prende o processo (`unref`), mas continuaria
+ * sinalizando presença depois de um turno que já falhou.
+ *
+ * `acenderDigitando` sozinho acendia UMA vez no começo e o WhatsApp apagava o
+ * indicador antes de a resposta de 20–30 s chegar. Falha de transporte é só log.
+ */
+export function manterDigitando(
+  sinalizarDigitando: () => Promise<void>,
+  log: Logger,
+  opcoes?: { renovaMs?: number; tetoMs?: number },
+): () => void {
+  const renovaMs = opcoes?.renovaMs ?? DIGITANDO_RENOVA_A_CADA_MS;
+  const tetoMs = opcoes?.tetoMs ?? DIGITANDO_TETO_MS;
+  const inicio = Date.now();
+  acenderDigitando(sinalizarDigitando, log);
+  const timer = setInterval(() => {
+    if (Date.now() - inicio >= tetoMs) {
+      clearInterval(timer);
+      return;
+    }
+    acenderDigitando(sinalizarDigitando, log);
+  }, renovaMs);
+  timer.unref?.();
+  return () => clearInterval(timer);
 }

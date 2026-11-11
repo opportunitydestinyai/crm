@@ -175,7 +175,7 @@ export function CartaoDeMapas() {
           autoComplete="off"
           value={chave}
           onChange={(e) => setChave(e.target.value)}
-          placeholder="AIza…"
+          placeholder="AQ.… ou AIza…"
           data-testid="mapas-chave"
         />
         <p className="text-xs text-muted-foreground">

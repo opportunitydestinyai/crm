@@ -87,7 +87,7 @@ export function corpoDoEnvio(
         }
       : input.media
         ? {
-            type: 'image' as const,
+            type: input.media.mime.startsWith('audio/') ? ('audio' as const) : ('image' as const),
             media_storage_path: input.media.storagePath,
             media_mime: input.media.mime,
           }

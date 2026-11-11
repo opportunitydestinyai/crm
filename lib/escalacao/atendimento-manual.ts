@@ -106,7 +106,9 @@ import { normalizarInstante } from "@/lib/ai/elegibilidade/gate";
 import { PRAZO_MAX_MINUTOS, PRAZO_MIN_MINUTOS } from "@/lib/escalacao/devolucao-automatica";
 
 /** O prazo documentado acima, e o que vale quando a empresa não ajustou nada. */
-export const PRAZO_PADRAO_DO_SILENCIO_MINUTOS = 60;
+// Era 60. O dono pediu mais curto (06/11/2026): 5 min é o piso da faixa. Quem quer
+// mais ajusta em Configurações › Atendimento; quem quer parar de vez usa Pausar.
+export const PRAZO_PADRAO_DO_SILENCIO_MINUTOS = 5;
 
 /**
  * O prazo PADRÃO em milissegundos — o que vale para quem nunca abriu a tela.

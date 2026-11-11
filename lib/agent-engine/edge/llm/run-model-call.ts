@@ -912,9 +912,10 @@ export function normalizarErro(err: unknown): {
 export function redigirMensagemDoProvedor(bruto: string): string {
   const semSegredo = bruto
     // Chaves de API dos provedores que este produto fala: `sk-ant-…`,
-    // `sk-or-v1-…`, `sk-proj-…`, `sk-…`, e as do Google (`AIza…`).
+    // `sk-or-v1-…`, `sk-proj-…`, `sk-…`, e as do Google (`AIza…` e o formato novo `AQ.…`).
     .replace(/\bsk-[A-Za-z0-9_-]{8,}/g, '[CHAVE]')
     .replace(/\bAIza[A-Za-z0-9_-]{10,}/g, '[CHAVE]')
+    .replace(/\bAQ\.[A-Za-z0-9_-]{20,}/g, '[CHAVE]')
     // A do Jev (`apikey_<hex>_<hex>`), que não tem `sk-` e aparece solta.
     .replace(/\bapikey_[A-Za-z0-9_]{16,}/g, '[CHAVE]')
     // O header inteiro, em qualquer caixa, com ou sem `Authorization:` na

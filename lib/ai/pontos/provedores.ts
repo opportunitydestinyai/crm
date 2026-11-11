@@ -74,7 +74,7 @@ export const PROVEDORES = [
     aceitaEndpointProprio: false,
     catalogoSincronizavel: false,
     ondePegarAChave: "https://aistudio.google.com/apikey",
-    prefixoDaChave: "AIza…",
+    prefixoDaChave: "AQ.… (ou AIza…)",
   },
   {
     id: "openrouter",
