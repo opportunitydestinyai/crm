@@ -224,3 +224,29 @@ export async function recordStageDivergenceCandidate(
     confirmed,
   });
 }
+
+/**
+ * O classificador custa ~5 s de espera ANTES da resposta (medido: 20 chamadas, média
+ * 5,4 s) e só SUGERE a etapa. Pedido do dono (11/11/2026): não rodar em toda mensagem,
+ * só quando a fala do cliente tem sinal de que a etapa pode mudar — dia/horário
+ * combinado, adiamento ("depois eu falo"), recusa, fechamento, preço/condição.
+ * Sem sinal, a mensagem segue sem hint de etapa (o agente continua movendo o card
+ * pelas próprias ferramentas). Pura: o teste a exercita sem modelo.
+ */
+const SINAIS_DE_MUDANCA_DE_ETAPA: RegExp[] = [
+  /\b\d{1,2}\s*(h|hs|horas?)\b/i,
+  /\b\d{1,2}:\d{2}\b/,
+  /\b(segunda|ter[cç]a|quarta|quinta|sexta|s[aá]bado|domingo)\b/i,
+  /\b(hoje|amanh[ãa]|depois de amanh[ãa]|semana que vem|m[eê]s que vem|manh[ãa]|tarde|noite)\b/i,
+  /\b(depois|mais tarde|outra hora|vou pensar|te aviso|volto|entro em contato|retorno)\b/i,
+  /\b(n[ãa]o quero|n[ãa]o tenho interesse|desisti|cancel|n[ãa]o vou|sem interesse)\b/i,
+  /\b(fechado|combinado|pode ser|vamos fechar|quero contratar|quero agendar|quero marcar|pode marcar|confirmo|confirmado)\b/i,
+  /\b(pre[cç]o|valor|quanto custa|desconto|parcel|pix|pagamento|plano)\b/i,
+  /\b(obrigad[oa]|tchau|at[eé] mais|valeu)\b/i,
+];
+
+export function deveClassificarEtapa(sinal: string): boolean {
+  const texto = (sinal ?? '').trim();
+  if (texto === '') return false;
+  return SINAIS_DE_MUDANCA_DE_ETAPA.some((re) => re.test(texto));
+}

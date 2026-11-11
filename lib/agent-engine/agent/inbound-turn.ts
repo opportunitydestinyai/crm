@@ -129,6 +129,7 @@ import {
 import { pruneToolResults, type PruneToolResultsKnobs } from './prune-tool-results';
 import {
   classifyStage,
+  deveClassificarEtapa,
   recordStageDivergenceCandidate,
   renderStageHint,
   type StageClassifierKnobs,
@@ -4108,7 +4109,7 @@ async function executarTurnoDoAgente(
       });
     };
     const [stageResultado, jailbreakVerdict, manipulacaoDoJev] = await Promise.all([
-      deps.knobs.stageClassifier !== undefined
+      deps.knobs.stageClassifier !== undefined && deveClassificarEtapa(skillSignal)
         ? classifyStage(
             pool,
             deps.llmCfg,
