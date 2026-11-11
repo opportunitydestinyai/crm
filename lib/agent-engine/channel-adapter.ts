@@ -124,7 +124,11 @@ export interface ChannelAdapter {
    * (`agent/atraso-humano.ts`) é o que conserta o "responde rápido demais".
    * Um canal sem presença ainda recebe o conserto inteiro menos o indicador.
    */
-  signalTyping?(input: { tenantId: string; conversationId: string }): Promise<void>;
+  signalTyping?(input: {
+    tenantId: string;
+    conversationId: string;
+    modo?: 'typing' | 'recording';
+  }): Promise<void>;
   /** o que o canal suporta agora (estático por canal na v1). */
   capabilities(): ChannelCapabilities;
   /** custo por mensagem do canal. */

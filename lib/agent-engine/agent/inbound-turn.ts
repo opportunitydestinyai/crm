@@ -4317,10 +4317,26 @@ async function executarTurnoDoAgente(
     // zero ela não acende presença. Sem esta linha o cliente esperava a chamada
     // inteira do modelo sem indicador nenhum. Só em turno que fala com o lead:
     // turno de retaguarda não abre o WhatsApp de ninguém.
+    // Cliente mandou áudio => a resposta sai em áudio => "gravando áudio…" em vez de "digitando…".
+    const modoDePresenca: 'typing' | 'recording' =
+      input.inboundMessageId !== undefined && !preview
+        ? await mensagemRecebidaFoiAudio(pool, {
+            tenantId,
+            conversationId: input.conversationId,
+            inboundMessageId: input.inboundMessageId,
+          })
+            .then((ehAudio) => (ehAudio ? 'recording' : 'typing'))
+            .catch(() => 'typing' as const)
+        : 'typing';
     const pararDigitando: () => void =
       channel?.signalTyping && turnoVaiFalarComOLead(liveJob())
         ? manterDigitando(
-            () => channel.signalTyping!({ tenantId, conversationId: input.conversationId }),
+            () =>
+              channel.signalTyping!({
+                tenantId,
+                conversationId: input.conversationId,
+                modo: modoDePresenca,
+              }),
             runLog,
           )
         : () => undefined;

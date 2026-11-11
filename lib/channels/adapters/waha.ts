@@ -144,10 +144,10 @@ export const wahaAdapter: ChannelAdapter = {
    * logo abaixo: numa instalação sem o container de pé o produto não pode
    * parar por causa de um indicador decorativo.
    */
-  async signalTyping(input: { sessionRef: string; recipient: string }): Promise<void> {
+  async signalTyping(input: { sessionRef: string; recipient: string; modo?: "typing" | "recording" }): Promise<void> {
     const client = getWahaClient();
     if (!client) return;
-    await client.setPresence(input.sessionRef, input.recipient, "typing");
+    await client.setPresence(input.sessionRef, input.recipient, input.modo ?? "typing");
   },
 
   async editMessage(input: {

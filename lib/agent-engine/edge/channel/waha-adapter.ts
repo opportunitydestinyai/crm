@@ -82,10 +82,15 @@ export class WahaChannelAdapter implements ChannelAdapter {
    * `esperarComoHumano`, que engole e loga. Engolir nos dois lugares esconderia
    * o erro do log que o vigia.
    */
-  async signalTyping(input: { tenantId: string; conversationId: string }): Promise<void> {
+  async signalTyping(input: {
+    tenantId: string;
+    conversationId: string;
+    modo?: 'typing' | 'recording';
+  }): Promise<void> {
     await sinalizarDigitando(this.crmCfg.supabase, {
       organizationId: input.tenantId,
       conversationId: input.conversationId,
+      ...(input.modo ? { modo: input.modo } : {}),
     });
   }
 
