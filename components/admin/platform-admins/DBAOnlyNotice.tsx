@@ -13,7 +13,7 @@ export function DBAOnlyNotice() {
       <Info size={20} className="mt-0.5 shrink-0 text-blue-600" aria-hidden />
       <div className="space-y-1">
         <p className="text-sm font-semibold">
-          {t("Gerenciamento de Platform Admins é restrito ao DBA")}
+          {t("Gerenciamento de Administradores da plataforma é restrito ao DBA")}
         </p>
         <p className="text-sm leading-relaxed text-blue-800">
           {t("Conforme Spec 01 §3.4 T-04: adição, remoção ou alteração de")}{" "}

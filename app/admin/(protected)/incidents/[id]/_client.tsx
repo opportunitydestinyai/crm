@@ -142,7 +142,7 @@ export function IncidentDetailClient({ id }: IncidentDetailClientProps) {
         {/* Payload JSON viewer */}
         <Card>
           <CardHeader>
-            <CardTitle className="text-sm font-medium">Payload</CardTitle>
+            <CardTitle className="text-sm font-medium">{t("Dados enviados")}</CardTitle>
           </CardHeader>
           <CardContent>
             <pre className="overflow-auto rounded-md bg-muted p-4 text-xs leading-relaxed max-h-80">
@@ -154,7 +154,7 @@ export function IncidentDetailClient({ id }: IncidentDetailClientProps) {
         {/* Audit timeline */}
         <Card>
           <CardHeader>
-            <CardTitle className="text-sm font-medium">Audit Trail</CardTitle>
+            <CardTitle className="text-sm font-medium">{t("Trilha de auditoria")}</CardTitle>
           </CardHeader>
           <CardContent>
             {incident.audit_trail.length === 0 ? (

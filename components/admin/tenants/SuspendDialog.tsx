@@ -73,7 +73,7 @@ export function SuspendDialog({ open, onClose, organizationId }: SuspendDialogPr
     <AlertDialog open={open} onOpenChange={(open) => { if (!open) handleClose(); }}>
       <AlertDialogContent>
         <AlertDialogHeader>
-          <AlertDialogTitle>{t("Suspender tenant")}</AlertDialogTitle>
+          <AlertDialogTitle>{t("Suspender cliente")}</AlertDialogTitle>
           <AlertDialogDescription>
             {t(
               "A empresa perde o acesso, e a IA, os envios e as automações dela param. Mensagens na fila e tarefas agendadas são descartadas e não saem ao reativar; os follow-ups em andamento retomam de onde pararam. As mensagens que chegarem continuam gravadas.",

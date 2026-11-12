@@ -90,7 +90,7 @@ export function AuditDetailClient({ entryId }: AuditDetailClientProps) {
   if (isError || !detail) {
     return (
       <div className="rounded-lg border border-destructive/30 bg-destructive/5 px-6 py-10 text-center text-sm text-destructive">
-        {t("Entrada de audit não encontrada.")}
+        {t("Entrada de auditoria não encontrada.")}
       </div>
     );
   }
@@ -104,7 +104,7 @@ export function AuditDetailClient({ entryId }: AuditDetailClientProps) {
       <Button asChild variant="ghost" size="sm" className="gap-1.5 -ml-2">
         <Link href="/admin/audit">
           <CaretLeft size={14} aria-hidden />
-          {t("Audit Log")}
+          {t("Registro de auditoria")}
         </Link>
       </Button>
 
@@ -132,7 +132,7 @@ export function AuditDetailClient({ entryId }: AuditDetailClientProps) {
       <div className="grid gap-6 lg:grid-cols-2">
         {/* Metadata JSON viewer */}
         <div className="space-y-3">
-          <h2 className="text-sm font-medium">Metadata</h2>
+          <h2 className="text-sm font-medium">{t("Metadados")}</h2>
           <pre className="overflow-auto rounded-md border bg-muted/40 p-4 text-xs leading-relaxed">
             {JSON.stringify(entry.metadata, null, 2)}
           </pre>
@@ -156,7 +156,7 @@ export function AuditDetailClient({ entryId }: AuditDetailClientProps) {
         <div className="space-y-4">
           {/* Actor card */}
           <div className="rounded-md border p-4 space-y-2">
-            <h2 className="text-sm font-medium">Actor</h2>
+            <h2 className="text-sm font-medium">{t("Autor")}</h2>
             {actor ? (
               <div className="space-y-1 text-sm">
                 <Row label="User ID" value={actor.id} mono />
@@ -166,7 +166,7 @@ export function AuditDetailClient({ entryId }: AuditDetailClientProps) {
               <p className="text-sm text-muted-foreground">
                 {entry.actor_user_id
                   ? `ID: ${entry.actor_user_id}`
-                  : t("Sem actor registrado")}
+                  : t("Sem autor registrado")}
               </p>
             )}
           </div>
@@ -174,15 +174,15 @@ export function AuditDetailClient({ entryId }: AuditDetailClientProps) {
           {/* Tenant card */}
           {tenant && (
             <div className="rounded-md border p-4 space-y-2">
-              <h2 className="text-sm font-medium">Tenant</h2>
+              <h2 className="text-sm font-medium">{t("Cliente")}</h2>
               <div className="space-y-1 text-sm">
                 <Row label={t("Nome")} value={tenant.display_name} />
-                <Row label="Slug" value={tenant.slug} mono />
+                <Row label={t("Endereço")} value={tenant.slug} mono />
                 <Row label={t("Status")} value={tenant.status} />
               </div>
               <Button asChild variant="outline" size="sm" className="mt-2">
                 <Link href={`/admin/tenants/${tenant.id}`}>
-                  {t("Ver tenant")}
+                  {t("Ver cliente")}
                 </Link>
               </Button>
             </div>

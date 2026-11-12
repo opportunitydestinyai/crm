@@ -225,11 +225,11 @@ export function AuditFiltersAdmin({
         onClear={() => onChange({ ...filters, actions: undefined })}
       />
       <Input
-        placeholder="Actor (user ID)"
+        placeholder={t("Autor (ID do usuário)")}
         value={actorInput}
         onChange={(e) => handleActorChange(e.target.value)}
         className="h-9 w-60 text-sm"
-        aria-label={t("Filtrar por actor user ID")}
+        aria-label={t("Filtrar por ID do autor")}
       />
       <div className="flex items-center gap-1">
         <label className="text-xs text-muted-foreground sr-only" htmlFor="audit-from">

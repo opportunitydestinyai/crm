@@ -186,14 +186,14 @@ export function UserDetailClient({ id }: UserDetailClientProps) {
         <CardContent className="p-0">
           {memberships.length === 0 ? (
             <p className="px-6 py-4 text-xs text-muted-foreground">
-              {t("Sem memberships registrados.")}
+              {t("Sem vínculos registrados.")}
             </p>
           ) : (
             <Table>
               <TableHeader>
                 <TableRow>
-                  <TableHead>Tenant</TableHead>
-                  <TableHead className="w-[100px]">Role</TableHead>
+                  <TableHead>{t("Cliente")}</TableHead>
+                  <TableHead className="w-[100px]">{t("Papel")}</TableHead>
                   <TableHead className="w-[140px]">{t("Aceito em")}</TableHead>
                   <TableHead className="w-[100px]">{t("Status")}</TableHead>
                 </TableRow>
@@ -241,7 +241,7 @@ export function UserDetailClient({ id }: UserDetailClientProps) {
       <Card>
         <CardHeader>
           <CardTitle className="text-sm font-medium">
-            {t("Audit recente")} ({recent_audit.length}{recent_audit.length === 50 ? "+" : ""})
+            {t("Auditoria recente")} ({recent_audit.length}{recent_audit.length === 50 ? "+" : ""})
           </CardTitle>
         </CardHeader>
         <CardContent>

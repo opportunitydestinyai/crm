@@ -73,7 +73,7 @@ export function ReactivateDialog({ open, onClose, organizationId }: ReactivateDi
     <AlertDialog open={open} onOpenChange={(open) => { if (!open) handleClose(); }}>
       <AlertDialogContent>
         <AlertDialogHeader>
-          <AlertDialogTitle>{t("Reativar tenant")}</AlertDialogTitle>
+          <AlertDialogTitle>{t("Reativar cliente")}</AlertDialogTitle>
           <AlertDialogDescription>
             {t(
               "A reativação restabelece o acesso dos usuários deste tenant à plataforma. Informe o motivo da reativação para o registro de auditoria.",

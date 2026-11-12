@@ -46,7 +46,7 @@ export function TenantActions({
           displayName={displayName}
           disabled={isRedacted}
           disabledReason={
-            isRedacted ? t("Tenant redigido — ação não disponível") : undefined
+            isRedacted ? t("Cliente redigido — ação não disponível") : undefined
           }
         />
 
@@ -56,9 +56,9 @@ export function TenantActions({
             className="w-full"
             variant="destructive"
             onClick={() => setSuspendOpen(true)}
-            aria-label={t("Suspender tenant")}
+            aria-label={t("Suspender cliente")}
           >
-            {t("Suspender tenant")}
+            {t("Suspender cliente")}
           </Button>
         )}
 
@@ -68,15 +68,15 @@ export function TenantActions({
             className="w-full"
             variant="outline"
             onClick={() => setReactivateOpen(true)}
-            aria-label={t("Reativar tenant")}
+            aria-label={t("Reativar cliente")}
           >
-            {t("Reativar tenant")}
+            {t("Reativar cliente")}
           </Button>
         )}
 
         {isRedacted && (
           <p className="text-xs text-muted-foreground text-center py-2">
-            {t("Tenant redigido — ações de gestão não disponíveis.")}
+            {t("Cliente redigido — ações de gestão não disponíveis.")}
           </p>
         )}
       </div>
