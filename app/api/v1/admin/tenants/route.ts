@@ -88,6 +88,10 @@ export async function GET(req: NextRequest) {
     .order("id", { ascending: false })
     .limit(limit + 1);
 
+  // A empresa da própria plataforma (a Opportunity) não é cliente de si mesma: ela
+  // trabalha pelo "app pessoal". Marca: organizations.settings.plataforma_propria = true.
+  query = query.or("settings->>plataforma_propria.is.null,settings->>plataforma_propria.neq.true");
+
   if (status === "onboarding") {
     // Estado derivado: ativo no banco, onboarding ainda não concluído.
     query = query.eq("status", "active").is("onboarded_at", null);
@@ -139,7 +143,17 @@ export async function GET(req: NextRequest) {
     },
   });
 
-  return ok(page, {
+  // Conta comercial (fase, pagamento, vigência) de cada cliente da página.
+  const { data: contas } = page.length
+    ? await admin
+        .from("platform_customer_accounts")
+        .select("organization_id, stage, payment_status, contract_end, renewal_notice_days")
+        .in("organization_id", page.map((r) => r.id))
+    : { data: [] as Array<{ organization_id: string }> };
+  const porOrg = new Map((contas ?? []).map((c) => [c.organization_id, c]));
+  const enriquecida = page.map((r) => ({ ...r, conta: porOrg.get(r.id) ?? null }));
+
+  return ok(enriquecida, {
     requestId,
     meta: { has_more, cursor: nextCursor },
   });

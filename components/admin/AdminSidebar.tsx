@@ -37,7 +37,7 @@ interface NavItem {
 }
 
 const NAV_ITEMS: NavItem[] = [
-  { href: "/admin/dashboard", label: "Painel", icon: Gauge },
+  { href: "/admin/dashboard", label: "Dashboard", icon: Gauge },
   { href: "/admin/inbox", label: "Caixa de entrada", icon: ChatsCircle },
   { href: "/admin/tenants", label: "Clientes", icon: Buildings },
   { href: "/admin/audit", label: "Auditoria", icon: ClipboardText },
@@ -45,7 +45,7 @@ const NAV_ITEMS: NavItem[] = [
   { href: "/admin/incidents", label: "Incidentes", icon: Warning },
   { href: "/admin/usage", label: "Uso", icon: ChartBar },
   { href: "/admin/users", label: "Usuários", icon: Users },
-  { href: "/admin/platform-admins", label: "Equipe", icon: ShieldCheck },
+  { href: "/admin/platform-admins", label: "Platform Admins", icon: ShieldCheck },
   // A porta da tela de marca. Ela NÃO entra em `lib/navigation/registry.ts`:
   // aquele registro descreve a navegação do tenant (`app/app/**`) e o teste de
   // completude que o vigia varre só aquela raiz. O admin de plataforma tem

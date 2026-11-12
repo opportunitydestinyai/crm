@@ -4,6 +4,7 @@ import { useTenantDetail } from "@/hooks/useTenantDetail";
 import { TenantOverview } from "@/components/admin/tenants/TenantOverview";
 import { TenantActions } from "@/components/admin/tenants/TenantActions";
 import { SuspendedBanner } from "@/components/admin/tenants/SuspendedBanner";
+import { CartaoDoCliente } from "@/components/admin/tenants/CartaoDoCliente";
 import { useT } from "@/hooks/i18n/useT";
 
 interface TenantOverviewClientProps {
@@ -43,6 +44,8 @@ export function TenantOverviewClient({ id }: TenantOverviewClientProps) {
       {organization.status === "suspended" && organization.suspended_at && (
         <SuspendedBanner suspendedAt={organization.suspended_at} />
       )}
+
+      <CartaoDoCliente organizationId={organization.id} />
 
       <div className="grid gap-6 lg:grid-cols-[1fr_280px]">
         <TenantOverview

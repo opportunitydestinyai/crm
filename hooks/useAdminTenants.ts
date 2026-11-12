@@ -18,6 +18,12 @@ export interface AdminTenantRow {
   created_at: string;
   user_count: Array<{ count: number }> | null;
   conversations_count: Array<{ count: number }> | null;
+  conta?: {
+    stage: string;
+    payment_status: string;
+    contract_end: string | null;
+    renewal_notice_days: number;
+  } | null;
 }
 
 export interface AdminTenantsFilters {
