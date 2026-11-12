@@ -8961,5 +8961,10 @@
   "Papel": "Ruolo",
   "Autor": "Autore",
   "Dados enviados": "Dati inviati",
-  "Metadados": "Metadati"
+  "Metadados": "Metadati",
+  "Da equipe": "Del team",
+  "Técnicos": "Tecnici",
+  "Atendimentos, propostas e agenda que pedem uma pessoa da empresa.": "Conversazioni, proposte e agenda che richiedono una persona dell'azienda.",
+  "Conexão, chaves e falhas do sistema, para quem cuida da plataforma.": "Connessione, chiavi e guasti del sistema, per chi gestisce la piattaforma.",
+  "Avisos da equipe e avisos técnicos, juntos.": "Avvisi del team e avvisi tecnici, insieme."
 }

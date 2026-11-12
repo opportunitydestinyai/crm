@@ -14133,6 +14133,11 @@ export const DICIONARIO: Traducoes = {
   "Autor": { es: "Autor" },
   "Dados enviados": { es: "Datos enviados" },
   "Metadados": { es: "Metadatos" },
+  "Da equipe": { es: "Del equipo" },
+  "Técnicos": { es: "Técnicos" },
+  "Atendimentos, propostas e agenda que pedem uma pessoa da empresa.": { es: "Atenciones, propuestas y agenda que piden a una persona de la empresa." },
+  "Conexão, chaves e falhas do sistema, para quem cuida da plataforma.": { es: "Conexión, claves y fallas del sistema, para quien cuida la plataforma." },
+  "Avisos da equipe e avisos técnicos, juntos.": { es: "Avisos del equipo y avisos técnicos, juntos." },
 };
 
 /**
