@@ -166,7 +166,10 @@ export const AUDIENCIA_DO_KIND = {
 } as const satisfies Record<InboxKind, AudienciaDoAviso>;
 
 /** Kind desconhecido (clone com motor mais novo) cai em "equipe": melhor a equipe ver do que sumir. */
-export function audienciaDoKind(kind: string): AudienciaDoAviso {
+export function audienciaDoKind(kind: string, refKind?: string | null): AudienciaDoAviso {
+  // `other` é o kind genérico; o que o distingue é a origem. Saúde do número
+  // (go-live, circuito) é assunto de quem cuida da plataforma, não da equipe.
+  if (kind === "other" && refKind === "number_health") return "operacao";
   return (AUDIENCIA_DO_KIND as Record<string, AudienciaDoAviso>)[kind] ?? "equipe";
 }
 

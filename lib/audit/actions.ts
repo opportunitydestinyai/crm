@@ -179,6 +179,8 @@ export const AUDIT_ACTIONS = [
   "platform_admin.customer_note_added",
   "platform_admin.customer_product_changed",
   "platform_admin.customer_knowledge_changed",
+  "agenda.aviso_whatsapp_enviado",
+  "agenda.aviso_whatsapp_falhou",
   "tenant.created_by_platform_admin",
   "platform_admin.tenant_health_viewed",
   "platform_admin.impersonate_started",

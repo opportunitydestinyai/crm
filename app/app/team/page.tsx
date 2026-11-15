@@ -9,6 +9,7 @@ import { Tabs, TabsContent, TabsList, TabsTrigger } from "@/components/ui/tabs";
 import { TeamMembersClient } from "./_components/TeamMembersClient";
 import { TeamInvitesClient } from "./_components/TeamInvitesClient";
 import { AttendantsClient } from "./_components/AttendantsClient";
+import { NiveisDeAcesso } from "./_components/NiveisDeAcesso";
 import { fusoUtilizavel } from "@/lib/tempo/fusos";
 
 export const dynamic = "force-dynamic";
@@ -52,7 +53,7 @@ export default async function TeamPage({
         <div className="min-w-0">
           <h1 className="text-2xl font-semibold tracking-tight">{t("Equipe")}</h1>
           <p className="text-sm text-muted-foreground">
-            {t("Gestão de membros, roles e atendimento do tenant.")}
+            {t("Gestão de membros, níveis de acesso e atendimento da empresa.")}
           </p>
         </div>
         {isAdmin ? (
@@ -61,6 +62,42 @@ export default async function TeamPage({
           </Button>
         ) : null}
       </header>
+
+      <NiveisDeAcesso
+        titulo={t("Níveis de acesso")}
+        resumo={t("o que cada pessoa pode fazer")}
+        rodape={t("Cada pessoa tem um único nível. Para liberar mais coisas a alguém, mude o nível dela na lista de membros. Liberar uma permissão avulsa ainda não existe.")}
+        niveis={[
+          {
+            id: "viewer",
+            nome: t("Somente leitura"),
+            apelido: "",
+            pode: t("Ver conversas, contatos, funis, agenda e propostas."),
+            naoPode: t("Alterar qualquer coisa."),
+          },
+          {
+            id: "agent",
+            nome: t("Atendente"),
+            apelido: t("(operador)"),
+            pode: t("Atender e assumir conversas, mover cards no funil, cadastrar e editar contatos, agendar e criar tarefas."),
+            naoPode: t("Criar ou apagar etapas do funil, criar automações ou campanhas, alimentar o conhecimento da IA."),
+          },
+          {
+            id: "manager",
+            nome: t("Gerente"),
+            apelido: t("(supervisor)"),
+            pode: t("Tudo do atendente, mais: criar e organizar funis e etapas, criar automações, campanhas e follow-ups, cadastrar produtos e alimentar o conhecimento da IA."),
+            naoPode: t("Convidar ou remover pessoas, publicar agentes de IA, mexer em chaves e configurações da empresa."),
+          },
+          {
+            id: "admin",
+            nome: t("Administrador"),
+            apelido: "",
+            pode: t("Tudo, inclusive convidar e remover pessoas, mudar o nível de cada uma, publicar agentes de IA e cuidar das chaves e configurações."),
+            naoPode: t("Nada é bloqueado."),
+          },
+        ]}
+      />
 
       <Tabs defaultValue={abaInicial} className="flex flex-1 flex-col">
         <TabsList>

@@ -16,6 +16,11 @@ describe("audiência dos avisos da Central", () => {
     expect(audienciaDoKind("case_stale")).toBe("equipe");
   });
 
+  it("aviso genérico de saúde do número é técnico", () => {
+    expect(audienciaDoKind("other", "number_health")).toBe("operacao");
+    expect(audienciaDoKind("other", null)).toBe("equipe");
+  });
+
   it("kind desconhecido cai na equipe, nunca some", () => {
     expect(audienciaDoKind("kind_do_futuro")).toBe("equipe");
   });

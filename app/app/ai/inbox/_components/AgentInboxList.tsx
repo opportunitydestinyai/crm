@@ -43,10 +43,10 @@ export function AgentInboxList({ canResolve }: { canResolve: boolean }) {
   const resolveAll = useResolveAllInboxItems();
   const todos = data?.items ?? [];
   const contagem = {
-    equipe: todos.filter((i) => audienciaDoKind(i.kind) === "equipe").length,
-    operacao: todos.filter((i) => audienciaDoKind(i.kind) === "operacao").length,
+    equipe: todos.filter((i) => audienciaDoKind(i.kind, i.ref_kind) === "equipe").length,
+    operacao: todos.filter((i) => audienciaDoKind(i.kind, i.ref_kind) === "operacao").length,
   };
-  const itens = publico === "todos" ? todos : todos.filter((i) => audienciaDoKind(i.kind) === publico);
+  const itens = publico === "todos" ? todos : todos.filter((i) => audienciaDoKind(i.kind, i.ref_kind) === publico);
 
   return (
     <div className="flex min-h-0 flex-1 flex-col gap-4">
